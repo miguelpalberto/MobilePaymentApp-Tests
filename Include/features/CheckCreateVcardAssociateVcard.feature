@@ -1,32 +1,64 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: create a vcard/ associate vcard
+    as a vcard mobile application user I want to create/associate a vcard
+    so that I can access the system
+	
+	Scenario: create a vcard/ associate vcard
+    Given I am in the vcard creation page 
+    And I dont have any vcard associated
+    When I fill the phone with phone
+    And I fill the password with password
+    And I fill the pin with pin
+    And I click on the create button
+    Then I should see a message confirming the vcard create
+    And I should see the dashboard page    
+    
+  Scenario: phone number is invalid
+	    Given I am in the vcard creation page 
+	    And I dont have any vcard associated
+	    When I fill the phone with a invalid phone
+	    And I fill the password with password
+	    And I fill the pin with pin
+	    And I click on the create button
+	    Then I should see a error message
+	    And I should see the vcard creation page
 
-  @tag1
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+	Scenario: vcard exist and password is incorrect
+	    Given I am in the vcard creation page 
+	    And I have a vcard associated
+	    When I fill the phone with phone
+	    And I fill the password with incorrect password
+	    And I fill the pin with pin
+	    And I click on the create button
+	    Then I should see a error message
+	    And I should see the vcard creation page
+	
+	Scenario: vcard exist and pin is incorrect
+	    Given I am in the vcard creation page 
+	    And I have a vcard associated
+	    When I fill the phone with phone
+	    And I fill the password with password
+	    And I fill the pin with a incorrect pin
+	    And I click on the create button
+	    Then I should see a error message
+	    And I should see the vcard creation page
+	
+	Scenario: vcard doesnt exist and password is invalid
+	    Given I am in the vcard creation page 
+	    And I dont have any vcard associated
+	    When I fill the phone with phone
+	    And I fill the password with an invalid password
+	    And I fill the pin with pin
+	    And I click on the create button
+	    Then I should see a error message
+	    And I should see the vcard creation page
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+	Scenario: vcard doesnt exist and pin is invalid
+	    Given I am in the vcard creation page 
+	    And I dont have any vcard associated
+	    When I fill the phone with phone
+	    And I fill the password with password
+	    And I fill the pin with an invalid pin
+	    And I click on the create button
+	    Then I should see a error message
+	    And I should see the vcard creation page
+    

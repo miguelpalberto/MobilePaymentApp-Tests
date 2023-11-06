@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F0E557C2B7B9B73A52B522CF8EEC23E7",
+  "keywordClasses": [
+    {
+      "name": "auth.CheckCreateVcardAssociateVcard",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable.ion-activated</value>
+         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-button</value>
-      <webElementGuid>a6adb662-a40c-4786-a2c4-d2cd2b5384ab</webElementGuid>
+      <webElementGuid>50022cde-7ecb-4a36-b2d7-cd2f7d7bbdc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md button button-block button-solid ion-activatable ion-focusable ion-activated</value>
-      <webElementGuid>c7110345-d741-426a-94a1-d594c0d5a2da</webElementGuid>
+      <value>md button button-block button-solid ion-activatable ion-focusable</value>
+      <webElementGuid>baebb5cc-ce61-4812-bcae-c8cc630ac856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>expand</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>f4aa828c-b418-425c-b0f5-e1b64cd9d51b</webElementGuid>
+      <webElementGuid>51772fa4-c5fb-446f-8146-9b8a7f3e1ea5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Create</value>
-      <webElementGuid>ad3bcb5c-b2be-4938-a1e8-321438e628c4</webElementGuid>
+      <webElementGuid>c433a353-2ab2-488d-bfd4-11433b6219c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;container&quot;]/ion-button[@class=&quot;md button button-block button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
-      <webElementGuid>8cfb10f4-8609-4c5d-a186-c905ddf7c26f</webElementGuid>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;container&quot;]/ion-button[@class=&quot;md button button-block button-solid ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>290bdd83-5fa5-44d1-95bb-2281abfbf9de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-button</value>
-      <webElementGuid>99777798-83e6-4444-8083-a72b9f76711a</webElementGuid>
+      <webElementGuid>63a9e1be-7a0d-4bdb-8d7f-b4f61f3e3076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::ion-button[1]</value>
-      <webElementGuid>8b9ab1a0-8ea2-47f8-b29a-6edcf715b3a4</webElementGuid>
+      <webElementGuid>ebcb0b98-9216-471e-a0c4-2b65414c3bc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::ion-button[1]</value>
-      <webElementGuid>2f415ac2-fc76-4ca8-8d2e-32ed0988eda2</webElementGuid>
+      <webElementGuid>51c46598-a00e-4574-8a37-04b56f8945f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>b5be5640-72f8-4c8c-b35d-9d5f568d6215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>12f35567-9077-4b34-b4cb-f6ca8c88fe19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create']/parent::*</value>
-      <webElementGuid>f6ed698a-f631-447d-ba2c-512df7692e58</webElementGuid>
+      <webElementGuid>b86afba1-628b-4911-9115-dbdf209e8b75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-button</value>
-      <webElementGuid>3cc21e00-fbfc-49c5-99ea-f73eddcdc4ae</webElementGuid>
+      <webElementGuid>ee4e6986-8ac1-49f8-851a-085189fbc48e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ion-button[(text() = 'Create' or . = 'Create')]</value>
-      <webElementGuid>dc4c7d60-4f34-489d-8908-af7f876cf998</webElementGuid>
+      <webElementGuid>e852e3fe-2db1-4656-a904-ef8fc46745be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
