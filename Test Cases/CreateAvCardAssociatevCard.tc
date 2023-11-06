@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create vCard</name>
+   <name>CreateAvCardAssociatevCard</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c4fbc108-4e6a-4a05-b437-88f6f1b980b6</testCaseGuid>
+   <testCaseGuid>d7105929-1e01-40bf-a3af-464a815e17ce</testCaseGuid>
 </TestCaseEntity>

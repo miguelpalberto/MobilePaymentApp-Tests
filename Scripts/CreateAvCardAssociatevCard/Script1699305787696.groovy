@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8100/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '910001001')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_input-wrapper-tem_PIN-4c5'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/span_button-inner-_Create-3f1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'))
+

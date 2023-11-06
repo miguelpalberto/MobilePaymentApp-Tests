@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-item_PIN</name>
+   <tag></tag>
+   <elementGuidId>d0345bdf-3ea2-4322-bc92-91dcd190ce28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-list/ion-item[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-item.item-interactive.item-input.item.md.item-lines-default.item-fill-none.in-list.item-label.item-label-floating.item-has-focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-item</value>
+      <webElementGuid>7a10b1a9-34da-432f-b537-ac012fec77c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-interactive item-input item md item-lines-default item-fill-none in-list item-label item-label-floating item-has-focus</value>
+      <webElementGuid>696283a5-1852-469b-a81c-8685e26061aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listitem</value>
+      <webElementGuid>3c0ea02d-38a6-4977-9fb3-331d1b5e0daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PIN</value>
+      <webElementGuid>93637660-c581-4007-986e-a9f5d0203cdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;container&quot;]/ion-list[@class=&quot;list-container md list-md&quot;]/ion-item[@class=&quot;item-interactive item-input item md item-lines-default item-fill-none in-list item-label item-label-floating item-has-focus&quot;]</value>
+      <webElementGuid>eed294cf-7410-4917-a27b-c7d9cf73ee58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-list/ion-item[3]</value>
+      <webElementGuid>94aaa01d-a3df-4dce-b45d-a06be99cbe35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::ion-item[1]</value>
+      <webElementGuid>e8841f23-8502-4aa0-ba50-e62afe6c8912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::ion-item[2]</value>
+      <webElementGuid>d9bd1ff1-9887-4786-96e9-cd837e3ce063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::ion-item[1]</value>
+      <webElementGuid>0f357c3a-b127-4cea-8861-71f7dfec790c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ion-list/ion-item[3]</value>
+      <webElementGuid>a108837e-8d38-4ee8-9215-3cac681e17d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-item[(text() = 'PIN' or . = 'PIN')]</value>
+      <webElementGuid>979de2c7-c83b-43a6-a973-d664fad82347</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
