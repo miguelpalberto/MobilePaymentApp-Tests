@@ -70,7 +70,7 @@ class CheckCreateVcardAssociateVcard {
 	}
 
 	@When("I fill the password with password")
-	public void i_fill_the_password_with_password() { 
+	public void i_fill_the_password_with_password() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=');
 	}
@@ -133,13 +133,13 @@ class CheckCreateVcardAssociateVcard {
 	@When("I fill the password with incorrect password")
 	public void i_fill_the_password_with_incorrect_password() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), '1');
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), '1');
 	}
 
 	@When("I fill the password with an invalid password")
 	public void i_fill_the_password_with_an_invalid_password() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), '1');
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), '1');
 	}
 
 	@When("I fill the phone with a invalid phone")

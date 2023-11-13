@@ -25,5 +25,5 @@ Feature: display piggy bank vault balance in dashboard
        And I enter my pin
        And I click on the confirm button
        When I look at the Piggy Bank panel
-       Then I should see the text “No Balance”
+       Then I should see the text under the Piggy Bank panel "no balance"
        And I close the browser

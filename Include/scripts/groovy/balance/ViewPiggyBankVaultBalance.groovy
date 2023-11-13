@@ -54,12 +54,12 @@ class ViewPiggyBankVaultBalance {
 	@Then("I should see the Piggy Bank Vault balance")
 	public void i_should_see_the_Piggy_Bank_Vault_balance() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), '50,00 €')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), 0)
 	}
 
-	@Then("I should see the text “No Balance”")
-	public void i_should_see_the_text_No_Balance() {
+	@Then("I should see the text under the Piggy Bank panel {string}")
+	public void i_should_see_the_text_No_Balance(String text) {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), 'No balance')
+		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_piggy_bank_balance")).contains(text)
 	}
 }

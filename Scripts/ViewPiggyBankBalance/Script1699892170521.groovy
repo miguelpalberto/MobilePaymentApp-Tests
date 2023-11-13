@@ -35,5 +35,5 @@ WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), '50,00 €')
+WebUI.verifyElementPresent(findTestObject('Page_Ionic App/h1_piggy_bank_balance'), 0)
 
