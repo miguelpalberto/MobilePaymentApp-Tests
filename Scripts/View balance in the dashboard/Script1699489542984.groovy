@@ -33,4 +33,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pi
 
 WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Enter'))
 
+
 WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
+
+WebUI.closeBrowser()
