@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_DateValuePayment TypePayment Refer_fd143e</name>
+   <tag></tag>
+   <elementGuidId>4de86a73-e1f9-4298-a2cc-3e992d2e7bde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > div > ion-list.md.list-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>56934ee9-7212-490c-a751-f315ddf9e2db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>08aed3a2-f439-4cae-ba94-eeb93617e9a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md</value>
+      <webElementGuid>c680b00f-e374-4dfd-b321-1b0296eb8c36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DateValuePayment TypePayment Reference2023-11-09 11:22:33-63.03€VCARD9307542392023-10-30 09:55:25-46.31€MBWAY9433924832023-10-20 10:39:4829.87€VCARD9000000082023-10-17 12:03:21-38.16€MB30039-4863805422023-10-17 12:53:27-232.34€MB45652-2072574562023-10-16 05:55:34147.12€VCARD9356212272023-10-16 02:56:1081.25€VCARD9000000022023-10-10 11:48:19-69.98€VCARD9000000132023-10-09 01:41:03-325.31€MB73741-3338490132023-10-07 09:48:15-44.61€MB11355-5638080052023-10-07 08:19:00-56.24€MB13259-2923800492023-10-06 01:33:131050.21€VCARD9000000132023-10-06 12:37:2153.62€VCARD9000000072023-10-01 07:17:14-162.19€MB32269-3461633412023-09-29 03:49:44-106.27€VISA47463680956449032023-09-28 09:16:42-11.57€MB38459-2583941542023-09-26 04:12:07-155.96€VCARD9000000142023-09-24 02:38:20543.38€VCARD9000000192023-09-23 04:12:58-387.91€MB13976-3565401742023-09-21 08:30:03-115.06€MBWAY9240531502023-09-17 10:25:42103.99€VCARD9000000122023-09-17 12:18:13248.57€MBWAY9681255092023-09-16 06:22:49-12.20€MB37435-8002925382023-09-13 05:05:08-640.83€VCARD9000000042023-09-10 05:24:54701.21€PAYPALsofia.branco@garcia.net2023-09-10 03:35:52102.23€IBANPT99979853733072801264416</value>
+      <webElementGuid>6e3534d2-43cb-4ce2-a4f7-db10691c3883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]</value>
+      <webElementGuid>6d9d64cc-e509-4889-8ac7-559c41b2f2a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      <webElementGuid>14b3eeb4-8dd2-4601-9bac-d3bf3e7faa52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[2]/following::ion-list[1]</value>
+      <webElementGuid>07e0e1a6-7a7a-4056-8a87-db7e1a456de6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transaction:'])[1]/following::ion-list[1]</value>
+      <webElementGuid>23ff613f-9c39-49c1-bcb2-58dae3c9b5ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list</value>
+      <webElementGuid>b5dc7387-a1e5-4b56-8a9e-b68276143ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'DateValuePayment TypePayment Reference2023-11-09 11:22:33-63.03€VCARD9307542392023-10-30 09:55:25-46.31€MBWAY9433924832023-10-20 10:39:4829.87€VCARD9000000082023-10-17 12:03:21-38.16€MB30039-4863805422023-10-17 12:53:27-232.34€MB45652-2072574562023-10-16 05:55:34147.12€VCARD9356212272023-10-16 02:56:1081.25€VCARD9000000022023-10-10 11:48:19-69.98€VCARD9000000132023-10-09 01:41:03-325.31€MB73741-3338490132023-10-07 09:48:15-44.61€MB11355-5638080052023-10-07 08:19:00-56.24€MB13259-2923800492023-10-06 01:33:131050.21€VCARD9000000132023-10-06 12:37:2153.62€VCARD9000000072023-10-01 07:17:14-162.19€MB32269-3461633412023-09-29 03:49:44-106.27€VISA47463680956449032023-09-28 09:16:42-11.57€MB38459-2583941542023-09-26 04:12:07-155.96€VCARD9000000142023-09-24 02:38:20543.38€VCARD9000000192023-09-23 04:12:58-387.91€MB13976-3565401742023-09-21 08:30:03-115.06€MBWAY9240531502023-09-17 10:25:42103.99€VCARD9000000122023-09-17 12:18:13248.57€MBWAY9681255092023-09-16 06:22:49-12.20€MB37435-8002925382023-09-13 05:05:08-640.83€VCARD9000000042023-09-10 05:24:54701.21€PAYPALsofia.branco@garcia.net2023-09-10 03:35:52102.23€IBANPT99979853733072801264416' or . = 'DateValuePayment TypePayment Reference2023-11-09 11:22:33-63.03€VCARD9307542392023-10-30 09:55:25-46.31€MBWAY9433924832023-10-20 10:39:4829.87€VCARD9000000082023-10-17 12:03:21-38.16€MB30039-4863805422023-10-17 12:53:27-232.34€MB45652-2072574562023-10-16 05:55:34147.12€VCARD9356212272023-10-16 02:56:1081.25€VCARD9000000022023-10-10 11:48:19-69.98€VCARD9000000132023-10-09 01:41:03-325.31€MB73741-3338490132023-10-07 09:48:15-44.61€MB11355-5638080052023-10-07 08:19:00-56.24€MB13259-2923800492023-10-06 01:33:131050.21€VCARD9000000132023-10-06 12:37:2153.62€VCARD9000000072023-10-01 07:17:14-162.19€MB32269-3461633412023-09-29 03:49:44-106.27€VISA47463680956449032023-09-28 09:16:42-11.57€MB38459-2583941542023-09-26 04:12:07-155.96€VCARD9000000142023-09-24 02:38:20543.38€VCARD9000000192023-09-23 04:12:58-387.91€MB13976-3565401742023-09-21 08:30:03-115.06€MBWAY9240531502023-09-17 10:25:42103.99€VCARD9000000122023-09-17 12:18:13248.57€MBWAY9681255092023-09-16 06:22:49-12.20€MB37435-8002925382023-09-13 05:05:08-640.83€VCARD9000000042023-09-10 05:24:54701.21€PAYPALsofia.branco@garcia.net2023-09-10 03:35:52102.23€IBANPT99979853733072801264416')]</value>
+      <webElementGuid>d20f4632-0510-4410-8a25-b7ac0efcb6e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

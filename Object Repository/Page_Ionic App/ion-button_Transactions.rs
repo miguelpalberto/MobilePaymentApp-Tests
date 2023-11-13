@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Transactions</name>
+   <tag></tag>
+   <elementGuidId>339a39e3-b827-405f-8fd9-054008d0c6e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#middle-box-1 > ion-button.md.button.button-solid.ion-activatable.ion-focusable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='middle-box-1']/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>3be7a6f2-c95b-4517-916c-a646bae72804</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button button-solid ion-activatable ion-focusable</value>
+      <webElementGuid>aa3904a6-df04-4934-b47b-7f876ed3897e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/transactions/900000001</value>
+      <webElementGuid>087d3edc-d239-43ba-9b65-2b86174cdc7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transactions</value>
+      <webElementGuid>d3eb71c3-4b5c-488c-9b06-89ac2e6c8d00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;middle-box-1&quot;)/ion-button[@class=&quot;md button button-solid ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>e47f05a4-9679-40df-bba4-1b6c472d655f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='middle-box-1']/ion-button</value>
+      <webElementGuid>ebb81dce-16ac-4ad0-9be8-3ae507077754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank'])[1]/following::ion-button[1]</value>
+      <webElementGuid>4c41caf4-b42e-4b77-acb8-dbea22b386f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Balance'])[1]/following::ion-button[1]</value>
+      <webElementGuid>ea2bcccd-cf79-4f43-9670-7ceb984365af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transaction:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>80cd9bab-2103-4973-86d2-61afa7120811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>75b78d43-1dc0-4032-a4af-4e160362c945</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transactions']/parent::*</value>
+      <webElementGuid>0f152077-b88b-4d95-8017-d057cfb91b88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ion-button</value>
+      <webElementGuid>80955bdd-c9c3-438b-b5b5-64cbd73c722a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-button[(text() = 'Transactions' or . = 'Transactions')]</value>
+      <webElementGuid>82b5972f-9519-4522-920a-aafd07c533d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
