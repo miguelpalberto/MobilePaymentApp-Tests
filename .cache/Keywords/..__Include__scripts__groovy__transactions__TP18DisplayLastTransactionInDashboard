@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3897AF5D0BDF67DB7E40C3D62296AD8C",
+  "keywordClasses": [
+    {
+      "name": "transactions.TP18DisplayLastTransactionInDashboard",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

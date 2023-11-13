@@ -19,21 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8100/')
+WebUI.navigateToUrl('http://localhost:8100/login')
 
-WebUI.setText(findTestObject('null'), '900000001')
+WebUI.setText(findTestObject('Page_Ionic App/input_Phone_ion-input-0'), '999999998')
 
-WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/span_button-inner-_Create-1ac'))
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
 
-WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_Last TransactionPT882687467144233797377_78e1ce'), 
+    0)
 
-WebUI.click(findTestObject('null'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_PT88268746714423379737733-100.00'), 0)
+
+WebUI.closeBrowser()
 
