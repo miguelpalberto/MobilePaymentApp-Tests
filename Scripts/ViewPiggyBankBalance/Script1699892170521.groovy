@@ -23,15 +23,15 @@ WebUI.navigateToUrl('http://localhost:8100/login')
 
 WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '999999998')
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_input-wrapper-assword-4d0'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/button_button-native-n_Enter-dfd'))
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
 

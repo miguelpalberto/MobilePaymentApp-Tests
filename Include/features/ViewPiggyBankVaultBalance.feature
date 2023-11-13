@@ -8,9 +8,9 @@ Feature: display piggy bank vault balance in dashboard
        And I fill the password with password
        And I fill the pin with pin
        And I click on the create button
-       And I see a modal to enter my pin2
-       And I enter my pin2 
-       And I click on the confirm button2
+       And I see a modal to enter my pin
+       And I enter my pin
+       And I click on the confirm button
        When I look at the Piggy Bank panel
        Then I should see the Piggy Bank Vault balance
        And I close the browser
@@ -21,9 +21,9 @@ Feature: display piggy bank vault balance in dashboard
        And I fill the password with password
        And I fill the pin with pin
        And I click on the create button
-       And I see a modal to enter my pin2
-       And I enter my pin2
-       And I click on the confirm button2
+       And I see a modal to enter my pin
+       And I enter my pin
+       And I click on the confirm button
        When I look at the Piggy Bank panel
        Then I should see the text “No Balance”
        And I close the browser

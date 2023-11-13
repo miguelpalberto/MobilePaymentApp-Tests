@@ -19,18 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8100/login')
+WebUI.navigateToUrl('http://localhost:8100/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '910001001')
 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=');
+
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Create'));
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
 
-//WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_input-wrapper-tem_PIN-4c5'))
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Enter'))
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Create'))
 
-WebUI.getUrl().contains('dashboard')
+WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
 
 WebUI.closeBrowser()
-

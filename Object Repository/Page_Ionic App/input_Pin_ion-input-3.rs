@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Pin_ion-input-3</name>
    <tag></tag>
-   <elementGuidId>09ce07f0-ca4d-46c0-9e23-d2bcc3d83f77</elementGuidId>
+   <elementGuidId>9cd58625-e8cf-402c-a891-68a893094336</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;ion-input-3&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='ion-input-3']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;ion-input-3&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b29bca3e-cf17-437d-9a2a-879ba2f37389</webElementGuid>
+      <webElementGuid>74beaae0-356f-49a3-82a4-577aa5d1d978</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>native-input sc-ion-input-md</value>
-      <webElementGuid>b64c7dec-6485-4a15-a263-38a4fa87b30a</webElementGuid>
+      <webElementGuid>df535230-9f4b-4469-b67f-5dcbf1183695</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>ion-input-3-lbl</value>
-      <webElementGuid>6fed8840-545c-4a89-ae3e-3ae6acc74152</webElementGuid>
+      <webElementGuid>6b885dab-d0b8-4a44-a8eb-67f8d2235d8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>49b316f0-a45c-47b8-8818-aa41705ca986</webElementGuid>
+      <webElementGuid>c2bb4d58-1945-4c0d-8383-ff03ace22acb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>7d6f3154-c35a-4ae4-90b0-ed26a26bd04c</webElementGuid>
+      <webElementGuid>1c38da5a-748e-4340-8511-1e3874d16427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>e87a86b9-5dbc-4a05-8724-9adbfe2d94b7</webElementGuid>
+      <webElementGuid>ee522d47-6a10-40a1-82ef-c2863964d25e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ion-input-3</value>
-      <webElementGuid>090f9b65-910f-411f-bef2-3f55c9d3d630</webElementGuid>
+      <webElementGuid>4f36b5c0-2958-4183-b777-7b5a9af1d3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0e01c9e0-9812-4ca8-8786-6b479cfab665</webElementGuid>
+      <webElementGuid>5f16cd77-f993-4fab-a650-b4bcb6fde0d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>5039a4c9-c39e-441f-baad-0627d0a739a1</webElementGuid>
+      <webElementGuid>fd902051-094f-4b51-90c6-33d56fdb19c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ion-overlay-1&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/ion-item[@class=&quot;item-interactive item-input item md item-lines-default item-fill-none item-label item-label-floating item-has-focus&quot;]/ion-input[@class=&quot;sc-ion-input-md-h sc-ion-input-md-s md legacy-input has-focus&quot;]/input[@class=&quot;native-input sc-ion-input-md&quot;]</value>
-      <webElementGuid>57c70195-5274-4325-8466-992f7b63893a</webElementGuid>
+      <webElementGuid>c72c5a30-970b-4088-959b-1b3937ddcc48</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='ion-input-3']</value>
-      <webElementGuid>b8b7ce9a-cf7a-4b49-9435-3a53ebe2d087</webElementGuid>
+      <webElementGuid>bc5648d1-a8fc-489f-a088-cac60b6f3ccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-modal[@id='ion-overlay-1']/div/ion-content/ion-item/ion-input/input</value>
-      <webElementGuid>75d291b8-6ec1-40d8-96ad-d8c0446def87</webElementGuid>
+      <webElementGuid>8d3cb13a-e19c-4247-9d88-87a8ffee1236</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-content/ion-item/ion-input/input</value>
-      <webElementGuid>8b8a5922-ed83-4190-a436-dc465e5048b6</webElementGuid>
+      <webElementGuid>12302780-642e-452f-8704-99e5ebab2ef3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'ion-input-3' and @type = 'password']</value>
-      <webElementGuid>6663c80c-05c6-451a-aafd-7dccd2cd777b</webElementGuid>
+      <webElementGuid>9436d652-c4a0-43da-a5f5-c079cbef957a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

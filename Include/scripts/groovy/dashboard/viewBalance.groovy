@@ -1,4 +1,4 @@
-package balance
+package dashboard
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -43,23 +43,69 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class ViewPiggyBankVaultBalance {
 
-	@When("I look at the Piggy Bank panel")
-	public void i_look_at_the_Piggy_Bank_panel() {
+class viewBalance {
+
+	@Given("I start the application")
+	public void i_start_the_application() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
+		return;
 	}
 
-	@Then("I should see the Piggy Bank Vault balance")
-	public void i_should_see_the_Piggy_Bank_Vault_balance() {
+	@Given("I am in the dashboard page")
+	public void i_am_in_the_dashboard() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), '50,00 €')
+		return;
 	}
 
-	@Then("I should see the text “No Balance”")
-	public void i_should_see_the_text_No_Balance() {
+	@Given("I have funds in my account")
+	public void i_have_funds_in_my_account() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), 'No balance')
+		return;
+	}
+
+	@Then("I see a modal to enter my pin")
+	public void i_see_a_modal_to_enter_my_pin() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
+	}
+
+	@Then("I enter my pin")
+	public void i_enter_my_pin() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+
+	}
+
+	@Then("I see my balance on the dashboard")
+	public void i_see_my_balance_on_the_dashboard() {
+		// Write code here that turns the phrase above into concrete actions
+		//	   WebUI.click(findTestObject('Object Repository/Page_Ionic App/button_button-native-n_Enter-5f1'))
+		WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
+
+	}
+
+	@Then("I click on the confirm button")
+	public void i_click_on_confirm_button() {
+		WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Enter'))
+	}
+
+	@Given("I don't have any funds in my account")
+	public void i_don_t_have_any_funds_in_my_account() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
+	}
+
+
+	@Given("I have no funds in my account")
+	public void i_have_no_funds_in_my_account() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
+	}
+
+	@Then("I see the text {string} on the dashboard")
+	public void i_see_the_text_on_the_dashboard(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_balance")).contains(string)
 	}
 }
