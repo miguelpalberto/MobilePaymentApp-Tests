@@ -17,7 +17,7 @@ So that I can see my vcard balance
 	
 	
 	Scenario: No funds
-		Given I am in the vcard creation pagae 
+		Given I am in the vcard creation page
 	  	And I have no funds in my account
     When I fill the phone _with "900000001"
 	    And I fill the password with password
