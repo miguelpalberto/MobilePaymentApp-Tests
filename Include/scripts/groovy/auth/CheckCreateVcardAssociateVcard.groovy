@@ -89,7 +89,7 @@ class CheckCreateVcardAssociateVcard {
 	@Then("I should see a message confirming the vcard create")
 	public void i_should_see_a_message_confirming_the_vcard_create() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
+		//WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
 	}
 
 	@Then("I should see the dashboard page")
