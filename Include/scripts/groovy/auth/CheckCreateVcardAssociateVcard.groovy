@@ -43,6 +43,7 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 class CheckCreateVcardAssociateVcard {
+
 	@Given("I am in the vcard creation page")
 	public void i_am_in_the_vcard_creation_page() {
 		// Write code here that turns the phrase above into concrete actions
@@ -128,7 +129,6 @@ class CheckCreateVcardAssociateVcard {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), '1');
 	}
-
 
 	@When("I fill the password with incorrect password")
 	public void i_fill_the_password_with_incorrect_password() {
