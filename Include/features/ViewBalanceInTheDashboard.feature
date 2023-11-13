@@ -16,8 +16,8 @@ So that I can see my vcard balance
 			And I close the browser
 	
 	
-	Scenario: View balance in the dashboard
-		Given I am in the vcard creation page 
+	Scenario: No funds
+		Given I am in the vcard creation pagae 
 	  	And I have no funds in my account
     When I fill the phone _with "900000001"
 	    And I fill the password with password
