@@ -11,6 +11,7 @@ Feature: create a vcard/ associate vcard
     And I click on the create button
     Then I should see a message confirming the vcard create
     And I should see the dashboard page    
+    And I close the browser
     
   Scenario: phone number is invalid
 	    Given I am in the vcard creation page 
@@ -21,6 +22,7 @@ Feature: create a vcard/ associate vcard
 	    And I click on the create button
 	    Then I should see a error message
 	    And I should see the vcard creation page
+	    And I close the browser
 
 	Scenario: vcard exist and password is incorrect
 	    Given I am in the vcard creation page 
@@ -31,6 +33,7 @@ Feature: create a vcard/ associate vcard
 	    And I click on the create button
 	    Then I should see a error message
 	    And I should see the vcard creation page
+	    And I close the browser
 	
 	Scenario: vcard exist and pin is incorrect
 	    Given I am in the vcard creation page 
@@ -41,6 +44,7 @@ Feature: create a vcard/ associate vcard
 	    And I click on the create button
 	    Then I should see a error message
 	    And I should see the vcard creation page
+	    And I close the browser
 	
 	Scenario: vcard doesnt exist and password is invalid
 	    Given I am in the vcard creation page 
@@ -51,6 +55,7 @@ Feature: create a vcard/ associate vcard
 	    And I click on the create button
 	    Then I should see a error message
 	    And I should see the vcard creation page
+	    And I close the browser
 
 	Scenario: vcard doesnt exist and pin is invalid
 	    Given I am in the vcard creation page 
@@ -61,4 +66,5 @@ Feature: create a vcard/ associate vcard
 	    And I click on the create button
 	    Then I should see a error message
 	    And I should see the vcard creation page
+	    And I close the browser
     

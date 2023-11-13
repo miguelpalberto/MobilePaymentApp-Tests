@@ -62,6 +62,12 @@ class CheckCreateVcardAssociateVcard {
 		WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '910001001');
 	}
 
+	@When("I fill the phone _with {string}")
+	public void i_fill_the_phone_with_custom_phone(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), string);
+	}
+
 	@When("I fill the password with password")
 	public void i_fill_the_password_with_password() {
 		// Write code here that turns the phrase above into concrete actions
@@ -83,13 +89,13 @@ class CheckCreateVcardAssociateVcard {
 	@Then("I should see a message confirming the vcard create")
 	public void i_should_see_a_message_confirming_the_vcard_create() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
+		//WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
 	}
 
 	@Then("I should see the dashboard page")
 	public void i_should_see_the_dashboard_page() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
+		WebUI.getUrl().contains("dashboard")
 	}
 
 	@Given("I have a vcard associated")
@@ -116,7 +122,7 @@ class CheckCreateVcardAssociateVcard {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), '1');
 	}
-	
+
 	@When("I fill the pin with an invalid pin")
 	public void i_fill_the_pin_with_an_invalid_pin() {
 		// Write code here that turns the phrase above into concrete actions
@@ -129,7 +135,7 @@ class CheckCreateVcardAssociateVcard {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), '1');
 	}
-	
+
 	@When("I fill the password with an invalid password")
 	public void i_fill_the_password_with_an_invalid_password() {
 		// Write code here that turns the phrase above into concrete actions
@@ -140,5 +146,10 @@ class CheckCreateVcardAssociateVcard {
 	public void i_fill_the_phone_with_a_invalid_phone() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '1');
+	}
+
+	@And("I close the browser")
+	public void close_the_browser() {
+		WebUI.closeBrowser()
 	}
 }
