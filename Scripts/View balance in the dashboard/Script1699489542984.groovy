@@ -25,13 +25,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-i
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=');
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/slot-_Create-406'))
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Create'));
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
 
 WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Enter'))
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/h1_135,15'))
-
+WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
