@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C9C9C3AC6617904C02E109E8365F5DDC",
+  "keywordClasses": [
+    {
+      "name": "balance.ViewPiggyBankVaultBalance",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,4 +1,4 @@
-package transactions
+package balance
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -43,24 +43,23 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
+class ViewPiggyBankVaultBalance {
 
-class TP18DisplayLastTransactionInDashboard {
-
-
-	@When("I look at the Last Transaction panel")
-	public void i_look_at_the_Last_Transaction_panel() {
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_Last TransactionPT882687467144233797377_78e1ce'),
-				0)
+	@When("I look at the Piggy Bank panel")
+	public void i_look_at_the_Piggy_Bank_panel() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
 	}
 
-	@Then("I see my last transaction on the dashboard")
-	public void i_see_my_last_transaction_on_the_dashboard() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_PT88268746714423379737733-100.00'), 0)
+	@Then("I should see the Piggy Bank Vault balance")
+	public void i_should_see_the_Piggy_Bank_Vault_balance() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), 0)
 	}
 
-	@Then("I see the transaction area displaying the text “No transactions yet”")
-	public void i_see_the_transaction_area_displaying_the_text() {
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/p_Last_Transaction'), 'No transactions yet')
+	@Then("I should see the text under the Piggy Bank panel {string}")
+	public void i_should_see_the_text_No_Balance(String text) {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_piggy_bank_balance")).contains(text)
 	}
 }

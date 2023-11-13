@@ -21,16 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '910001001')
+WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '999999998')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-//WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_input-wrapper-tem_PIN-4c5'))
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Create'))
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
 
-WebUI.getUrl().contains('dashboard')
+WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Ionic App/h1_piggy_bank_balance'), 0)
 
