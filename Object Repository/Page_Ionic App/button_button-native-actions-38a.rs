@@ -59,14 +59,6 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Transactions (1)</value>
-      <webElementGuid>21100e49-bc97-463d-b6a9-99dc749b4109</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>

@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Page_Ionic App/input_Phone_ion-input-0'), '900000001')
+WebUI.setText(findTestObject('null'), '900000001')
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
+WebUI.click(findTestObject('Object Repository/Page_Ionic App/span_button-inner-_Create-1ac'))
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('null'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Transactions'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Page_Ionic App/ion-list_DateValuePayment TypePayment Refer_fd143e'))
+WebUI.click(findTestObject('null'))
 

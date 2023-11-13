@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_button-inner-n_Enter-e48</name>
+   <name>span_button-inner-_Create-1ac</name>
    <tag></tag>
-   <elementGuidId>4c675bf6-f43f-476d-b969-d8ae6f0dd515</elementGuidId>
+   <elementGuidId>5323b532-85e8-4655-8a3d-6895e2abff32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>538fe47d-2190-480c-b9c9-3212e4bb470f</webElementGuid>
+      <webElementGuid>a70c6423-0416-4931-a222-6b09f6b0d0f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-inner</value>
-      <webElementGuid>7e9e0df0-2aa9-40be-995f-5d73c3bb2a52</webElementGuid>
+      <webElementGuid>d1da6b7f-7860-4e3c-9c57-6b93a7346ad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]</value>
-      <webElementGuid>7e7f9d9e-c725-45a8-8331-2e99f75339df</webElementGuid>
+      <webElementGuid>dcff69ee-9232-42c9-8d79-a27a31c57e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>916a259a-ca30-490b-b7a4-d538d42ac175</webElementGuid>
+      <webElementGuid>7a52be1c-2557-46e2-8151-1f7c6a665882</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>bb328065-823c-4554-9253-7657ef7525e3</webElementGuid>
+      <webElementGuid>ff884e1d-ae7d-49ee-8e59-bf41a920f935</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

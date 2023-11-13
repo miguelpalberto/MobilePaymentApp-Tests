@@ -20,7 +20,7 @@ Scenario: There are transactions
 Scenario: There are no transactions
 	Given I am in the vcard creation page 
 	  	And I have funds in my account
-    	When I fill the phone _with "900000002"
+    	When I fill the phone _with "999999999"
 	    And I fill the password with password
 	    And I fill the pin with pin
 	    And I click on the create button
@@ -28,4 +28,5 @@ Scenario: There are no transactions
 			And I enter my pin 
 			And I click on the confirm button
 			And I click on the List of transactions button
-			Then I should see Transactions Page with the text 'No transactions yet'
+			Then I should see Transactions Page with the text 'No transactions'
+			And I close the browser
