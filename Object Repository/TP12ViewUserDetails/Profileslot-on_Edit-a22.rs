@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Profileslot-on_Edit-a22</name>
+   <tag></tag>
+   <elementGuidId>db42f8ef-1b70-4df2-8f68-8dade8b80fe8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-native > span.button-inner > slot:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>slot</value>
+      <webElementGuid>f31e4412-f5b1-4e67-9b6c-afd9729ef805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]/slot[3]</value>
+      <webElementGuid>133344c8-c1cd-4993-a746-fcb2ac48020b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Ionic App/ion-button_Edit</value>
+      <webElementGuid>b1ae6023-126c-460c-b7a8-6f751971f069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>71473559-0c7a-47db-8c2d-2a4de8327dc0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slot-_Create-50c</name>
+   <tag></tag>
+   <elementGuidId>8170b4c4-d718-436b-9667-505e4adc170b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-native > span.button-inner > slot:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>slot</value>
+      <webElementGuid>f8cb4931-43bf-4ccf-bc22-50a91c8467e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]/slot[3]</value>
+      <webElementGuid>839e4ae4-38bd-4363-859b-228df95591c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP13EditUserDetails/Page_Ionic App/ion-button_Create</value>
+      <webElementGuid>b30847bd-4f14-401e-8306-39b8e952410c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>206c3ce7-dc98-469f-b01c-2935429191ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
