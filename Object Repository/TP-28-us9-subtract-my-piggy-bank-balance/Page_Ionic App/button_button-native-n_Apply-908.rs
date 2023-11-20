@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button-native-n_Enter-dfd</name>
+   <name>button_button-native-n_Apply-908</name>
    <tag></tag>
-   <elementGuidId>5e62a085-9c4c-465c-bec1-64d1268d3994</elementGuidId>
+   <elementGuidId>3e9d2b26-4f4a-45ef-95f8-e38c41e58aa7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.button-native</value>
+         <value>.button-native</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @ref_element = 'Object Repository/TP-28-us9-subtract-my-piggy-bank-balance/Page_Ionic App/ion-button_Apply' and @ref_element_is_shadow_root = 'true']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>42cf08a8-c8cb-4f90-ab7f-ade79106b190</webElementGuid>
+      <webElementGuid>d01ec2be-6614-4632-afe0-5c428fc9a43f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e54a7c1d-ffa9-4c8d-a465-49a84620d00c</webElementGuid>
+      <webElementGuid>c9304ad2-c264-4de7-a59e-638249efa25b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-native</value>
-      <webElementGuid>705bdc66-004f-44f4-ae47-9956c440bc41</webElementGuid>
+      <webElementGuid>5d2ca67b-7d77-4e49-8c72-a559b61c1040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>part</name>
       <type>Main</type>
       <value>native</value>
-      <webElementGuid>d9c736bc-6e5e-493b-ab61-e412a0c584ae</webElementGuid>
+      <webElementGuid>f82ff390-d071-4eef-aec7-9af4e22e3755</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +58,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]</value>
-      <webElementGuid>fafbf86a-4b68-4dec-bf8f-e772a37edd18</webElementGuid>
+      <webElementGuid>7fe589e4-9591-4d8e-bd38-4a9919ffd71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Enter</value>
-      <webElementGuid>f5ab6f24-c2b8-4ea2-ab45-120898bc9603</webElementGuid>
+      <value>Object Repository/TP-28-us9-subtract-my-piggy-bank-balance/Page_Ionic App/ion-button_Apply</value>
+      <webElementGuid>091d7882-0f6b-4333-95d8-dc9c215a7e58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9878f3ec-9511-4241-b03f-13c82497af2b</webElementGuid>
+      <webElementGuid>1de49486-c4d4-4158-bde1-eced2e593a68</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>f9ac4c2e-300b-4ad0-bb5e-c9265a21a72e</webElementGuid>
+      <webElementGuid>6eb91785-4b0f-42ea-b5d6-143b1097ed3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>16aea498-9088-4225-896b-3af88ad6a309</webElementGuid>
+      <webElementGuid>5e5bee9c-03e4-4026-846e-2f9b4d943ba0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

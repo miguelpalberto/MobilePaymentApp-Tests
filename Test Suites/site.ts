@@ -46,4 +46,11 @@
       <testCaseId>Test Cases/Transactions/ViewTransactions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a968cb06-9e60-4d50-a33e-775726dd6c59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP-28-us9-subtract-my-piggy-bank-balance/subtract-my-piggy-bank-balance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

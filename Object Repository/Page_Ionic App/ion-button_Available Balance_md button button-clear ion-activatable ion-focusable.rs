@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Available Balance_md button button-clear ion-activatable ion-focusable</name>
+   <tag></tag>
+   <elementGuidId>78c88455-bda5-4ea4-bb52-96fcbaf94fc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flow-transfer-container > ion-button.md.button.button-clear.ion-activatable.ion-focusable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-row/ion-col[2]/div[2]/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>84923848-8852-469d-b340-7b0210ef6cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button button-clear ion-activatable ion-focusable</value>
+      <webElementGuid>b0015d38-806e-4dde-bb40-e6919368d6a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>clear</value>
+      <webElementGuid>f5185bc9-1231-42ca-96a2-12e41c876a9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/div[@class=&quot;flow-transfer-container&quot;]/ion-button[@class=&quot;md button button-clear ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>caef24dd-c0e0-481d-9fe0-5311b8bc085f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-row/ion-col[2]/div[2]/ion-button</value>
+      <webElementGuid>bdb42195-949e-4c25-bab1-539da0a8d73b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Balance'])[1]/following::ion-button[1]</value>
+      <webElementGuid>a71552c3-4dd1-4cc3-9c60-108bc30df9e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Balance:'])[1]/following::ion-button[1]</value>
+      <webElementGuid>5494709b-b077-478c-a72f-68be8ea1e6d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank Balance'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>78195f99-e882-478c-bef0-4f684b86f015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='€'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>667688fd-fda3-4f3c-94db-231b54206cbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ion-button</value>
+      <webElementGuid>48955ad1-4f14-4cd4-9ec5-b7a0f6c898e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

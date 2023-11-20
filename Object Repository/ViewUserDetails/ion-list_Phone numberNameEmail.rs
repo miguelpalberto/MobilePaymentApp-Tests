@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Phone numberNameEmail</name>
+   <tag></tag>
+   <elementGuidId>a6bfc634-f44f-4ae6-b00d-77bed12b9bb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ion-page.can-go-back > ion-content.md.content-ltr.ion-padding > div.container > ion-list.md.list-md.list-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>928f9435-5d10-48a0-b7da-535b5639ce83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md list-container</value>
+      <webElementGuid>3721f98f-295b-4103-b542-45c2cd8bcf58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>0fb353af-919d-4332-9cc8-d574beba2d01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone numberNameEmail</value>
+      <webElementGuid>5a91822e-2376-4195-815b-3821529ea7ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;container&quot;]/ion-list[@class=&quot;md list-md list-container&quot;]</value>
+      <webElementGuid>045b8f30-b115-45cc-b7d8-39a1fbc5218d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/ion-list</value>
+      <webElementGuid>da05e669-a23d-4c59-921d-fe018a17a42b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User details'])[1]/following::ion-list[1]</value>
+      <webElementGuid>f1297c25-f2aa-472b-9c45-e43d15a41432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transaction:'])[1]/following::ion-list[1]</value>
+      <webElementGuid>b8218a08-07fd-461a-9f39-ac05491a10c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ion-content/div/ion-list</value>
+      <webElementGuid>3e445ecb-a725-4328-850c-d6be0c04902d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Phone numberNameEmail' or . = 'Phone numberNameEmail')]</value>
+      <webElementGuid>019870e8-793a-42ac-b3af-c27e60256c44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
