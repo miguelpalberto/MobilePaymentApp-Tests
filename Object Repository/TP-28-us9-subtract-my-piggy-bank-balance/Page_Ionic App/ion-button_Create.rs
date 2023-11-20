@@ -3,15 +3,11 @@
    <description></description>
    <name>ion-button_Create</name>
    <tag></tag>
-   <elementGuidId>174081c0-5bff-44a4-a669-3e8dfdf923ab</elementGuidId>
+   <elementGuidId>9caf15de-1102-4ca3-81b6-a0bcbb6c40e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Create' or . = 'Create')]</value>
+         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable.ion-activated</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-button</value>
-      <webElementGuid>6b193f1c-2edb-4a97-acf9-9be2e1a2e8fd</webElementGuid>
+      <webElementGuid>46fb0b53-1e6a-4241-bc73-3e758d4a997e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md button button-block button-solid ion-activatable ion-focusable</value>
-      <webElementGuid>f33dfc9e-fdf0-486f-9431-54404757b4e0</webElementGuid>
+      <value>md button button-block button-solid ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>9ba36e69-31fb-4d22-bbfd-2fe79fc260af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +38,7 @@
       <name>expand</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>32c04ecc-dee8-479b-8097-8190167212af</webElementGuid>
+      <webElementGuid>ea4aa695-c048-4829-9070-65d2c6a54cc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,15 +46,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Create</value>
-      <webElementGuid>cecd14ca-02f0-465c-8301-a5caaecdc224</webElementGuid>
+      <webElementGuid>86bdafca-8c5e-4f22-8566-b2013012cb84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;container&quot;]/ion-button[@class=&quot;md button button-block button-solid ion-activatable ion-focusable&quot;]</value>
-      <webElementGuid>9093ffbf-d7a2-4c5a-b5b2-893a8cd5dfac</webElementGuid>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;container&quot;]/ion-button[@class=&quot;md button button-block button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>ba6aeb5b-b164-450f-b320-bd76aab6f0e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-button</value>
-      <webElementGuid>d1c692bc-bc3e-4c03-b386-77d4a4c9dee1</webElementGuid>
+      <webElementGuid>a0e42cfd-2fba-439b-8541-9d62d6246afc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::ion-button[1]</value>
-      <webElementGuid>1b2afa29-2e98-451a-8808-709316ad3785</webElementGuid>
+      <webElementGuid>8d2c8ec7-d215-4771-9015-f12e112f6be5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,23 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::ion-button[1]</value>
-      <webElementGuid>27880aa0-5141-4bd1-a5e7-30020070ce15</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>06ffcf59-9f02-40af-ad0d-2a18dc8a8812</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>ad67c929-4466-4051-a917-dbb36bb2a89f</webElementGuid>
+      <webElementGuid>7699560c-85f9-495c-bd64-a93d4556a15f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create']/parent::*</value>
-      <webElementGuid>ee2031dc-d5e6-4fa2-a3e6-3afec2492b8c</webElementGuid>
+      <webElementGuid>3af0d209-42b0-4c8e-a7a7-b5f70f35802f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-button</value>
-      <webElementGuid>2523fe3b-dfd5-4584-92a0-cd30461a925d</webElementGuid>
+      <webElementGuid>3c393440-474d-4cd6-8747-6b6dc8c03c93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ion-button[(text() = 'Create' or . = 'Create')]</value>
-      <webElementGuid>ae8c31bc-f0fc-4d43-80bf-75e4fb03dc2e</webElementGuid>
+      <webElementGuid>2a0f837d-ddcf-4023-a5ed-33314ecfeca8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
