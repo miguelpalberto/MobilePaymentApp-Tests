@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button-native-n_Enter-dfd</name>
+   <name>button_button-native-n_Enter-1b7</name>
    <tag></tag>
    <elementGuidId>5e62a085-9c4c-465c-bec1-64d1268d3994</elementGuidId>
    <selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>42cf08a8-c8cb-4f90-ab7f-ade79106b190</webElementGuid>
+      <webElementGuid>bf41a772-6ba8-4690-a893-ce0d244a5976</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e54a7c1d-ffa9-4c8d-a465-49a84620d00c</webElementGuid>
+      <webElementGuid>538db573-3959-4ef5-b695-88acc35e8087</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-native</value>
-      <webElementGuid>705bdc66-004f-44f4-ae47-9956c440bc41</webElementGuid>
+      <webElementGuid>844913ed-0b24-42b9-9489-89009c0e140c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>part</name>
       <type>Main</type>
       <value>native</value>
-      <webElementGuid>d9c736bc-6e5e-493b-ab61-e412a0c584ae</webElementGuid>
+      <webElementGuid>fef07b04-22c8-4c3c-a0cc-c5f4a1f27e36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]</value>
-      <webElementGuid>fafbf86a-4b68-4dec-bf8f-e772a37edd18</webElementGuid>
+      <webElementGuid>3fbd41db-1df7-4fac-adcd-97c8346a839f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Enter</value>
-      <webElementGuid>f5ab6f24-c2b8-4ea2-ab45-120898bc9603</webElementGuid>
+      <value>Object Repository/ViewUserDetails/ion-button_Enter</value>
+      <webElementGuid>387fc371-8b24-4b9d-8b75-00ea5bbd0d3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9878f3ec-9511-4241-b03f-13c82497af2b</webElementGuid>
+      <webElementGuid>46ac949f-414f-46aa-bdfa-e5531567dd37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>f9ac4c2e-300b-4ad0-bb5e-c9265a21a72e</webElementGuid>
+      <webElementGuid>d2dde212-5803-48a1-8af0-cf33194e4829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>16aea498-9088-4225-896b-3af88ad6a309</webElementGuid>
+      <webElementGuid>847d748a-bd2e-4f35-9c2f-a71ced5f53a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
