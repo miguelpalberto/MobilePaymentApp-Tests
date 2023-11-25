@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP3CreateAVcardAssociateVcard_InvalidPin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbab8001-8a4f-4e4d-abf5-98c37588e7b7</testCaseGuid>
+</TestCaseEntity>

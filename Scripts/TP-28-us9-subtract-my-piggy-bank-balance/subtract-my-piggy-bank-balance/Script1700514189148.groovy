@@ -32,12 +32,12 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TP-28-us9-subtract-my-p
 
 
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_Create'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/TP-28-us9-subtract-my-piggy-bank-balance/Page_Ionic App/input_Pin_ion-input-3'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
 
 WebUI.click(findTestObject('Object Repository/TP-28-us9-subtract-my-piggy-bank-balance/Page_Ionic App/svg_Send Money_bi bi-piggy-bank'))
 

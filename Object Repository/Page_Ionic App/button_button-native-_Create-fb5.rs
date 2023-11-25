@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Create</value>
+      <value>Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create</value>
       <webElementGuid>0f31453c-7b6b-4626-bfe9-36f7dc4dc1ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>

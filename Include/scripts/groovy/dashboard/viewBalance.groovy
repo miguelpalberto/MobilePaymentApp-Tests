@@ -64,18 +64,6 @@ class viewBalance {
 		return;
 	}
 
-	@Then("I see a modal to enter my pin")
-	public void i_see_a_modal_to_enter_my_pin() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
-	}
-
-	@Then("I enter my pin")
-	public void i_enter_my_pin() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
-
-	}
 
 	@Then("I see my balance on the dashboard")
 	public void i_see_my_balance_on_the_dashboard() {
@@ -85,23 +73,12 @@ class viewBalance {
 
 	}
 
-	@Then("I click on the confirm button")
-	public void i_click_on_confirm_button() {
-		WebUI.click(findTestObject('Object Repository/Page_Ionic App/ion-button_Enter'))
-	}
-
 	@Given("I don't have any funds in my account")
 	public void i_don_t_have_any_funds_in_my_account() {
 		// Write code here that turns the phrase above into concrete actions
 		return;
 	}
 
-
-	@Given("I have no funds in my account")
-	public void i_have_no_funds_in_my_account() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
-	}
 
 	@Then("I see the text {string} on the dashboard")
 	public void i_see_the_text_on_the_dashboard(String string) {

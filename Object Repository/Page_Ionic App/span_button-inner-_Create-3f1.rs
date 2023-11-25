@@ -6,12 +6,12 @@
    <elementGuidId>c5b5fb20-b31f-4016-ad93-9c99ca7f6297</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.button-native > span.button-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Create</value>
+      <value>Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create</value>
       <webElementGuid>2abf01af-9f7d-448f-98b7-e03c7e70041b</webElementGuid>
    </webElementProperties>
    <webElementProperties>

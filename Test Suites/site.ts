@@ -12,10 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>47f8b332-ca93-4373-81a5-ca0712560e2c</testSuiteGuid>
    <testCaseLink>
-      <guid>5cf73f59-2d99-4ca7-993d-9303e4ba0490</guid>
+      <guid>5651c066-6d12-4f5b-93a2-35794f0f953d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateAvCardAssociatevCard</testCaseId>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>901204d9-3378-412a-80a9-23bd4fd318ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard_InvalidPin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>454c60ce-203b-49de-8074-60f3de840a1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard_InvalidPhone</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07744105-e48e-4e6c-9fbf-031dc61e8d36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard_InvalidPassword</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77b29836-6e8c-49b4-8773-91c3bc9e6e1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard_IncorrectPin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>501e510a-0d45-4a05-8657-4e748cb9a464</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP3CreateAVcardAssociateVcard/TP3CreateAVcardAssociateVcard_IncorrectPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
