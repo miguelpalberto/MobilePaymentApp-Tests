@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8AF0F6EDDDA5E80E65270A94D701D67C",
+  "keywordFileContentHash": "22115FF4904983D1615FD5268733A96A",
   "keywordClasses": [
     {
       "name": "auth.TP3CreateAVcardAssociateVcard",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

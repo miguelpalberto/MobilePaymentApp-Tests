@@ -44,22 +44,23 @@ import cucumber.api.java.en.When
 
 
 
-class ViewTransactions {
-	@When("I click on the List of transactions button")
-	public void i_click_on_the_List_of_transactions_button() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Page_Ionic App/ion-button_Transactions'));
-	}
+class TP7ViewListOfTransactions {
 
 	@Then("I should see the list of my transactions")
 	public void i_should_see_the_list_of_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Page_Ionic App/ion-list_DateValuePayment TypePayment Refer_fd143e'),2);
+		WebUI.verifyElementPresent(findTestObject('TP7ViewListOfTransactions/ion-row_Reference'), 0)
 	}
 
-	@Then("I should see Transactions Page with the text {string}")
-	public void i_should_see_Transactions_Page_with_the_text(String string) {
+	@When("I click on the Show More button")
+	public void i_click_on_the_Show_More_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.getText(findTestObject('Object Repository/Page_Ionic App/p_No transactions')).contains(string);
+		WebUI.click(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'))
+	}
+
+	@Then("I should not see the Show More button")
+	public void i_should_not_see_the_Show_More_button() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.verifyElementNotPresent(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'), 0)
 	}
 }
