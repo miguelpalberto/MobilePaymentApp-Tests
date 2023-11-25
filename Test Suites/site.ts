@@ -22,28 +22,28 @@
       <guid>904d34fe-7c61-4444-9d30-dc27eaeb2cdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/View balance in the dashboard</testCaseId>
+      <testCaseId>Test Cases/Dashboard/View balance in the dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c29931aa-4e0d-4c03-a888-e8cdea2f2010</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP18DisplayLastTransactionInDashboard</testCaseId>
+      <testCaseId>Test Cases/Dashboard/TP18DisplayLastTransactionInDashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a5f5e760-fad6-4887-a51e-3088e1cd6d69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ViewPiggyBankBalance</testCaseId>
+      <testCaseId>Test Cases/Dashboard/ViewPiggyBankBalance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0a3991db-4940-4f4c-a246-479cdc81b7a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ViewTransactions</testCaseId>
+      <testCaseId>Test Cases/Transactions/ViewTransactions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
