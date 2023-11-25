@@ -77,7 +77,7 @@ class TP13EditUserDetails {
 	public void i_change_my_email_with_a_mistake() {
 		WebUI.setText(findTestObject('Object Repository/TP12ViewUserDetails/input_Email_ion-input-9'), 'defaultU')
 	}
-	
+
 	@When("I click on Save button")
 	public void i_click_on_Save_button() {
 		WebUI.click(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-button_Save'))

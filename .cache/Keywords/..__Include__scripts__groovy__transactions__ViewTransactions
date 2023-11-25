@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "B6775CB1500D411DCAA0FF210B7DADE1",
+  "keywordFileContentHash": "0C2E66C285B1EBACEC3CF564E74FBA91",
   "keywordClasses": [
     {
       "name": "transactions.ViewTransactions",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

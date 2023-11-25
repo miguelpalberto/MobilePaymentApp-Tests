@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-row_Reference</name>
+   <tag></tag>
+   <elementGuidId>c38fa703-e460-4d3b-af97-1cfdfcca4f4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item/ion-label/ion-grid/ion-row</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md > ion-grid.md > ion-row.md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-row</value>
+      <webElementGuid>739a41a6-3a00-44ab-8bcf-74aafb788120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md</value>
+      <webElementGuid>80a955ad-05cd-4913-8a8d-c44c7826a65b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reference:PT726311719557105890633052023-11-16 11:49:04-17.18€</value>
+      <webElementGuid>00c3ac78-ddd9-482e-bb2e-85b806c1caff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]</value>
+      <webElementGuid>8df05975-79a5-4c61-b734-895d0dd2768e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item/ion-label/ion-grid/ion-row</value>
+      <webElementGuid>084b5a0a-34d3-4207-aed1-eabb837026bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[1]/following::ion-row[1]</value>
+      <webElementGuid>563bc647-472e-4a75-a3c2-cc1ca2659ad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-row[1]</value>
+      <webElementGuid>708ba094-dc23-4a65-a065-900dee87ec1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='moura.davi@nogueira.pt'])[1]/preceding::ion-row[3]</value>
+      <webElementGuid>58e20cf5-1770-4922-9067-bd85d61f62e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-label/ion-grid/ion-row</value>
+      <webElementGuid>f4f1e451-bce6-4a85-bce5-9cc5c1dfa667</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-row[(text() = 'Reference:PT726311719557105890633052023-11-16 11:49:04-17.18€' or . = 'Reference:PT726311719557105890633052023-11-16 11:49:04-17.18€')]</value>
+      <webElementGuid>ca59300a-818f-4927-9588-1bb840257205</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

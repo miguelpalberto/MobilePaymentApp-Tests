@@ -46,13 +46,13 @@ import cucumber.api.java.en.When
 
 class ViewUserDetails {
 	@When("I click on display user details button")
-public void i_click_on_display_user_details_button() {
-    WebUI.click(findTestObject('Object Repository/ViewUserDetails/ion-button_User'));
-}
+	public void i_click_on_display_user_details_button() {
+		WebUI.click(findTestObject('Object Repository/ViewUserDetails/ion-button_User'));
+	}
 
-@Then("I see my personal details view")
-public void i_see_my_personal_details_view() {
-    // Write code here that turns the phrase above into concrete actions
-    WebUI.verifyElementPresent(findTestObject('Object Repository/ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
-}
+	@Then("I see my personal details view")
+	public void i_see_my_personal_details_view() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.verifyElementPresent(findTestObject('Object Repository/ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
+	}
 }
