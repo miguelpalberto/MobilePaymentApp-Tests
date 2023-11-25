@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-button_Enter</name>
+   <name>ion-button_EnterDashboard</name>
    <tag></tag>
    <elementGuidId>16ad0b65-f84d-4520-9fae-4458a1f5f115</elementGuidId>
    <selectorCollection>

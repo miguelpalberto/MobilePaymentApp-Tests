@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Ionic App/input_Phone_ion-input-0'), '999999998')
+WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '999999998')
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_Create'))
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
 

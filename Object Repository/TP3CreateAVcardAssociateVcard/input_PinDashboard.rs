@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Pin_ion-input-3</name>
+   <name>input_PinDashboard</name>
    <tag></tag>
    <elementGuidId>9cd58625-e8cf-402c-a891-68a893094336</elementGuidId>
    <selectorCollection>

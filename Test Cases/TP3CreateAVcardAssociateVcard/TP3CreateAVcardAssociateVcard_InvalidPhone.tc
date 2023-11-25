@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP3CreateAVcardAssociateVcard_InvalidPhone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c78b38d8-69ad-462d-b712-3e60bfc381d9</testCaseGuid>
+</TestCaseEntity>

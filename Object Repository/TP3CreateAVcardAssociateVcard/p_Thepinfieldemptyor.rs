@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_auth_error</name>
+   <name>p_Thepinfieldemptyor</name>
    <tag></tag>
-   <elementGuidId>da64b1f1-ba91-4199-ba42-9a0b6334e0e9</elementGuidId>
+   <elementGuidId>3666a09f-7c63-4316-b8e6-48191155fc77</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>17831b2e-7934-4ba7-9f93-9a2775fecc0d</webElementGuid>
+      <webElementGuid>1185c94c-7d4a-44df-a5e5-60c864bd47e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>6e116e7b-fd56-4209-90e4-ecac2d43d7b5</webElementGuid>
+      <webElementGuid>38992508-871d-4033-8838-12e6df55f1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>O campo password está vazio</value>
-      <webElementGuid>8972502a-c096-474b-9369-9aa23b7bd937</webElementGuid>
+      <value>The pin field is empty or does not have 3 digits</value>
+      <webElementGuid>e802f2e1-7d72-4a61-b8fa-363dc6d9231b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;container&quot;]/div[1]/p[@class=&quot;error&quot;]</value>
-      <webElementGuid>653fa2bf-3ffb-4302-9668-7d748664caeb</webElementGuid>
+      <webElementGuid>bbdff6b1-a2f9-442e-9b9d-f6805e274334</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/div/p</value>
-      <webElementGuid>882596d7-362f-4a67-98e0-b917794ad70e</webElementGuid>
+      <webElementGuid>612cb113-c54b-4c7d-8c8e-f0621e1a71d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::p[1]</value>
-      <webElementGuid>6e00927e-ff20-4e2b-be93-20a4c5873e3c</webElementGuid>
+      <webElementGuid>89e39c9a-518f-4e90-b4cb-8f0b3be135f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,31 +70,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::p[1]</value>
-      <webElementGuid>abaf4fcf-817c-4568-9115-b174a7607c1a</webElementGuid>
+      <webElementGuid>efe70c12-e376-491e-ac58-785a75e1bdb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::p[2]</value>
-      <webElementGuid>80f40e36-69f4-40d2-82ce-9c533467a06d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::p[1]</value>
+      <webElementGuid>70e8afdc-efab-4576-b457-f890b804124b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[2]</value>
-      <webElementGuid>a75df8ad-26a6-425d-8262-db7666bd14f2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>0d382ff1-1f0e-4627-9e97-db32bb20a3f4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='The pin field is empty or does not have 3 digits']/parent::*</value>
+      <webElementGuid>4282ce81-dc13-4d5d-8de3-16c8bc196088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,14 +94,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>09aa5be5-4c44-4c7f-85bf-593558ceb3c8</webElementGuid>
+      <webElementGuid>0fbc8f3e-dae8-4fdd-b889-e1e938a76702</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>fa538754-7421-48eb-b556-f61a7045d720</webElementGuid>
+      <value>//p[(text() = 'The pin field is empty or does not have 3 digits' or . = 'The pin field is empty or does not have 3 digits')]</value>
+      <webElementGuid>8a14395c-4fa2-4727-8d47-330b0520c67f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

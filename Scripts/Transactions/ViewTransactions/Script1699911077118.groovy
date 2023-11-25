@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Page_Ionic App/input_Phone_ion-input-0'), '900000001')
+WebUI.setText(findTestObject('TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '900000001')
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Create'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_Create'))
 
-WebUI.setEncryptedText(findTestObject('Page_Ionic App/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Page_Ionic App/ion-button_Enter'))
+WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
 
 WebUI.click(findTestObject('Page_Ionic App/ion-button_Transactions'))
 

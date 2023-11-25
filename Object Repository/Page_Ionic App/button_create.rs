@@ -6,12 +6,12 @@
    <elementGuidId>5e87b06d-d4c3-4e36-b680-13be5670a16e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.button-native</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Create</value>
+      <value>Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create</value>
       <webElementGuid>befea82a-3ddd-4e30-b02d-a2add6de9d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>

@@ -6,12 +6,12 @@
    <elementGuidId>174081c0-5bff-44a4-a669-3e8dfdf923ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Create' or . = 'Create')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable</value>
       </entry>
       <entry>
          <key>XPATH</key>

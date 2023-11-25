@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ModalLoginDashboard</name>
+   <tag></tag>
+   <elementGuidId>8f66fa1f-fbdb-4ca8-8fca-f59307fe8901</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-1']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ion-delegate-host.ion-page</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>827f14d8-0443-47d2-9b55-f7ea1f691ab7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-delegate-host ion-page</value>
+      <webElementGuid>6f696a89-e9b3-4070-8ca1-6ad4b78712fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PinEnter</value>
+      <webElementGuid>779507f6-c59b-4ec2-a87e-42da7aea9635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-1&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]</value>
+      <webElementGuid>6ad5ba56-10bb-4bb5-b0c6-1b2ba9610511</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-1']/div</value>
+      <webElementGuid>62e39f21-d537-4212-b79c-12d6d05e6e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[3]</value>
+      <webElementGuid>9ddf93c7-f346-4e2d-b089-188cc73b5910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::div[4]</value>
+      <webElementGuid>348d8277-efbb-4e30-a55e-016ef4a3244a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-modal/div</value>
+      <webElementGuid>6709bfff-f973-497c-9823-6250ea0b8648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PinEnter' or . = 'PinEnter')]</value>
+      <webElementGuid>54f5eee4-c80d-4687-952c-fc743ad9d04e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

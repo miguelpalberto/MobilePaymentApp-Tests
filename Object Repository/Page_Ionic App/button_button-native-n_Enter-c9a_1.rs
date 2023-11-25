@@ -6,12 +6,12 @@
    <elementGuidId>4b07e225-5da0-4f35-bb45-f1c3c63f0af0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.button-native</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-native</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Enter</value>
+      <value>Object Repository/TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard</value>
       <webElementGuid>38bead02-48fc-41ca-8fb7-2dc295578956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
