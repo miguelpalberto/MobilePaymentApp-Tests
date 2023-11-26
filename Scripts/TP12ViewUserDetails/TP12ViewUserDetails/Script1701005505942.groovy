@@ -14,8 +14,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import cucumber.api.java.en.And
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -33,6 +31,18 @@ WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-
 WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_ModalLoginDashboard'), 0);
 WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
 WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
-	
-WebUI.getUrl().contains("dashboard");
+
+
+//TP12
+WebUI.click(findTestObject('Object Repository/TP12ViewUserDetails/TP12Bion-button_User'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/mainPaginaProfileB'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_PhoneVer'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_NameVer'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_EmailVer'))
+
 WebUI.closeBrowser()
+

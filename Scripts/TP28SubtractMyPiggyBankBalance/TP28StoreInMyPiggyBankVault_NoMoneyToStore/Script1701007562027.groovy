@@ -14,25 +14,30 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import cucumber.api.java.en.And
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
 
-WebUI.openBrowser('');
-WebUI.navigateToUrl('http://localhost:8100/login');
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_PhonePasswordPINCreate'), 0);
+WebUI.navigateToUrl('http://localhost:8100/login')
 
-WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '900000001');
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=');
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=');
-WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create'));
+WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Phone_ion-input-0'), '900000001')
 
-//Entrar
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_ModalLoginDashboard'), 0);
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
-WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
-	
-WebUI.getUrl().contains("dashboard");
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Create'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Enter'))
+
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Piggy Bank'))
+
+WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Piggy Bank Balance_inputValue'), '0')
+
+WebUI.verifyElementNotPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
+
 WebUI.closeBrowser()
+

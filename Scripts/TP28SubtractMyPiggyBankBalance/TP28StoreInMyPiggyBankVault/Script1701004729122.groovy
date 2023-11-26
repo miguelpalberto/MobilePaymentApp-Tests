@@ -19,23 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8100/')
+WebUI.navigateToUrl('http://localhost:8100/login')
 
-WebUI.setText(findTestObject('Object Repository/ViewUserDetails/input_Phone_ion-input-0'), '900000001')
+WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Phone_ion-input-0'), '900000001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/ViewUserDetails/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/ViewUserDetails/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_Create'))
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Create'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/ViewUserDetails/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Pin_ion-input-3'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Enter'))
 
-WebUI.click(findTestObject('ViewUserDetails/ion-button_User'))
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Piggy Bank'))
 
-WebUI.verifyElementVisible(findTestObject('TP12ViewUserDetails/ion-list_Phone numberNameEmail'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Piggy Bank Balance_inputValue'), '1')
+
+WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
+
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'))
+
+WebUI.verifyElementText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-card-title_Success'), 'Success')
+
+WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Close'))
 
 WebUI.closeBrowser()
 

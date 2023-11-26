@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP28StoreInMyPiggyBankVault_MoreThanTotalBalance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd18eb25-f17a-42f5-8035-482fa301b282</testCaseGuid>
+</TestCaseEntity>

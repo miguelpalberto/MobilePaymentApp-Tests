@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP28StoreInMyPiggyBankVault_NoMoneyToStore</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e500e15c-a198-45fd-9573-ad71f633108f</testCaseGuid>
+</TestCaseEntity>

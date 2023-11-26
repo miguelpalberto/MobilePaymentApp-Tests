@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP28WithdrawFromMyPiggyBankVault_MoreThanPiggyVaultBankBalance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a53f12-4ccd-4c32-b6cc-2df907259818</testCaseGuid>
+</TestCaseEntity>
