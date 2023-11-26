@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_balance</name>
+   <name>h1_balance_old</name>
    <tag></tag>
    <elementGuidId>ee9179bc-dd5a-4555-9c26-7bc4cedbb4b1</elementGuidId>
    <selectorCollection>

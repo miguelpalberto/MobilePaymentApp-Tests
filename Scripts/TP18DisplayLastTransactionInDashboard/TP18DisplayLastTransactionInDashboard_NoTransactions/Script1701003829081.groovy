@@ -17,26 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('');
+WebUI.navigateToUrl('http://localhost:8100/login');
+WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_PhonePasswordPINCreate'), 0);
 
-WebUI.navigateToUrl('http://localhost:8100/login')
+WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '999999999');
+WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=');
+WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=');
+WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create'));
 
-WebUI.setText(findTestObject('TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '999999998')
-
-WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
-
-WebUI.setEncryptedText(findTestObject('TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
-
-WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_Create'))
-
+//Entrar
+WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_ModalLoginDashboard'), 0);
 WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
+	
+WebUI.getUrl().contains("dashboard");
 
-WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/ion-lastTransactionWholePannel'),
+	0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_Last TransactionPT882687467144233797377_78e1ce'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_PT88268746714423379737733-100.00'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p_No transactions yet'), 
+    'No transactions yet')
 
 WebUI.closeBrowser()
 

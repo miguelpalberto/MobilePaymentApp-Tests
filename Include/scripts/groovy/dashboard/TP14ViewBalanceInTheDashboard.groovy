@@ -1,4 +1,4 @@
-package userDetails
+package dashboard
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,15 +44,44 @@ import cucumber.api.java.en.When
 
 
 
-class ViewUserDetails {
-	@When("I click on display user details button")
-	public void i_click_on_display_user_details_button() {
-		WebUI.click(findTestObject('Object Repository/ViewUserDetails/ion-button_User'));
+class TP14ViewBalanceInTheDashboard {
+
+	@Given("I start the application")
+	public void i_start_the_application() {
+		WebUI.openBrowser('');
+		WebUI.navigateToUrl('http://localhost:8100/login');
 	}
 
-	@Then("I see my personal details view")
-	public void i_see_my_personal_details_view() {
+	@Given("I am in the dashboard page")
+	public void i_am_in_the_dashboard() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
+		return;
+	}
+
+	@Given("I have funds on my account")
+	public void i_have_funds_on_my_account() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
+	}
+
+	//balance
+	@Then("I see my balance on the dashboard")
+	public void i_see_my_balance_on_the_dashboard() {
+		//WebUI.verifyElementText(findTestObject('Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue'),'199,47 €')
+		WebUI.verifyElementPresent(findTestObject("Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue"), 10)
+		
+
+	}
+
+	@Given("I dont have any funds on my account")
+	public void i_dont_have_any_funds_on_my_account() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
+	}
+
+	//No funds text
+	@Then("I see the text No Funds on the dashboard")
+	public void i_see_the_text_no_funds_on_the_dashboard() {
+		WebUI.verifyElementText(findTestObject('Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceNoFunds'), 'No funds')
 	}
 }

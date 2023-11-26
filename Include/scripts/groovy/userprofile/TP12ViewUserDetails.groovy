@@ -1,4 +1,4 @@
-package dashboard
+package userprofile
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,45 +44,26 @@ import cucumber.api.java.en.When
 
 
 
-class viewBalance {
+class TP12ViewUserDetails {
 
-	@Given("I start the application")
-	public void i_start_the_application() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
+
+
+
+	@When("I click on the user profile")
+	public void i_click_on_the_user_profile() {
+		WebUI.click(findTestObject('Object Repository/TP12ViewUserDetails/TP12Bion-button_User'))
 	}
 
-	@Given("I am in the dashboard page")
-	public void i_am_in_the_dashboard() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
+	@Then("I should be on the user profile page")
+	public void i_should_be_on_the_user_profile_page() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-content_Phone numberNameEmailEdit'), 0)
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/mainPaginaProfileB'))
 	}
-
-	@Given("I have funds in my account")
-	public void i_have_funds_in_my_account() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
-	}
-
-
-	@Then("I see my balance on the dashboard")
-	public void i_see_my_balance_on_the_dashboard() {
-		// Write code here that turns the phrase above into concrete actions
-		//	   WebUI.click(findTestObject('Object Repository/Page_Ionic App/button_button-native-n_Enter-5f1'))
-		WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
-
-	}
-
-	@Given("I don't have any funds in my account")
-	public void i_don_t_have_any_funds_in_my_account() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
-	}
-
-
-	@Then("I see the text {string} on the dashboard")
-	public void i_see_the_text_on_the_dashboard(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_balance")).contains(string)
+	@And("I see my personal details view")
+	public void i_see_my_personal_details_view() {
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_PhoneVer'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_NameVer'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_EmailVer'))
 	}
 }

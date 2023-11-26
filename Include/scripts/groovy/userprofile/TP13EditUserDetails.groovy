@@ -48,15 +48,7 @@ class TP13EditUserDetails {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@When("I click on the user profile image")
-	public void i_click_on_the_user_profile_image() {
-		WebUI.click(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-button_User'))
-	}
 
-	@Then("I should be on the user profile page")
-	public void i_should_be_on_the_user_profile_page() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-content_Phone numberNameEmailEdit'), 0)
-	}
 
 	@Given("I click on the Edit button")
 	public void i_click_on_the_Edit_button() {
