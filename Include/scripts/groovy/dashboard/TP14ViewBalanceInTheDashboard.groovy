@@ -44,12 +44,12 @@ import cucumber.api.java.en.When
 
 
 
-class viewBalance {
+class TP14ViewBalanceInTheDashboard {
 
 	@Given("I start the application")
 	public void i_start_the_application() {
-		// Write code here that turns the phrase above into concrete actions
-		return;
+		WebUI.openBrowser('');
+		WebUI.navigateToUrl('http://localhost:8100/login');
 	}
 
 	@Given("I am in the dashboard page")
@@ -58,31 +58,30 @@ class viewBalance {
 		return;
 	}
 
-	@Given("I have funds in my account")
-	public void i_have_funds_in_my_account() {
+	@Given("I have funds on my account")
+	public void i_have_funds_on_my_account() {
 		// Write code here that turns the phrase above into concrete actions
 		return;
 	}
 
-
+	//balance
 	@Then("I see my balance on the dashboard")
 	public void i_see_my_balance_on_the_dashboard() {
-		// Write code here that turns the phrase above into concrete actions
-		//	   WebUI.click(findTestObject('Object Repository/Page_Ionic App/button_button-native-n_Enter-5f1'))
-		WebUI.verifyElementPresent(findTestObject("Object Repository/Page_Ionic App/h1_balance"), 10)
+		//WebUI.verifyElementText(findTestObject('Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue'),'199,47 €')
+		WebUI.verifyElementPresent(findTestObject("Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue"), 10)
+		
 
 	}
 
-	@Given("I don't have any funds in my account")
-	public void i_don_t_have_any_funds_in_my_account() {
+	@Given("I dont have any funds on my account")
+	public void i_dont_have_any_funds_on_my_account() {
 		// Write code here that turns the phrase above into concrete actions
 		return;
 	}
 
-
-	@Then("I see the text {string} on the dashboard")
-	public void i_see_the_text_on_the_dashboard(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_balance")).contains(string)
+	//No funds text
+	@Then("I see the text No Funds on the dashboard")
+	public void i_see_the_text_no_funds_on_the_dashboard() {
+		WebUI.verifyElementText(findTestObject('Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceNoFunds'), 'No funds')
 	}
 }
