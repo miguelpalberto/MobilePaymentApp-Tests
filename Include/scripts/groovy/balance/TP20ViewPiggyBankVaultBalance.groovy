@@ -43,23 +43,14 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class ViewPiggyBankVaultBalance {
-
-	@When("I look at the Piggy Bank panel")
-	public void i_look_at_the_Piggy_Bank_panel() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/span_Piggy Bank'), 0)
-	}
-
-	@Then("I should see the Piggy Bank Vault balance")
+class TP20ViewPiggyBankVaultBalance {
+	@And("I should see the Piggy Bank Vault balance")
 	public void i_should_see_the_Piggy_Bank_Vault_balance() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/h1_piggy_bank_balance'), 0)
+		WebUI.getText(findTestObject('TP20ViewPiggyBankVaultBalance/ion-card-piggy-balance'), FailureHandling.STOP_ON_FAILURE).contains("No balance")
 	}
 
-	@Then("I should see the text under the Piggy Bank panel {string}")
-	public void i_should_see_the_text_No_Balance(String text) {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.getText(findTestObject("Object Repository/Page_Ionic App/h1_piggy_bank_balance")).contains(text)
+	@And("I should see the text No Balance")
+	public void i_should_see_text_no_balance() {
+		!WebUI.getText(findTestObject('TP20ViewPiggyBankVaultBalance/ion-card-piggy-balance'), FailureHandling.STOP_ON_FAILURE).contains("No balance")
 	}
 }

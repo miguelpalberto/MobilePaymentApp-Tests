@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-item_Pin</name>
+   <tag></tag>
+   <elementGuidId>ea1787f9-4e1d-4da5-ac61-c72629d489d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-1']/div/ion-item</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ion-delegate-host.ion-page > ion-item.item-interactive.item-input.item.md.item-lines-default.item-fill-none.item-label.item-label-floating</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-item</value>
+      <webElementGuid>b8d86e4a-da6c-4183-92ad-a14cc7a861dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-interactive item-input item md item-lines-default item-fill-none item-label item-label-floating</value>
+      <webElementGuid>a7c31a80-bc69-4a65-bbc5-80a17e0d4fe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pin</value>
+      <webElementGuid>f885d75f-3d65-4763-9971-cf06b563f40a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-1&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-item[@class=&quot;item-interactive item-input item md item-lines-default item-fill-none item-label item-label-floating&quot;]</value>
+      <webElementGuid>07915c05-f458-491e-90f5-f3e1ddfeb8bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-1']/div/ion-item</value>
+      <webElementGuid>f587474f-eb6b-4bf9-a652-394307480f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::ion-item[1]</value>
+      <webElementGuid>f1604cfe-ef45-4b55-8be0-15abd78e44a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::ion-item[1]</value>
+      <webElementGuid>63a7babd-4a80-4f4c-bf22-6a555c138e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[1]/preceding::ion-item[1]</value>
+      <webElementGuid>f218cbb4-3031-4164-8e7b-496d6d260525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ion-item</value>
+      <webElementGuid>a5ddd362-3fce-485a-a29f-918a444eef9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-item[(text() = 'Pin' or . = 'Pin')]</value>
+      <webElementGuid>3c6ae500-ee4b-421d-a5e4-a54fbd4f413c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
