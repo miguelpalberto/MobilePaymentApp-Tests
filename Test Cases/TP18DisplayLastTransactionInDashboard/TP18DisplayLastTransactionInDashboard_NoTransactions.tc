@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP18DisplayLastTransactionInDashboard_NoTransactions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77fdff61-dcc3-46ae-8818-d6d99f12e4b4</testCaseGuid>
+</TestCaseEntity>
