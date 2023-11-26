@@ -68,6 +68,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>7b8889e6-5c68-4c7d-ad33-000826328a66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP20ViewPiggyBankVaultBalance/TP20ViewPiggyBankBalance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b6f2acd-0e9e-474c-952b-da61dd561b03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP20ViewPiggyBankVaultBalance/TP20ViewPiggyBankBalance_NoBalance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>904d34fe-7c61-4444-9d30-dc27eaeb2cdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
