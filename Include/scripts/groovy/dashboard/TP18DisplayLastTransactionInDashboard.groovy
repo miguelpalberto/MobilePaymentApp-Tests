@@ -1,4 +1,4 @@
-package transactions
+package dashboard
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -49,18 +49,30 @@ class TP18DisplayLastTransactionInDashboard {
 
 	@When("I look at the Last Transaction panel")
 	public void i_look_at_the_Last_Transaction_panel() {
-
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_Last TransactionPT882687467144233797377_78e1ce'),
-				0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/ion-lastTransactionWholePannel'),
+			0)
 	}
 
 	@Then("I see my last transaction on the dashboard")
 	public void i_see_my_last_transaction_on_the_dashboard() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Ionic App/div_PT88268746714423379737733-100.00'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/div_linhaDaTransacao'),	0)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-valorTransacao'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-numeroReferenciaTransacao'),
+				0)
+		WebUI.verifyElementText(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-numeroReferenciaTransacao'),
+				'58426-809444419')
 	}
 
 	@Then("I see the transaction area displaying the text “No transactions yet”")
 	public void i_see_the_transaction_area_displaying_the_text() {
-		WebUI.verifyElementText(findTestObject('Object Repository/Page_Ionic App/p_Last_Transaction'), 'No transactions yet')
+		WebUI.verifyElementText(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p_No transactions yet'),
+				'No transactions yet')
+	}
+
+	@Given("I did not make or receive any transaction previously")
+	public void i_did_not_make_or_receive_any_transaction_previously() {
+	}
+	@Given("I made or received transactions previously")
+	public void i_made_or_received_transactions_previously() {
 	}
 }
