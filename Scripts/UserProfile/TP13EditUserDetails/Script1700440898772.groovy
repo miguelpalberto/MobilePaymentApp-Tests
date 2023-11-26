@@ -38,7 +38,7 @@ WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/TP12ViewUserDetails/button_button-native-on_Edit-514'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/main_inner-scroll scroll-y-ailEdit-2e1'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/mainPaginaProfile'), 0)
 
 WebUI.setText(findTestObject('Object Repository/TP12ViewUserDetails/input_Name_ion-input-8'), 'Default User Editado')
 

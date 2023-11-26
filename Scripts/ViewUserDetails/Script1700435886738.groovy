@@ -35,7 +35,7 @@ WebUI.click(findTestObject('TP3CreateAVcardAssociateVcard/ion-button_EnterDashbo
 
 WebUI.click(findTestObject('ViewUserDetails/ion-button_User'))
 
-WebUI.verifyElementVisible(findTestObject('ViewUserDetails/ion-list_Phone numberNameEmail'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('TP12ViewUserDetails/ion-list_Phone numberNameEmail'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
