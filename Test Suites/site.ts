@@ -68,6 +68,48 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>5f238fc8-6d9f-4314-8082-951feaa5cc14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28StoreInMyPiggyBankVault</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ddde1be-9df3-49aa-a2db-506255415ff4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28StoreInMyPiggyBankVault_MoreThanTotalBalance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d187a8ee-4c34-4198-b2c2-1e635e313867</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28StoreInMyPiggyBankVault_NoMoneyToStore</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3d46cf1-9846-4bd4-869d-d81dc5d607fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28WithdrawFromMyPiggyBankVault</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a34bad3-baa6-4112-aec1-9eabdf8bb170</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28WithdrawFromMyPiggyBankVault_MoreThanPiggyVaultBankBalance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>528530ce-9e64-4ba4-9d72-123b823b35d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28WithdrawFromMyPiggyBankVault_NoMoneyToWithdraw</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>904d34fe-7c61-4444-9d30-dc27eaeb2cdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

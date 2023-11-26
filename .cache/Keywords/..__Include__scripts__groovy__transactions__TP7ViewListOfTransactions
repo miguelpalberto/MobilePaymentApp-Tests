@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "1E41F3FD4B7C180FBDFD695E32DAFF1B",
+  "keywordFileContentHash": "84775DA949EA830D5CC737ED7D87B91B",
   "keywordClasses": [
     {
       "name": "transactions.TP7ViewListOfTransactions",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
