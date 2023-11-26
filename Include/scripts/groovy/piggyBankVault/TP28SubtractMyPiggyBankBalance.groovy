@@ -80,6 +80,11 @@ class TP28SubtractMyPiggyBankBalance {
 		WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button-switch-action'))
 	}
 
+	@And("I see that the Apply button is disabled")
+	public void i_see_that_the_apply_button_is_disabled() {
+		WebUI.verifyElementNotClickable(findTestObject('TP28SubtractMyPiggyBankBalance/button_button-native-n_Apply-237'))
+	}
+
 	@Then("I see an error message")
 	public void i_see_an_error_message() {
 		WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), 0)

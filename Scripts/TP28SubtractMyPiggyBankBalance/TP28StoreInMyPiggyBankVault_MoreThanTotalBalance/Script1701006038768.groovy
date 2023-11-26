@@ -39,11 +39,12 @@ WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/i
 
 WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
 
-WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'))
+WebUI.verifyElementNotClickable(findTestObject('TP28SubtractMyPiggyBankBalance/button_button-native-n_Apply-237'))
 
 WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), 0)
 
-WebUI.getText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), FailureHandling.STOP_ON_FAILURE).contains("Cannot store more money than the Total Balance in the Piggy Bank Vault")
+WebUI.getText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), FailureHandling.STOP_ON_FAILURE).contains(
+    'Cannot store more money than the Total Balance in the Piggy Bank Vault')
 
 WebUI.closeBrowser()
 
