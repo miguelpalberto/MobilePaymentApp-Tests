@@ -41,11 +41,12 @@ WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/i
 
 WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
 
-WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'))
+WebUI.verifyElementNotClickable(findTestObject('TP28SubtractMyPiggyBankBalance/button_button-native-n_Apply-237'))
 
 WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), 0)
 
-WebUI.getText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), FailureHandling.STOP_ON_FAILURE).contains("The amount being withdrawn is greater than the current Piggy Bank Vault balance")
+WebUI.getText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), FailureHandling.STOP_ON_FAILURE).contains(
+    'The amount being withdrawn is greater than the current Piggy Bank Vault balance')
 
 WebUI.closeBrowser()
 

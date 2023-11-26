@@ -34,7 +34,7 @@ Feature: Subtract From Piggy Bank Vault
     Scenario: I try to store more money than I have in my Total Balance in to my Piggy Bank Vault
       And I fill the amount with the "999999999"
       Then I should see the Apply button
-      When I click the Apply button
+      And I see that the Apply button is disabled
       Then I see an error message
       And I verify that the error message is "Cannot store more money than the Total Balance in the Piggy Bank Vault"
 			And I close the browser
@@ -43,7 +43,7 @@ Feature: Subtract From Piggy Bank Vault
    		And I switch the operation from storing to withdrawal
       And I fill the amount with the "999999999"
       Then I should see the Apply button
-      When I click the Apply button
+      And I see that the Apply button is disabled
       Then I see an error message
       And I verify that the error message is "The amount being withdrawn is greater than the current Piggy Bank Vault balance"
 			And I close the browser
