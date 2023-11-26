@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>main_inner-scroll scroll-y-ailEdit-2e1</name>
+   <name>mainPaginaProfile</name>
    <tag></tag>
    <elementGuidId>44af0356-4cc7-4c69-9d57-22b1393d026b</elementGuidId>
    <selectorCollection>

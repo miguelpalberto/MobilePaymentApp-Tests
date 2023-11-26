@@ -1,4 +1,4 @@
-package userDetails
+package userprofile
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,15 +44,26 @@ import cucumber.api.java.en.When
 
 
 
-class ViewUserDetails {
-	@When("I click on display user details button")
-	public void i_click_on_display_user_details_button() {
-		WebUI.click(findTestObject('Object Repository/ViewUserDetails/ion-button_User'));
+class TP12ViewUserDetails {
+
+
+
+
+	@When("I click on the user profile")
+	public void i_click_on_the_user_profile() {
+		WebUI.click(findTestObject('Object Repository/TP12ViewUserDetails/TP12Bion-button_User'))
 	}
 
-	@Then("I see my personal details view")
+	@Then("I should be on the user profile page")
+	public void i_should_be_on_the_user_profile_page() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-content_Phone numberNameEmailEdit'), 0)
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/mainPaginaProfileB'))
+	}
+	@And("I see my personal details view")
 	public void i_see_my_personal_details_view() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-list_Phone numberNameEmail'), 0)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_PhoneVer'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_NameVer'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/input_EmailVer'))
 	}
 }

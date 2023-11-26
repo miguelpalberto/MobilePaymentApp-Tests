@@ -130,4 +130,11 @@
       <testCaseId>Test Cases/TP-28-us9-subtract-my-piggy-bank-balance/subtract-my-piggy-bank-balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>07ecdb80-40a1-48ec-8b53-150bd3856165</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP12ViewUserDetails/TP12ViewUserDetails</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
