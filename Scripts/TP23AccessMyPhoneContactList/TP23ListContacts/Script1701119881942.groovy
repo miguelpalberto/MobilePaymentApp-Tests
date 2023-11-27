@@ -21,24 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/input_Phone_ion-input-0'), '900000001')
+WebUI.setText(findTestObject('Object Repository/TP23AccessMyPhoneContactList/input_Phone_ion-input-0'), '900000001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/input_Password_ion-input-1'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP23AccessMyPhoneContactList/input_Password_ion-input-1'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/input_PIN_ion-input-2'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP23AccessMyPhoneContactList/input_PIN_ion-input-2'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('TP-23-us11-access-my-phone-contact-list-/ion-button_Create'))
+WebUI.click(findTestObject('TP23AccessMyPhoneContactList/ion-button_Create'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/input_Pin_ion-input-3'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP23AccessMyPhoneContactList/input_Pin_ion-input-3'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('TP-23-us11-access-my-phone-contact-list-/ion-button_Enter'))
+WebUI.click(findTestObject('TP23AccessMyPhoneContactList/ion-button_Enter'))
 
-WebUI.click(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/div_Piggy Bank_ion-card-img-container'))
+WebUI.click(findTestObject('Object Repository/TP23AccessMyPhoneContactList/div_Piggy Bank_ion-card-img-container'))
 
-WebUI.verifyElementVisible(findTestObject('TP-23-us11-access-my-phone-contact-list-/ion-list_Contacts'))
+WebUI.verifyElementVisible(findTestObject('TP23AccessMyPhoneContactList/ion-list_Contacts'))
 
 WebUI.closeBrowser()
 

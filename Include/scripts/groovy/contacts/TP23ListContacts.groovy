@@ -48,12 +48,12 @@ class TP23ListContacts {
 	@When("I click on the send money button")
 	public void i_click_on_the_send_money_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/div_Piggy Bank_ion-card-img-container'))
+		WebUI.click(findTestObject('Object Repository/TP23AccessMyPhoneContactList/div_Piggy Bank_ion-card-img-container'))
 	}
 	
 	@Then("I should see my phone contacts list")
 	public void i_should_see_the_my_phone_contacts_list() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP-23-us11-access-my-phone-contact-list-/ion-list_Contacts'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP23AccessMyPhoneContactList/ion-list_Contacts'), 0)
 	}
 }

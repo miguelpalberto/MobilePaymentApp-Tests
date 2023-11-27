@@ -197,7 +197,7 @@
       <guid>ab097e74-7f1a-4ab9-a99f-3e72da959718</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP-23-us11-access-my-phone-contact-list-/TP23ListContacts</testCaseId>
+      <testCaseId>Test Cases/TP23AccessMyPhoneContactList/TP23ListContacts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
