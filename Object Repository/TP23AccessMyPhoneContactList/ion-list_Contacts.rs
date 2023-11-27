@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Contacts</name>
+   <tag></tag>
+   <elementGuidId>c5bf4995-b36c-4166-b72b-5d85e48baa71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-list.md.list-md.list-inset</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>2afa909a-fa12-464e-a355-8456f45abe85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md list-inset</value>
+      <webElementGuid>5b93b820-2356-4c85-86f1-a6666aac3553</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>f826ef0a-f5b4-493d-a383-9ae1ba3b94d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003</value>
+      <webElementGuid>418a7203-c313-4c70-afeb-90d08d6ec1bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md list-inset&quot;]</value>
+      <webElementGuid>f5186224-e489-4d30-9497-72b93da4ed09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      <webElementGuid>d12412dc-bfdb-4dff-82a9-8be7ce9cb748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::ion-list[1]</value>
+      <webElementGuid>83c77993-15c4-4b35-9b23-dbd5fb7feb87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-list[1]</value>
+      <webElementGuid>eb7b03e3-49e6-464e-b662-55f7b45f5887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list</value>
+      <webElementGuid>52fde39a-da96-4ce9-9afa-ce187da8a524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003' or . = 'Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003')]</value>
+      <webElementGuid>fd12dbcd-99b4-4cef-9b12-a3575a6e6895</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
