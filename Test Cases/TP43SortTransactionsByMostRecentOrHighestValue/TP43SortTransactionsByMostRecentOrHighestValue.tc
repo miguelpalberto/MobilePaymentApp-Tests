@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP43SortTransactionsByMostRecentOrHighestValue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f9f77b7-0b95-4266-ba02-508c5fd3f139</testCaseGuid>
+</TestCaseEntity>

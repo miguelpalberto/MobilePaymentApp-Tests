@@ -43,10 +43,13 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 class TP3CreateAVcardAssociateVcard {
-	@Given("I am in the vcard creation page")
-	public void i_am_in_the_vcard_creation_page() {
+	@Given("I open the app")
+	public void i_open_the_app() {
 		WebUI.openBrowser('');
 		WebUI.navigateToUrl('http://localhost:8100/login');
+	}
+	@Then("I see the vcard creation page")
+	public void i_see_the_vcard_creation_page() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_PhonePasswordPINCreate'), 0)
 	}
 
@@ -56,23 +59,13 @@ class TP3CreateAVcardAssociateVcard {
 		return;
 	}
 
-	@When("I fill the phone with phone")
-	public void i_fill_the_phone_with_phone() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '910001001');
-	}
-	@When("I fill the phone _with {string}")
-	public void i_fill_the_phone_with_custom_phone(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), string);
-	}
 	@When("I fill the phone with phone that has transactions and balance")
 	public void i_fill_the_phone_with_phone_that_has_transactions_and_balance() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '900000001');
 	}
-	@When("I fill the phone with phone that has no transactions and no balance")
-	public void i_fill_the_phone_with_phone_that_has_no_transactions_and_no_balance() {
+	@When("I fill the phone with phone that has no transactions and no balance and no contacts")
+	public void i_fill_the_phone_with_phone_that_has_no_transactions_and_no_balance_and_no_contacts() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '999999999');
 	}
@@ -94,14 +87,14 @@ class TP3CreateAVcardAssociateVcard {
 		WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create'));
 	}
 
-	@Then("I should see a message confirming the vcard create")
-	public void i_should_see_a_message_confirming_the_vcard_create() {
+	@Then("I see a message confirming the vcard create")
+	public void i_see_a_message_confirming_the_vcard_create() {
 		// Write code here that turns the phrase above into concrete actions
 		//WebUI.click(findTestObject('Object Repository/Page_Ionic App/div_dashboard'));
 	}
 
-	@Then("I should see the dashboard page")
-	public void i_should_see_the_dashboard_page() {
+	@Then("I see the dashboard page")
+	public void i_see_the_dashboard_page() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.getUrl().contains("dashboard")
 	}
@@ -112,40 +105,32 @@ class TP3CreateAVcardAssociateVcard {
 		return;
 	}
 
-	@Then("I should see an error message")
-	public void i_should_see_an_error_message() {
+	@Then("I see an error message")
+	public void i_see_an_error_message() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/p_auth_error'));
 	}
 
-	@Then("I should see an error message telling me the phone number is invalid")
-	public void i_should_see_an_error_message_telling_me_the_phone_number_is_invalid() {
+	@Then("I see an error message telling me the phone number is invalid")
+	public void i_see_an_error_message_telling_me_the_phone_number_is_invalid() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/p_Thephonefieldisinvalid'),
 				'The phone field is empty or does not have 9 digits or does not start with 9')
 	}
-	@Then("I should see an error message telling me the credentials are incorrect")
-	public void i_should_see_an_error_message_telling_me_the_credencials_are_incorrect() {
+	@Then("I see an error message telling me the credentials are incorrect")
+	public void i_see_an_error_message_telling_me_the_credencials_are_incorrect() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/p_Invalidcredentials'),
 				'Invalid credentials')
 	}
 
-	@Then("I should see an error message telling me the password field is empty")
-	public void i_should_see_an_error_message_telling_me_the_password_field_is_empty() {
+	@Then("I see an error message telling me the password field is empty")
+	public void i_see_an_error_message_telling_me_the_password_field_is_empty() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/p_Thepasswordfieldisempty'),
 				'The password field is empty')
 	}
-	@Then("I should see an error message telling me the pin is invalid")
-	public void i_should_see_an_error_message_telling_me_the_pin_is_invalid() {
+	@Then("I see an error message telling me the pin is invalid")
+	public void i_see_an_error_message_telling_me_the_pin_is_invalid() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/p_Thepinfieldemptyor'),
 				'The pin field is empty or does not have 3 digits')
-	}
-
-	@Then("I should see the vcard creation page")
-	public void i_should_see_the_vcard_creation_page() {
-		// Write code here that turns the phrase above into concrete actions
-		//WebUI.openBrowser('');
-		//WebUI.navigateToUrl('http://localhost:8100/login');
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_PhonePasswordPINCreate'), 0)
 	}
 
 	@When("I fill the pin with an incorrect pin")
@@ -170,8 +155,8 @@ class TP3CreateAVcardAssociateVcard {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '910');
 	}
-	@And("I close the browser")
-	public void close_the_browser() {
+	@And("I close the app")
+	public void close_the_app() {
 		WebUI.closeBrowser()
 	}
 

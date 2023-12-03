@@ -54,8 +54,8 @@ class TP12ViewUserDetails {
 		WebUI.click(findTestObject('Object Repository/TP12ViewUserDetails/TP12Bion-button_User'))
 	}
 
-	@Then("I should be on the user profile page")
-	public void i_should_be_on_the_user_profile_page() {
+	@Then("I am on the user profile page")
+	public void i_am_on_the_user_profile_page() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP12ViewUserDetails/ion-content_Phone numberNameEmailEdit'), 0)
 		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP12ViewUserDetails/mainPaginaProfileB'))
 	}

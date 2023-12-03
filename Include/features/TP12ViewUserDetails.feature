@@ -3,8 +3,9 @@ As a user I want to go to a personal details view
 So that I can see my personal vcard details
 
 Background:
-			Given I am in the vcard creation page 
-			And I fill the phone with phone
+			Given I open the app
+			And I see the vcard creation page
+			And I fill the phone with phone that has transactions and balance
 	    And I fill the password with password
 	    And I fill the pin with pin
 	    And I click on the create button
@@ -13,6 +14,7 @@ Background:
 			And I click on the enter button
 
 Scenario: View my personal user details
-    Given I click on the user profile
-    Then I should be on the user profile page
+    When I click on the user profile
+    Then I am on the user profile page
 		And I see my personal details view
+		And I close the app

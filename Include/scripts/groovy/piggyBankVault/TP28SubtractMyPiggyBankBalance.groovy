@@ -55,8 +55,8 @@ class TP28SubtractMyPiggyBankBalance {
 		WebUI.setText(findTestObject('Object Repository/TP28SubtractMyPiggyBankBalance/input_Piggy Bank Balance_inputValue'), string)
 	}
 
-	@Then("I should see the Apply button")
-	public void i_should_see_the_Apply_button() {
+	@Then("I see the Apply button")
+	public void i_see_the_Apply_button() {
 		WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
 	}
 
@@ -65,8 +65,8 @@ class TP28SubtractMyPiggyBankBalance {
 		WebUI.click(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'))
 	}
 
-	@Then("I should see a modal with a success message in my Piggy Bank Vault page")
-	public void i_should_see_a_modal_with_a_success_message_in_my_Piggy_Bank_Vault_page() {
+	@Then("I see a modal with a success message in my Piggy Bank Vault page")
+	public void i_see_a_modal_with_a_success_message_in_my_Piggy_Bank_Vault_page() {
 		WebUI.verifyElementText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-card-title_Success'), 'Success')
 	}
 
@@ -85,8 +85,8 @@ class TP28SubtractMyPiggyBankBalance {
 		WebUI.verifyElementNotClickable(findTestObject('TP28SubtractMyPiggyBankBalance/button_button-native-n_Apply-237'))
 	}
 
-	@Then("I see an error message")
-	public void i_see_an_error_message() {
+	@Then("I see an error message related to the amount")
+	public void i_see_an_error_message_related_to_the_amount() {
 		WebUI.verifyElementPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), 0)
 	}
 
@@ -95,8 +95,8 @@ class TP28SubtractMyPiggyBankBalance {
 		WebUI.getText(findTestObject('TP28SubtractMyPiggyBankBalance/ion-label-piggy-bank-errors'), FailureHandling.STOP_ON_FAILURE).contains(string)
 	}
 
-	@Then("I should not see the Apply button")
-	public void i_should_not_see_the_Apply_button() {
+	@Then("I do not see the Apply button")
+	public void i_do_not_see_the_Apply_button() {
 		WebUI.verifyElementNotPresent(findTestObject('TP28SubtractMyPiggyBankBalance/ion-button_Apply'), 0)
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "47BAABF99DDF5D2BD472A734BB31FB44",
+  "keywordClasses": [
+    {
+      "name": "transactions.TP43SortTransactionsByMostRecentOrHighestValue",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}
