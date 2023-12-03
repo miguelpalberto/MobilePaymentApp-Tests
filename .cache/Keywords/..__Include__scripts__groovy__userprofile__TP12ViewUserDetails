@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "D19470B256AE90F3A5614081A9C1C1A6",
+  "keywordFileContentHash": "0944A7685137AED658EE7DA70BB98D3C",
   "keywordClasses": [
     {
       "name": "userprofile.TP12ViewUserDetails",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -75,8 +75,8 @@ class TP13EditUserDetails {
 		WebUI.click(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-button_Save'))
 	}
 
-	@Then("I should see a modal confirming my profile changes")
-	public void i_should_see_a_modal_confirming_my_profile_changes() {
+	@Then("I see a modal confirming my profile changes")
+	public void i_see_a_modal_confirming_my_profile_changes() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-card-title_Success'), 'Success')
 	}
 
@@ -85,8 +85,8 @@ class TP13EditUserDetails {
 		WebUI.click(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-button_Close'))
 	}
 
-	@Then("I should see an error modal for unsuccessful profile changes")
-	public void i_should_see_an_error_modal_for_unsuccessful_profile_changes() {
+	@Then("I see an error modal for unsuccessful profile changes")
+	public void i_see_an_error_modal_for_unsuccessful_profile_changes() {
 		WebUI.verifyElementText(findTestObject('Object Repository/TP13EditUserDetails/TP13Bion-card-title_Error'), 'Error')
 	}
 

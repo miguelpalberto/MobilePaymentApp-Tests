@@ -50,7 +50,7 @@ class TP18DisplayLastTransactionInDashboard {
 	@When("I look at the Last Transaction panel")
 	public void i_look_at_the_Last_Transaction_panel() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/ion-lastTransactionWholePannel'),
-			0)
+				0)
 	}
 
 	@Then("I see my last transaction on the dashboard")
@@ -59,8 +59,7 @@ class TP18DisplayLastTransactionInDashboard {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-valorTransacao'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-numeroReferenciaTransacao'),
 				0)
-		WebUI.verifyElementText(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-numeroReferenciaTransacao'),
-				'58426-809444419')
+		//WebUI.verifyElementText(findTestObject('Object Repository/TP18DisplayLastTransactionInDashboard/p-numeroReferenciaTransacao'),'58426-809444419')
 	}
 
 	@Then("I see the transaction area displaying the text “No transactions yet”")

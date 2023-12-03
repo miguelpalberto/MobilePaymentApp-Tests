@@ -69,7 +69,7 @@ class TP14ViewBalanceInTheDashboard {
 	public void i_see_my_balance_on_the_dashboard() {
 		//WebUI.verifyElementText(findTestObject('Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue'),'199,47 €')
 		WebUI.verifyElementPresent(findTestObject("Object Repository/TP14ViewBalanceInTheDashboard/dashboardBalanceValue"), 10)
-		
+
 
 	}
 

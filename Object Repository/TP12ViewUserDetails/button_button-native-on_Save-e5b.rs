@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Ionic App/ion-button_Save</value>
+      <value>Object Repository/TP12ViewUserDetails/ion-button_Save</value>
       <webElementGuid>ad3aee17-b23a-4686-a8a4-3d413fcfa5f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>

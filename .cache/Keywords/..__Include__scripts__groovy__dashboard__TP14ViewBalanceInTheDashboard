@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "9A104507F15702C492AAD4B0788F5976",
+  "keywordFileContentHash": "E85593400CCC80D657A1CA59170B971E",
   "keywordClasses": [
     {
       "name": "dashboard.TP14ViewBalanceInTheDashboard",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

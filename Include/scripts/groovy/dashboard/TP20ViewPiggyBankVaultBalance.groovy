@@ -1,4 +1,4 @@
-package balance
+package dashboard
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,13 +44,13 @@ import cucumber.api.java.en.When
 
 
 class TP20ViewPiggyBankVaultBalance {
-	@And("I should see the Piggy Bank Vault balance")
-	public void i_should_see_the_Piggy_Bank_Vault_balance() {
+	@And("I see the Piggy Bank Vault balance")
+	public void i_see_the_Piggy_Bank_Vault_balance() {
 		WebUI.getText(findTestObject('TP20ViewPiggyBankVaultBalance/ion-card-piggy-balance'), FailureHandling.STOP_ON_FAILURE).contains("No balance")
 	}
 
-	@And("I should see the text No Balance")
-	public void i_should_see_text_no_balance() {
+	@And("I see the text No Balance")
+	public void i_see_text_no_balance() {
 		!WebUI.getText(findTestObject('TP20ViewPiggyBankVaultBalance/ion-card-piggy-balance'), FailureHandling.STOP_ON_FAILURE).contains("No balance")
 	}
 }

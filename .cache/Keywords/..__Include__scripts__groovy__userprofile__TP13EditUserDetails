@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "64E4028DC07CFB37A59C35B649F04EF5",
+  "keywordFileContentHash": "F29280AA5E4EBB8F3AF89AAA854CCEE2",
   "keywordClasses": [
     {
       "name": "userprofile.TP13EditUserDetails",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -46,8 +46,8 @@ import cucumber.api.java.en.When
 
 class TP7ViewListOfTransactions {
 
-	@Then("I should see the list of my transactions")
-	public void i_should_see_the_list_of_my_transactions() {
+	@Then("I see the list of my transactions")
+	public void i_see_the_list_of_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('TP7ViewListOfTransactions/ion-row_Reference'), 0)
 	}
@@ -58,8 +58,8 @@ class TP7ViewListOfTransactions {
 		WebUI.click(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'))
 	}
 
-	@Then("I should not see the Show More button")
-	public void i_should_not_see_the_Show_More_button() {
+	@Then("I do not see the Show More button")
+	public void i_do_not_see_the_Show_More_button() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementNotPresent(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'), 0)
 	}
