@@ -3,7 +3,7 @@
    <description></description>
    <name>ion-col_Reference42231-399679499</name>
    <tag></tag>
-   <elementGuidId>e3e9eacf-1956-414f-ac3e-4acb9b89ded4</elementGuidId>
+   <elementGuidId>0b0aee6a-46a6-495d-9e5c-1ebc962ab774</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-col</value>
-      <webElementGuid>24e8e4d8-5f39-4d32-bcec-20c0ea2eb4ea</webElementGuid>
+      <webElementGuid>bc3208b6-e2f4-42df-a5e6-b68eca22f1e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>md</value>
-      <webElementGuid>72594cc5-f50b-46ca-8492-f7bf214bb359</webElementGuid>
+      <webElementGuid>9cd4987f-3815-4fff-972d-eb54cb6f5a02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reference:42231-399679499</value>
-      <webElementGuid>2671ce1c-93d1-44f5-8c57-a3990925a8bc</webElementGuid>
+      <webElementGuid>244a1f49-b223-4341-8916-59104991ee3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]</value>
-      <webElementGuid>d57e14eb-5034-4bdc-a00f-d04844dec95b</webElementGuid>
+      <webElementGuid>a779bd2f-75c2-4519-8d42-ea405fd7e161</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[56]/ion-label/ion-grid/ion-row/ion-col</value>
-      <webElementGuid>4af0d1bd-e46f-4fd9-8b46-c1a72418b8a3</webElementGuid>
+      <webElementGuid>182304df-5c24-47bd-9860-96171b2eb015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='branco.goncalo@clix.pt'])[1]/following::ion-col[15]</value>
-      <webElementGuid>eae46871-5d2e-42e0-8293-c3db91403cb7</webElementGuid>
+      <webElementGuid>e8a9378a-3238-44dd-b620-4b4bc37beb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT23160350270369817713354'])[1]/following::ion-col[21]</value>
-      <webElementGuid>1e7dd5ae-2ca3-4e59-b10a-d745145fbee1</webElementGuid>
+      <webElementGuid>c34f2289-49a2-42dc-be26-689e4366c370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-item[56]/ion-label/ion-grid/ion-row/ion-col</value>
-      <webElementGuid>4635f9f6-7441-4e69-acf8-923e2bf85bf6</webElementGuid>
+      <webElementGuid>b9ed5111-f6fb-4efe-ae8f-914c361fe559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ion-col[(text() = 'Reference:42231-399679499' or . = 'Reference:42231-399679499')]</value>
-      <webElementGuid>ae4bc081-da64-499f-8d74-662bd8ae03c1</webElementGuid>
+      <webElementGuid>a5c3785a-bc27-4ffa-9aa4-19b8f55e57dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button-native-tivated-SortAmount</name>
+   <name>button_button-native-cusable-901</name>
    <tag></tag>
-   <elementGuidId>8f01e6e2-439a-47e2-bab3-e7138edc9bcf</elementGuidId>
+   <elementGuidId>5ac718bb-36d5-4e54-a624-bdf6c8c4b512</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e029bf64-04d7-4e3c-81b4-7de80d239c06</webElementGuid>
+      <webElementGuid>dbf232d0-64d7-4b30-aaa7-d80ac298219b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c6d6a050-2d8b-4b9f-befa-6951ed8c6e93</webElementGuid>
+      <webElementGuid>761d95a2-a4c0-4204-9863-71f37967ca66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-native</value>
-      <webElementGuid>37ce0640-fba1-4005-bd09-b37a6c3df0dc</webElementGuid>
+      <webElementGuid>3a31a74e-1d16-4af0-baff-db810fd37a14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>part</name>
       <type>Main</type>
       <value>native</value>
-      <webElementGuid>b510396e-1774-40dd-b864-be4eb642564f</webElementGuid>
+      <webElementGuid>c98df5ea-c64b-413c-b9ca-b28fa898eff0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]</value>
-      <webElementGuid>80480561-62cc-4b42-997d-a795ac8e724b</webElementGuid>
+      <webElementGuid>8a224c57-c8e3-4228-a871-b60e154f7839</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ion-button_SortAscDesc</value>
-      <webElementGuid>69911e1d-c102-437e-ae7c-49db25a0cbd5</webElementGuid>
+      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ButtonsC/ion-button_Filters_custom-button-sorts date-button md button button- button-solid ion-activatable ion-focusable</value>
+      <webElementGuid>ba9052e7-dbba-487e-9f07-9a5ce0136c3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f4b38cda-4d42-4f5b-b530-c2b8223003f3</webElementGuid>
+      <webElementGuid>2ac37bef-f3e2-452d-9e81-a7f31794f5b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>87a49ce7-30ad-4551-8e36-1695b2a42ea3</webElementGuid>
+      <webElementGuid>7f0fa9bf-90cd-4b55-8348-3e73739adbfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>e2ab7d57-cc25-47d8-89e3-0e44623fc82d</webElementGuid>
+      <webElementGuid>3eb6c616-c757-43af-a3df-30d0c20c9797</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

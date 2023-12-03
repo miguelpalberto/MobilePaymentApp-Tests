@@ -3,7 +3,7 @@
    <description></description>
    <name>ion-button_Enter</name>
    <tag></tag>
-   <elementGuidId>217d5a44-13be-4324-88ec-e5ed449b9938</elementGuidId>
+   <elementGuidId>2f32d695-4377-413f-a520-1d524f035553</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-button</value>
-      <webElementGuid>ecbf8b05-637b-4c5c-9127-0aad2675f4e9</webElementGuid>
+      <webElementGuid>6420ce12-83f6-4536-a84f-473b7c64a5ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>enter ion-color ion-color-medium md button button-block button-solid ion-activatable ion-focusable ion-activated</value>
-      <webElementGuid>29a996ec-3d98-40bd-bedf-53d2b1bc63e7</webElementGuid>
+      <webElementGuid>c45e2efc-9f47-49f7-a679-049d600da40e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>color</name>
       <type>Main</type>
       <value>medium</value>
-      <webElementGuid>115891f1-a595-4aa2-ae96-d91d67f648d9</webElementGuid>
+      <webElementGuid>301ef412-6c67-41db-a600-88295ee6cf35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>expand</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>8218be3a-6dad-40b4-b4f6-55368e7c8d32</webElementGuid>
+      <webElementGuid>8c06af9d-0668-43d5-a1f3-88f4ede5b685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enter</value>
-      <webElementGuid>1839536d-da7c-4d56-87e5-69ffe0c8dc3e</webElementGuid>
+      <webElementGuid>433350b5-9b48-4f33-bab4-16fb83ddb765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ion-overlay-1&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-button[@class=&quot;enter ion-color ion-color-medium md button button-block button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
-      <webElementGuid>11a863a6-d5b9-4e45-81de-7cb720bcdd75</webElementGuid>
+      <webElementGuid>9a931fba-9822-47c9-9e6e-ff89c922133e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-modal[@id='ion-overlay-1']/div/ion-button</value>
-      <webElementGuid>4ece50f8-d450-403d-93c1-0ffea2571a22</webElementGuid>
+      <webElementGuid>e320f9ee-5840-48c8-bc81-37b5ab2edc6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pin'])[1]/following::ion-button[1]</value>
-      <webElementGuid>a3dc3e01-6b67-42b2-a7be-55e0da342993</webElementGuid>
+      <webElementGuid>7038d4d0-7bda-421f-8cbb-15eb362202be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::ion-button[1]</value>
-      <webElementGuid>43e54370-31ca-4ce8-be1c-574262003eb8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('/button[@class=', '&quot;', 'button-native', '&quot;', ']')])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>1caf3e29-ed18-46b9-8e6d-2fe0a5d07353</webElementGuid>
+      <webElementGuid>3305c518-b522-4a16-94fb-7038b9fa7b75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enter']/parent::*</value>
-      <webElementGuid>154f6d59-e4e7-4345-a8fa-e18b62fa4372</webElementGuid>
+      <webElementGuid>cf445c22-6406-4080-83e8-322916b5f07d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-modal/div/ion-button</value>
-      <webElementGuid>ec954b5c-c008-471b-b7ce-8dafc4dbb75d</webElementGuid>
+      <webElementGuid>8223a5c1-b89b-4cdc-a2c0-018c9719b4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ion-button[(text() = 'Enter' or . = 'Enter')]</value>
-      <webElementGuid>f11e07b1-9d03-4241-b143-04b1348eb17f</webElementGuid>
+      <webElementGuid>f1aea707-2d83-4e01-8f1d-2f1074b78026</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

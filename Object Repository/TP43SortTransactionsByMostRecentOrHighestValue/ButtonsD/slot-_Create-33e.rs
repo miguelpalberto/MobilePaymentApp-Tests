@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>slot-_Create-5ff</name>
+   <name>slot-_Create-33e</name>
    <tag></tag>
-   <elementGuidId>ad047703-aa42-451c-bbbc-b4a3538e0df3</elementGuidId>
+   <elementGuidId>4d9613c0-7780-41ab-a67e-c2af66c2ba16</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>slot</value>
-      <webElementGuid>69b20e71-ff42-4c01-8526-d72f2b50397b</webElementGuid>
+      <webElementGuid>b75fa868-ad0e-4b11-88ab-1c26e0e980aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,15 +26,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]/slot[3]</value>
-      <webElementGuid>4b0e3d8b-2ec1-4846-914e-ef3baebda967</webElementGuid>
+      <webElementGuid>eae1cdfd-590e-48ad-aed8-e425e59a93f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/Buttons/ion-button_Create</value>
-      <webElementGuid>1d542fa5-1860-4446-a286-d04d9bd55e55</webElementGuid>
+      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ButtonsD/ion-button_Create</value>
+      <webElementGuid>4e34093e-679b-4041-9ae3-d94bdb7345b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cdc85f1a-6ea3-4382-be85-175f5a1f113c</webElementGuid>
+      <webElementGuid>ceb73d25-5127-42e2-9ece-e2c2a29a04f0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

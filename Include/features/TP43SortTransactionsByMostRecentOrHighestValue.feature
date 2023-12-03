@@ -16,16 +16,16 @@ Feature: Filter Transactions by Date Range
     And I see the dashboard page
     And I click on the Show More button
     And I see the list of my transactions
-
-  Scenario: I sort my transactions by decrescent amount
-
-    When I select the Sort By Amount button
-    And I select the Decrescent button
-    Then I see my transactions sorted by decrescent amount
-    And I close the app
-
+    
   Scenario: I sort my transactions by ascendent date
     When I select the Sort By Date button
     And I select the Ascendent button
     Then I see my transactions sorted by ascendent date
     And I close the app
+
+  Scenario: I sort my transactions by decrescent amount
+    When I select the Sort By Amount button
+    And I select the Decrescent button
+    Then I see my transactions sorted by decrescent amount
+    And I close the app
+

@@ -3,7 +3,7 @@
    <description></description>
    <name>h1_-863.36</name>
    <tag></tag>
-   <elementGuidId>61bf4cdc-c48d-434a-ad27-7676bce4c88e</elementGuidId>
+   <elementGuidId>edeb8771-28ba-4302-869d-eca6cff04ac5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>33cc84bc-08c2-450d-ae28-32e209a6a6b2</webElementGuid>
+      <webElementGuid>faee7beb-644f-4a61-a97a-40ded3033ee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>color</name>
       <type>Main</type>
       <value>success</value>
-      <webElementGuid>e92f5dd8-9f74-49b0-a68d-62b3df2f5055</webElementGuid>
+      <webElementGuid>c495771b-2442-45e7-8d9e-a9bc6125290f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>-863.36€</value>
-      <webElementGuid>6c06685b-be54-4bac-9c6f-fb073e860967</webElementGuid>
+      <webElementGuid>14ba100f-5cf3-44f0-b6eb-d4f0bd0fe6c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;ion-text-end md&quot;]/h1[1]</value>
-      <webElementGuid>210c4934-6302-458a-9869-cb0e84bc6418</webElementGuid>
+      <webElementGuid>46c2e51e-a713-4fcf-98b2-9595ffca5a1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[56]/ion-label/ion-grid/ion-row/ion-col[3]/h1</value>
-      <webElementGuid>5a51a856-59b0-4f7c-b0c6-845aace63854</webElementGuid>
+      <webElementGuid>f630bb13-f281-4ac6-b14c-d2fe1f70deb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='branco.goncalo@clix.pt'])[1]/following::h1[11]</value>
-      <webElementGuid>4f67ac6c-61c0-410d-8ed7-62639ce3b02d</webElementGuid>
+      <webElementGuid>0adcc118-e4ae-46d9-a747-fe713719f863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT23160350270369817713354'])[1]/following::h1[15]</value>
-      <webElementGuid>236b1f5a-6b11-4474-a97a-2d324eddef40</webElementGuid>
+      <webElementGuid>f2a072ba-cfe7-43c5-9588-010bb69fa783</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='-863.36€']/parent::*</value>
-      <webElementGuid>74be0a8a-4ab3-4c4e-85aa-6164bffeb2c8</webElementGuid>
+      <webElementGuid>0571260e-eb0f-4b61-9f20-97d767a96ec4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-item[56]/ion-label/ion-grid/ion-row/ion-col[3]/h1</value>
-      <webElementGuid>1ca0287c-6703-459a-914f-28750a579dc5</webElementGuid>
+      <webElementGuid>969c74f1-721f-4bf5-a66b-2000b8fee02f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = '-863.36€' or . = '-863.36€')]</value>
-      <webElementGuid>87631cc5-a787-49b1-97df-5d81170280bc</webElementGuid>
+      <webElementGuid>681c39f7-49c1-4b27-ab68-0288e0234018</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>ion-col_ReferencePT96208402479312057159036</name>
    <tag></tag>
-   <elementGuidId>54c1f320-2ed4-4deb-9b8a-24d630ced4e6</elementGuidId>
+   <elementGuidId>4c03a4ac-d9e5-4383-97af-60bb96d1b188</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-col</value>
-      <webElementGuid>004e79fc-d445-4bd0-9ee4-4c75ca75e5d3</webElementGuid>
+      <webElementGuid>9579d7b2-2966-49ec-ac5a-60376c3ffae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>md</value>
-      <webElementGuid>e2f651a6-f4a1-425b-8ce1-6090e50a6b3f</webElementGuid>
+      <webElementGuid>68e6ed95-0803-4b4d-adbe-415c9d600a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reference:PT96208402479312057159036</value>
-      <webElementGuid>bc317859-ecd6-4cc1-969f-7e3055a7195e</webElementGuid>
+      <webElementGuid>fc84e3e3-5123-4baa-89d4-d411fbde4744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]</value>
-      <webElementGuid>a053eea3-8f6f-45b4-afb5-b84a09cae0c5</webElementGuid>
+      <webElementGuid>5f528eb2-9cb5-4750-8705-be5b1b2034e7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item/ion-label/ion-grid/ion-row/ion-col</value>
-      <webElementGuid>787c2ba3-29fa-4caf-a382-49adccd833e5</webElementGuid>
+      <webElementGuid>8d645e0a-b600-41f6-9906-3ce8014b2eae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::ion-col[1]</value>
-      <webElementGuid>3817433f-c564-462f-906e-1835694d03ff</webElementGuid>
+      <webElementGuid>d123e001-8604-48be-a5ba-767b8c19253d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[1]/following::ion-col[1]</value>
-      <webElementGuid>70dbdf0e-40f5-4dfa-a324-153335de73d4</webElementGuid>
+      <webElementGuid>dda400ee-7d4b-4562-b38c-2b68f9ccb38b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT24797555344792347442334'])[1]/preceding::ion-col[3]</value>
-      <webElementGuid>046e8fee-ef20-4f6b-b1b6-c11b93ae6310</webElementGuid>
+      <webElementGuid>94fd327d-3140-47ca-82a9-09772b651697</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-label/ion-grid/ion-row/ion-col</value>
-      <webElementGuid>02b7de44-1f77-4051-afba-d521e908b230</webElementGuid>
+      <webElementGuid>f74022f8-bdcf-4df3-b1eb-8d525d395eb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ion-col[(text() = 'Reference:PT96208402479312057159036' or . = 'Reference:PT96208402479312057159036')]</value>
-      <webElementGuid>3df19cc2-9b20-402e-962e-de2a40214413</webElementGuid>
+      <webElementGuid>0380c424-2d23-47c9-aeca-1b386e831dc8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

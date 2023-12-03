@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>slot-ow More-efb</name>
+   <name>slot-n_Enter-fda</name>
    <tag></tag>
-   <elementGuidId>14ee8ee4-c267-479e-ba00-f6bc51fa9c1f</elementGuidId>
+   <elementGuidId>ad06ff2b-17d4-4d6b-a90b-1cabacfa5538</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>slot</value>
-      <webElementGuid>5678a48c-217e-44b3-8982-aa0cb6ef78b5</webElementGuid>
+      <webElementGuid>86164a88-15f9-42c2-a16c-2e2a5756cdf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,15 +26,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]/slot[3]</value>
-      <webElementGuid>b259234d-2fcf-42ff-9f45-614528b3f4a0</webElementGuid>
+      <webElementGuid>825e9a6e-fbe2-43e6-8c6d-a35ff378ebf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/Buttons/ion-button_Show More</value>
-      <webElementGuid>7725b7a1-1920-4f00-98ec-951df2be311d</webElementGuid>
+      <value>Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ButtonsD/ion-button_Enter</value>
+      <webElementGuid>cdbb4323-5c09-47e4-a9bf-50faffe55062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +42,6 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8ec1fe91-42b1-4939-9e57-386369ec8f5e</webElementGuid>
+      <webElementGuid>30e2dc1d-d22c-4595-bb8b-d4f5e4b7e230</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-button_SortAmount</name>
+   <name>ion-button_SortAscDesc</name>
    <tag></tag>
-   <elementGuidId>94ff68a3-f774-4008-b0a1-ff0be7c13335</elementGuidId>
+   <elementGuidId>73acb2d1-e47a-425f-8c8c-3cb24ea94e3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>ion-button.md.button.button-solid.ion-activatable.ion-focusable.custom-button-sorts.arrow-button.ion-activated</value>
+         <value>ion-button.md.button.button-solid.ion-activatable.ion-focusable.custom-button-sorts.arrow-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/div/div[2]/ion-button[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-button</value>
-      <webElementGuid>817d02e0-5a79-4f07-a508-0cd4ff57671c</webElementGuid>
+      <webElementGuid>f99e3d24-3c74-4631-8ac9-64dfc81e6008</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>md button button-solid ion-activatable ion-focusable custom-button-sorts arrow-button ion-activated</value>
-      <webElementGuid>ed9021d1-6066-4d68-a864-f59f778a3e72</webElementGuid>
+      <value>md button button-solid ion-activatable ion-focusable custom-button-sorts arrow-button</value>
+      <webElementGuid>17f9f82f-4b55-4c03-987e-676631d01c40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;sorts&quot;]/ion-button[@class=&quot;md button button-solid ion-activatable ion-focusable custom-button-sorts arrow-button ion-activated&quot;]</value>
-      <webElementGuid>d9a40167-0183-4f0c-87e2-b623bce54dcb</webElementGuid>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;sorts&quot;]/ion-button[@class=&quot;md button button-solid ion-activatable ion-focusable custom-button-sorts arrow-button&quot;]</value>
+      <webElementGuid>94d69ba6-849b-4ff0-893a-40e72b31594d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/div/div[2]/ion-button[3]</value>
-      <webElementGuid>9bfdff06-f208-4ac7-a8dd-c83b6909d396</webElementGuid>
+      <webElementGuid>871f6e4c-606b-488b-a93e-f2d6e89815ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::ion-button[3]</value>
-      <webElementGuid>95edcfed-5099-42f4-aed6-c3ed3bad6f80</webElementGuid>
+      <webElementGuid>08aba6ac-dcd4-456e-b42d-ae650418e2af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,23 +62,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transactions'])[1]/following::ion-button[4]</value>
-      <webElementGuid>9eb6a0b4-8581-45e9-b9a3-5bdfff84b20a</webElementGuid>
+      <webElementGuid>a606b5c0-df5f-4bc6-8790-aa7edce0220d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT96208402479312057159036'])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>5543569d-94bf-4a17-a033-4bf2b4abde8d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='lourenco64@yahoo.com'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>dda83de0-5307-42c2-929a-2df09ae72594</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT24797555344792347442334'])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>e81e3c22-4a7b-4f61-abeb-a2616f2cc07b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT47093729601003645111636'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>408588a1-4e22-4f20-969e-cb07c8b65e3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ion-button[3]</value>
-      <webElementGuid>a112b4af-2f89-4221-a901-5cc5865083c1</webElementGuid>
+      <webElementGuid>d730e519-04f6-4779-9a90-6f92a59de18e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
