@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slot-n_Enter-611</name>
+   <tag></tag>
+   <elementGuidId>52d8e414-f466-496d-b87d-0254f1b95c02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-native > span.button-inner > slot:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>slot</value>
+      <webElementGuid>2f1c3d3a-5500-42d4-bb66-d4aad562624f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]/slot[3]</value>
+      <webElementGuid>a206efe4-0b84-4662-8298-6b134882287e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Page_Ionic App/ion-button_Enter</value>
+      <webElementGuid>f03fdab6-89ad-414a-99a5-9152da6fd03c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1556efed-1393-45fd-8a21-0978f997ee2d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

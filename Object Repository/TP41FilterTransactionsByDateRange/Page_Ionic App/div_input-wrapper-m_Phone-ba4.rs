@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_input-wrapper-m_Phone-ba4</name>
+   <tag></tag>
+   <elementGuidId>91bff45d-7ac9-4271-bbea-3d2f3e520301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.item-native > div.item-inner > div.input-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>caa93718-7d70-48a6-a5b4-b2b8edea2708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-wrapper</value>
+      <webElementGuid>75ac8274-5d4e-40e7-aac3-64f47e71bc7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;item-native&quot;]/div[@class=&quot;item-inner&quot;]/div[@class=&quot;input-wrapper&quot;]</value>
+      <webElementGuid>91b51311-a8ef-4ff0-93a4-1c74f1a735c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Page_Ionic App/ion-item_Phone</value>
+      <webElementGuid>e204cf76-2fac-412b-a627-170872072405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1e02406f-12bf-4cca-9518-701bbf13b5e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      <webElementGuid>20f87923-d3b5-4116-a444-710ecbdbf2ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

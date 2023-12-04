@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4314C2FD175C00C6DB40603EB8DDC449",
+  "keywordClasses": [
+    {
+      "name": "transactions.TP41FilterTransactionsByDateRange",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

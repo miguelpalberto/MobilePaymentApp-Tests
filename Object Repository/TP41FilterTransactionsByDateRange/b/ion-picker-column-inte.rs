@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-picker-column-inte</name>
+   <tag></tag>
+   <elementGuidId>f68e5ad4-3f81-4829-b6ee-1b0de837912f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.datetime-year > div.wheel-order-month-first > ion-picker-internal > ion-picker-column-internal.year-column.ion-color.ion-color-primary.md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-picker-column-internal</value>
+      <webElementGuid>7b6d9881-953f-4cd0-aeff-0c47956487a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>year-column ion-color ion-color-primary md</value>
+      <webElementGuid>d9254fdc-bb3e-43d3-b3dc-6b3540ba8a7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>exportparts</name>
+      <type>Main</type>
+      <value>wheel-item, active</value>
+      <webElementGuid>3f70424e-ad1e-49a5-8274-a8638a6626c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>65f8fb46-bbb0-425f-a757-ac4e31e90b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>8cda9b02-9dd2-4c6a-a21e-92824979b494</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;datetime-year&quot;]/div[@class=&quot;wheel-order-month-first&quot;]/ion-picker-internal[1]/ion-picker-column-internal[@class=&quot;year-column ion-color ion-color-primary md&quot;]</value>
+      <webElementGuid>57857962-04c5-4d8d-8224-55ea50bd71b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/b/ion-datetime_Start Date_ion-co</value>
+      <webElementGuid>a5af8290-70a1-477a-861a-04706dc4b6ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c78d30ac-d1d7-4d69-b3f2-d7c57953b6aa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
