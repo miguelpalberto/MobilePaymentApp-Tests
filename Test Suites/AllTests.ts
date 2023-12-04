@@ -74,4 +74,18 @@
       <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28SubtractMyPiggyBankBalance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>211caffa-2683-421f-becf-ccefd3d01cce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP50SendMoney/TP50SendMoney</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e1d41e2-975d-4b8d-a1f1-0dc6380018c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP43SortTransactionsByMostRecentOrHighestValue/TP43SortTransactionsByMostRecentOrHighestValue</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-content-success-message</name>
+   <tag></tag>
+   <elementGuidId>e4973003-7f2a-458a-9732-767b9b64bec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-content.ion-text-center.md.content-ltr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-content</value>
+      <webElementGuid>076722d0-0edb-4df9-9214-ed8eda937b77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-text-center md content-ltr</value>
+      <webElementGuid>fd959db1-92c9-4389-a8c4-7892f45a520d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0,01€ sent to Miguel Pedrosa AlbertoContinue</value>
+      <webElementGuid>fa8ad8fa-2f87-460e-8a82-8caecdfdda90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;ion-text-center md content-ltr&quot;]</value>
+      <webElementGuid>ba012a72-c6a7-45cf-9738-f060e40bf891</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content</value>
+      <webElementGuid>63707b3b-dbf1-46ba-a9d6-75fa251c3eae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/following::ion-content[1]</value>
+      <webElementGuid>789cdc30-1ccc-4168-9bf8-05832cec7dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Code'])[1]/following::ion-content[1]</value>
+      <webElementGuid>5a33d7f0-5a53-4533-b3c2-d972834507ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('/div[@class=', '&quot;', 'inner-scroll scroll-y', '&quot;', ']')])[1]/preceding::ion-content[1]</value>
+      <webElementGuid>931b3973-e138-4c9c-aa8a-ec330cd6448e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-modal/div/ion-content</value>
+      <webElementGuid>023e9f1e-1e33-49c3-b487-1c2acf574ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-content[(text() = '0,01€ sent to Miguel Pedrosa AlbertoContinue' or . = '0,01€ sent to Miguel Pedrosa AlbertoContinue')]</value>
+      <webElementGuid>1ce22a7c-398a-4756-8e39-7991cb95d43e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
