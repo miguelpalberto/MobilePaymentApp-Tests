@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_1991-pen-f84-e2aDoesntwork</name>
+   <name>button_01-c-input-8b9</name>
    <tag></tag>
-   <elementGuidId>7a9ebfed-ac4e-41ea-9d35-e66f0e0e95cd</elementGuidId>
+   <elementGuidId>3386fe38-f968-4a8f-abb5-7e1ca06e0dba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='1991']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='01']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>962990ea-f57a-48c7-9cb6-d9f3df8ba014</webElementGuid>
+      <webElementGuid>5b0aa546-b6ab-4765-afb9-ee443188b427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>095562ee-98ad-4749-ac60-bc2a6d0b404b</webElementGuid>
+      <webElementGuid>1699980d-4ddd-45b6-b7a7-6712f3b03316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,23 @@
       <name>class</name>
       <type>Main</type>
       <value>picker-item</value>
-      <webElementGuid>687e512e-6e46-491b-8cd1-1b86154adfdb</webElementGuid>
+      <webElementGuid>8ab1afe1-4c1d-4c3c-9925-8f28f6a676fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-value</name>
       <type>Main</type>
-      <value>1991</value>
-      <webElementGuid>9571bab7-6a35-44c8-8d8d-71e4a4e04ade</webElementGuid>
+      <value>1</value>
+      <webElementGuid>18e09984-8a39-4304-a05f-336b52731a03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-index</name>
       <type>Main</type>
-      <value>68</value>
-      <webElementGuid>798f6930-a3b0-46ed-a5c1-c3954392607e</webElementGuid>
+      <value>1</value>
+      <webElementGuid>af822fbe-c8af-445c-b708-d4440c0c3a35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>part</name>
       <type>Main</type>
       <value>wheel-item</value>
-      <webElementGuid>15158fd9-dbea-4a15-9b87-4cfc72a14100</webElementGuid>
+      <webElementGuid>b2d06d19-cb28-401e-84b7-9ddabbf5566f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1991</value>
-      <webElementGuid>6122fc2e-6279-4f0b-8e38-6b06983e0eca</webElementGuid>
+      <value>01</value>
+      <webElementGuid>5863d243-624e-4fab-b225-68287b7cff01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,15 +78,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;picker-item&quot;]</value>
-      <webElementGuid>7d0f3c86-9969-4151-ac5d-0e9749056d85</webElementGuid>
+      <webElementGuid>03abe508-5f3a-4e2d-80b9-3da2d6556bfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/c/ion-picker-column-internal_year-column</value>
-      <webElementGuid>29a9cbd0-32f9-4c9f-a41d-dad4e6aebbec</webElementGuid>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/a/ion-picker-column-internal_Credit_ion-color_cdb06e</value>
+      <webElementGuid>a94e9f01-584f-4acb-82dd-d6ff25cbf49f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,22 +94,22 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>43d11b18-7a08-49df-b2a6-bd8ab9a3f8e3</webElementGuid>
+      <webElementGuid>6617da46-6228-458d-9703-bb504c591e9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='1991']/parent::*</value>
-      <webElementGuid>a4902432-5ea6-4c37-a6c9-cec3032c8a82</webElementGuid>
+      <value>//*/text()[normalize-space(.)='01']/parent::*</value>
+      <webElementGuid>ad725cac-c973-447a-9228-f02ddde89e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '1991' or . = '1991')]</value>
-      <webElementGuid>e79aea5f-72e3-40dd-8d5c-ba3f65239b57</webElementGuid>
+      <value>//button[(text() = '01' or . = '01')]</value>
+      <webElementGuid>1f3172d8-8b08-433b-92a7-ba033fc616db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

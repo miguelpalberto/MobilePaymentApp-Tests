@@ -31,7 +31,7 @@ Feature: Filter Transactions by Date Range
       And I click on End Date
       And I see the Calendar modal
       And I choose a year
-      And I choose a recent month
+      And I choose a month
       And I choose a day
       And I choose an hour
       And I press OK for the calendar
@@ -41,5 +41,36 @@ Feature: Filter Transactions by Date Range
       And I close the app
       
    Scenario: I filter my transactions by a date range that doesnt have transactions
+      When I click on Filters button
+      And I see the Filters modal
+      And I click on Start Date
+      And I see the Calendar modal
+      And I choose a month
+      And I choose a day
+      And I press OK for the calendar 
+      
+      And I click on End Date
+      And I see the Calendar modal
+      And I choose the same month as before
+      And I choose a day
+      And I press OK for the calendar
+      And I press Confirm for the Filters 
+      
+      Then I see there are no transactions after the filter
+      And I close the app
    
    Scenario: I reset the filter of my transactions
+         When I click on Filters button
+		      And I see the Filters modal
+		      And I click on End Date
+		      And I see the Calendar modal
+		      And I choose a month
+		      And I choose a day
+		      And I press OK for the calendar 
+		      And I press Confirm for the Filters 
+		      
+		      And I click on Filters button
+		      And I press Reset for the Filters 
+		      
+		      Then I see there are no filters being aplied
+		      And I close the app

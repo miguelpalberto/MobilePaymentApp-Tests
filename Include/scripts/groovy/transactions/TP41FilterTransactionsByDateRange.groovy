@@ -98,25 +98,79 @@ class TP41FilterTransactionsByDateRange {
 
 	@When("I click on End Date")
 	public void i_click_on_End_Date() {
-
-		throw new PendingException();
+		WebUI.click(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/input_End Date_dateInput'))
 	}
 
-	@When("I choose a recent month")
-	public void i_choose_a_recent_month() {
-		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
-		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
-	}
+	//@When("I choose a recent month")
+	//public void i_choose_a_recent_month() {
+	//	WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+	//	WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+	//}
 
 	@When("I press Confirm for the Filters")
 	public void i_press_Confirm_for_the_Filters() {
-
-		throw new PendingException();
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/Modal/ion-button_Confirm'))
 	}
 
 	@Then("I see the transactions filtered by the date rage selected")
 	public void i_see_the_transactions_filtered_by_the_date_rage_selected() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/ion-row_Reference9000000172023-09-25 03540037.33'))
 
-		throw new PendingException();
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-09-25 035400'),
+				'2023-09-25 03:54:00')
+
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/ion-row_Reference9000000132023-11-04 080701-61.46'))
+
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-11-04 080701'),
+				'2023-11-04 08:07:01')
+	}
+	//////////////////////////////
+
+
+	@When("I choose the same month as before")
+	public void i_choose_the_same_month_as_before() {
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-button_md_SetaCalEsq'))
+	}
+
+	@Then("I see there are no transactions after the filter")
+	public void i_see_there_are_no_transactions_after_the_filter() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'))
+		
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'),
+			'No transactions')
+		
+	}
+	//////////////////////////////////
+
+
+	@When("I press Reset for the Filters")
+	public void i_press_Reset_for_the_Filters() {
+		WebUI.click(findTestObject('TP41FilterTransactionsByDateRange/Final/Modal/ion-button_Reset'))
+	}
+
+	@Then("I see there are no filters being aplied")
+	public void i_see_there_are_no_filters_being_aplied() {
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/SemFiltros/ion-row_Reference9000000172023-09-25 03540037.33'))
+
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/SemFiltros/p_2023-09-25 035400'),
+				'2023-09-25 03:54:00')
+
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/SemFiltros/ion-row_ReferencePT477644242408482283459502_0ba38f'))
+
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/SemFiltros/p_2023-11-23 065029'),
+				'2023-11-23 06:50:29')
+
 	}
 }

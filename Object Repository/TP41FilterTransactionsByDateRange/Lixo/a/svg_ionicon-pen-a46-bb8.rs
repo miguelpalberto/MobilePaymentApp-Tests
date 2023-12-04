@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_modalFiltros</name>
+   <name>svg_ionicon-pen-a46-bb8</name>
    <tag></tag>
-   <elementGuidId>478404d5-9d5c-4c01-97b2-13bee73cdc31</elementGuidId>
+   <elementGuidId>0a623e1a-ad6d-4df8-9ef2-2f1d2eccd2d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.inner-scroll.scroll-y</value>
+         <value>div.icon-inner > svg.ionicon</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,40 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>54d44980-fe8a-45c6-a8c8-0eb0ebdd300c</webElementGuid>
+      <value>svg</value>
+      <webElementGuid>e81bad76-3988-4177-83bf-f10724aca426</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>3cbc22c5-c425-4788-b51a-6849e398f9c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inner-scroll scroll-y</value>
-      <webElementGuid>7cd2c494-d9ab-4674-b98e-ddc585b159a7</webElementGuid>
+      <value>ionicon</value>
+      <webElementGuid>e4255a11-8b90-4bd7-8b2b-e7a44816deaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>part</name>
+      <name>viewBox</name>
       <type>Main</type>
-      <value>scroll</value>
-      <webElementGuid>d84fbf71-1ade-4c6c-bf9c-52c5fe237da0</webElementGuid>
+      <value>0 0 512 512</value>
+      <webElementGuid>449fc4a7-d9a6-410c-800e-8749e2dc7ae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/div[@class=&quot;inner-scroll scroll-y&quot;]</value>
-      <webElementGuid>ef227832-4dfd-4d4d-92a6-477787e50e95</webElementGuid>
+      <value>/div[@class=&quot;icon-inner&quot;]/svg[@class=&quot;ionicon&quot;]</value>
+      <webElementGuid>be5bedd2-ff38-49b2-ac95-44cfccfc0900</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/a/ion-content_Start DateEnd DateAllDebitCredit</value>
-      <webElementGuid>52e3b39c-3628-4adf-9eb4-cae3d0733cff</webElementGuid>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/a/ion-icon_md flip-rtl-er-open-a46</value>
+      <webElementGuid>c86ce6d4-6705-4c59-bc72-f4a5a51fec03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +70,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ccbb0e3d-5d9b-4e2d-a341-02e9c33d0d8f</webElementGuid>
+      <webElementGuid>b17b8c4f-919e-4365-89ac-c58595929d65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +78,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>5ce96abd-7f09-4875-a13f-b1b700dd704b</webElementGuid>
+      <webElementGuid>6d51b05d-f1df-4a54-ba98-c8b7b300533b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

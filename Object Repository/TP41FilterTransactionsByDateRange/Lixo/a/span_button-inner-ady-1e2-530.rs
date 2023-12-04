@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_modalFiltros</name>
+   <name>span_button-inner-ady-1e2-530</name>
    <tag></tag>
-   <elementGuidId>478404d5-9d5c-4c01-97b2-13bee73cdc31</elementGuidId>
+   <elementGuidId>5e62cb90-e9e4-4c9a-8f17-c48c0b221079</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.inner-scroll.scroll-y</value>
+         <value>button.button-native > span.button-inner</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,40 +21,32 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>54d44980-fe8a-45c6-a8c8-0eb0ebdd300c</webElementGuid>
+      <value>span</value>
+      <webElementGuid>e1f753c5-9545-4a91-bfa3-3da9358a9739</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inner-scroll scroll-y</value>
-      <webElementGuid>7cd2c494-d9ab-4674-b98e-ddc585b159a7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>part</name>
-      <type>Main</type>
-      <value>scroll</value>
-      <webElementGuid>d84fbf71-1ade-4c6c-bf9c-52c5fe237da0</webElementGuid>
+      <value>button-inner</value>
+      <webElementGuid>1ffbbb7a-3a7d-4a5d-89fc-513a6266a856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/div[@class=&quot;inner-scroll scroll-y&quot;]</value>
-      <webElementGuid>ef227832-4dfd-4d4d-92a6-477787e50e95</webElementGuid>
+      <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]</value>
+      <webElementGuid>e6e141ff-f3ed-4170-9640-c9fcced316e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/a/ion-content_Start DateEnd DateAllDebitCredit</value>
-      <webElementGuid>52e3b39c-3628-4adf-9eb4-cae3d0733cff</webElementGuid>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Lixo/a/ion-button_md button button-clear in-button_a8619d</value>
+      <webElementGuid>6ca4dac6-c094-4e8f-ae92-490851f23516</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +54,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ccbb0e3d-5d9b-4e2d-a341-02e9c33d0d8f</webElementGuid>
+      <webElementGuid>68eaea93-64bc-4390-a191-5fecb09f5570</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,6 +62,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>5ce96abd-7f09-4875-a13f-b1b700dd704b</webElementGuid>
+      <webElementGuid>2fbd4a0c-6b74-43b7-9bef-01a88b8d4819</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
