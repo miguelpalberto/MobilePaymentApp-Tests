@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-back-button</name>
+   <tag></tag>
+   <elementGuidId>d3ee5a9b-56a0-4fe7-b749-c2a47e85c036</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[4]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-back-button</value>
+      <webElementGuid>37c4bd5a-3a2f-4971-b0bb-b9998b9351f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable</value>
+      <webElementGuid>771ae45c-0a72-4e85-ab67-798b26e0d8f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-header[@class=&quot;md header-md header-collapse-none&quot;]/ion-toolbar[@class=&quot;toolbar-title-default md in-toolbar&quot;]/ion-buttons[@class=&quot;buttons-first-slot sc-ion-buttons-md-h sc-ion-buttons-md-s md&quot;]/ion-back-button[@class=&quot;md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>e1d7f1dc-6559-4d1d-a8ba-1d759f1dcce3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[4]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      <webElementGuid>7ad65ef0-c6d8-4c24-9ec9-a41eb09f9e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='João Miguel Antunes Carvalho da Silva'])[1]/following::ion-back-button[1]</value>
+      <webElementGuid>30308729-f688-4163-becf-0a7682b5ec88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Miguel Pedrosa Alberto'])[1]/following::ion-back-button[1]</value>
+      <webElementGuid>9919139e-1130-4ff8-8fda-56c4b84a9a05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Money'])[2]/preceding::ion-back-button[1]</value>
+      <webElementGuid>8188aeb0-47fb-4019-9b7a-a45d2fc45955</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Balance: 299,90 €'])[1]/preceding::ion-back-button[1]</value>
+      <webElementGuid>bdcb07ee-5532-4f85-899f-8af94fc35dca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      <webElementGuid>368b95d0-5bf0-4395-863b-a155c14632fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

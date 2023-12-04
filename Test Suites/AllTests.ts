@@ -88,4 +88,18 @@
       <testCaseId>Test Cases/TP43SortTransactionsByMostRecentOrHighestValue/TP43SortTransactionsByMostRecentOrHighestValue</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7b7a56f9-90f9-49bf-a047-14ce14ddc5c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP48EnterAContactManually/TP48EnterAContactManually</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8a8a125-f739-4120-b442-e3a51e937828</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP51CheckIfPhoneContactIsVCard/TP51CheckIfPhoneContactIsVCard</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

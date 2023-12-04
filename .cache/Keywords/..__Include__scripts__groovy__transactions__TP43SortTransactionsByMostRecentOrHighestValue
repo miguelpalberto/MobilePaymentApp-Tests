@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "1367141EF5FCC8214DBBCB2025A7501D",
+  "keywordFileContentHash": "7B1B2D10A9C095AACC12F18207064060",
   "keywordClasses": [
     {
       "name": "transactions.TP43SortTransactionsByMostRecentOrHighestValue",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

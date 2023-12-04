@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-item_list_contacts_add_new_contact</name>
+   <tag></tag>
+   <elementGuidId>e9b77eee-f427-487f-aeb7-314b34c1a408</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-item.item-has-start-slot.item.md.item-lines-default.item-fill-none.in-list.ion-activatable.ion-focusable.item-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-item</value>
+      <webElementGuid>f82ae67e-1e5c-4bae-aafe-edb15f5cc039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-has-start-slot item md item-lines-default item-fill-none in-list ion-activatable ion-focusable item-label</value>
+      <webElementGuid>5a090fb8-b06b-49cd-80d6-4b98067c4ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listitem</value>
+      <webElementGuid>4fb7d6a1-74bf-456b-b103-357f87656bf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add New Contact</value>
+      <webElementGuid>059e1af2-ce40-4dd2-b62b-60b953a8f0ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md list-inset&quot;]/ion-item[@class=&quot;item-has-start-slot item md item-lines-default item-fill-none in-list ion-activatable ion-focusable item-label&quot;]</value>
+      <webElementGuid>6873ebd2-f4b6-4108-9ec4-228f05ec9294</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item</value>
+      <webElementGuid>2f66aa07-a7ed-436d-8493-204ccb72ef9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::ion-item[1]</value>
+      <webElementGuid>17c990af-53ae-4f22-a32c-40be9b767c32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-item[1]</value>
+      <webElementGuid>ffcc99b7-51ac-47ce-8785-dcce8ff351db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Afonso Cancela'])[1]/preceding::ion-item[1]</value>
+      <webElementGuid>b55ba611-a83b-4152-b261-a25c50a93574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list/ion-item</value>
+      <webElementGuid>bb9ec728-e6e7-42e3-be89-33c95db2da2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-item[(text() = 'Add New Contact' or . = 'Add New Contact')]</value>
+      <webElementGuid>8ced9521-696a-4184-a05d-c59310d8e63d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

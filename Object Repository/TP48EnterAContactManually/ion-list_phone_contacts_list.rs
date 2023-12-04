@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_phone_contacts_list</name>
+   <tag></tag>
+   <elementGuidId>2bd86e7e-4779-4280-b1a8-b4881ef5422c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > ion-list.md.list-md.list-inset</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div[2]/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>475baa24-b1d1-45ec-9e25-fe9563faaba4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md list-inset</value>
+      <webElementGuid>19688916-b116-4647-8e2c-97a0a31ca2b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>8752fa19-dbae-4919-85d4-50d5cdfabd49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003</value>
+      <webElementGuid>264c2a4f-f7dc-4bc2-9bf9-3f5a367a720d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[2]/ion-list[@class=&quot;md list-md list-inset&quot;]</value>
+      <webElementGuid>05896ecd-1259-4c2d-8555-4f5094ea7e34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div[2]/ion-list</value>
+      <webElementGuid>12076470-8281-43e9-a131-ae629fef9742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Contact'])[1]/following::ion-list[1]</value>
+      <webElementGuid>f0171b5c-4875-4c55-b9cc-0aeb240c968c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::ion-list[2]</value>
+      <webElementGuid>c2b57570-e1a7-4614-8ad3-3055b9b4b93f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ion-list</value>
+      <webElementGuid>a5a4fa5f-e7c9-40eb-a038-251dfd8b7ee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003' or . = 'Afonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003')]</value>
+      <webElementGuid>201d4306-e95d-4778-a114-f8f596a00060</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
