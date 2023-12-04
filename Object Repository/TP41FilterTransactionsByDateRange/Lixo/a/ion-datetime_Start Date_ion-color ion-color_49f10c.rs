@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-datetime_Start Date_ion-color ion-color_49f10c</name>
+   <tag></tag>
+   <elementGuidId>d4a39096-f4c3-4012-b34a-ba71b3ef91a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-datetime.ion-color.ion-color-primary.md.datetime-presentation-date-time.datetime-size-fixed.datetime-grid.datetime-ready</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-datetime</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-datetime</value>
+      <webElementGuid>27c069ae-e8a5-4241-a0bd-2e6867687ef0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready</value>
+      <webElementGuid>bbacf9cd-2d56-4cd0-9d21-113b7d763396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>modelvalue</name>
+      <type>Main</type>
+      <value>1990-02-01T00:00:00.000Z</value>
+      <webElementGuid>f63ab089-79df-4be1-8320-0c79a4167eee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/ion-datetime[@class=&quot;ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready&quot;]</value>
+      <webElementGuid>c2d5ed4a-685b-4df1-9c54-e231641fe3f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-datetime</value>
+      <webElementGuid>7f7832f6-c079-40f1-be8e-32fa57d75230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date:'])[1]/following::ion-datetime[1]</value>
+      <webElementGuid>8d4693f8-bbcc-4ebf-b29a-218db684bfe9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::ion-datetime[1]</value>
+      <webElementGuid>9e66841e-12c3-46cc-9b05-7cea9c352b78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::ion-datetime[1]</value>
+      <webElementGuid>568ac4cc-2639-485b-86d2-1923f7c192bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date:'])[1]/preceding::ion-datetime[1]</value>
+      <webElementGuid>2070aed0-09ec-4cdf-bcd7-7dafb8e247d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-datetime</value>
+      <webElementGuid>8e832409-4793-4c19-8799-8ac652410c1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_2023-11-23 065029</name>
+   <tag></tag>
+   <elementGuidId>4930dc02-bbc8-470b-a0ea-75f45ac09da9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[26]/ion-label/ion-grid/ion-row/ion-col[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>99cf3bd8-0633-45c3-8b2e-34f1d7b36c18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2023-11-23 06:50:29</value>
+      <webElementGuid>dc5f94d9-d6fa-47d0-b306-f0b08a498e71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/p[1]</value>
+      <webElementGuid>05fcfde3-0f38-4b4b-96d2-aef394a6b303</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[26]/ion-label/ion-grid/ion-row/ion-col[2]/p</value>
+      <webElementGuid>66a6100b-afea-4537-ae17-ef6a63c7b8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT47764424240848228345950'])[2]/following::p[1]</value>
+      <webElementGuid>81cc5156-bf21-4bd5-8bac-e044aad29c90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='joaquim.batista@batista.eu'])[1]/following::p[17]</value>
+      <webElementGuid>834e0447-f5f3-4bc6-b7a1-3786c06c426c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2023-11-23 06:50:29']/parent::*</value>
+      <webElementGuid>28c2f6c4-765f-4a89-ac60-9e1dd588f08c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-item[26]/ion-label/ion-grid/ion-row/ion-col[2]/p</value>
+      <webElementGuid>52c80f1b-e807-4794-9eda-130e422bc76d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '2023-11-23 06:50:29' or . = '2023-11-23 06:50:29')]</value>
+      <webElementGuid>851e9bb9-bfe8-4e3c-be81-908394763d7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

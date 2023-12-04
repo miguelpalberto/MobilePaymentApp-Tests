@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP41FilterTransactionsByDateRange</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb239e4e-8dbd-4e98-9284-c58847f8a322</testCaseGuid>
+</TestCaseEntity>

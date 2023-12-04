@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-text-confirmation-code-error</name>
+   <tag></tag>
+   <elementGuidId>369b6aa9-4954-41ca-a38a-815bfc1704c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-grid/ion-row[3]/ion-col[2]/ion-text</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-text</value>
+      <webElementGuid>8157a627-a00f-4118-a3fd-1c00498af635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-danger md</value>
+      <webElementGuid>42d3e600-a001-46ec-ae4a-01adb298c96c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>danger</value>
+      <webElementGuid>6f7857cc-afdb-4091-873d-3e68023c93e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You must enter a your confirmation code</value>
+      <webElementGuid>e2f112ea-c7c1-4779-963a-0b02096130b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;d-flex flex-column justify-content-space-between h-100&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/ion-text[@class=&quot;ion-color ion-color-danger md&quot;]</value>
+      <webElementGuid>be746768-b8f5-4296-b90b-c669a1abbdbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-grid/ion-row[3]/ion-col[2]/ion-text</value>
+      <webElementGuid>5c20d1f7-840b-4403-ba75-ae385b0a6a50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Code'])[1]/following::ion-text[1]</value>
+      <webElementGuid>4bbc133b-a7f4-4dc5-8f38-1afc0ec6c366</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The amount must be greater than 0'])[1]/following::ion-text[1]</value>
+      <webElementGuid>b4409f52-d3b5-4e74-838f-82908b8a09e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>3c02773a-8a35-4ab2-86de-52100c9bb481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>739b8a96-5dd6-4050-a108-886515b6849a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You must enter a your confirmation code']/parent::*</value>
+      <webElementGuid>297ce23b-7554-417f-8420-bd74729505b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-col[2]/ion-text</value>
+      <webElementGuid>167fa3ce-ae22-4433-8464-b77835f97689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-text[(text() = 'You must enter a your confirmation code' or . = 'You must enter a your confirmation code')]</value>
+      <webElementGuid>f9263837-7b13-4dea-b494-30eaff5cce30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

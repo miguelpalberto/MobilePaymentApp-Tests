@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Confirm</name>
+   <tag></tag>
+   <elementGuidId>9efccfe6-360f-4ce3-ab35-3c0e3f8230b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-button.md.button.button-clear.button-strong.in-toolbar.in-buttons.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-header/ion-toolbar/ion-buttons[2]/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>5621c21d-f391-4e0a-a180-93ad7a36987a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button button-clear button-strong in-toolbar in-buttons ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>133e0b7a-92ca-47e7-b262-856806854a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm</value>
+      <webElementGuid>65765aaf-d7d9-4f1e-98c3-ffb43010113a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-page&quot;]/ion-header[@class=&quot;md header-md header-collapse-none&quot;]/ion-toolbar[@class=&quot;toolbar-title-default md in-toolbar&quot;]/ion-buttons[@class=&quot;buttons-last-slot sc-ion-buttons-md-h sc-ion-buttons-md-s md&quot;]/ion-button[@class=&quot;md button button-clear button-strong in-toolbar in-buttons ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>52287506-54a1-4701-8d41-7b0409ef72d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-header/ion-toolbar/ion-buttons[2]/ion-button</value>
+      <webElementGuid>47442fc9-f0b4-4926-9843-712d420e8f7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[2]/following::ion-button[1]</value>
+      <webElementGuid>4dd6a4e2-066e-4c6b-bc04-c48668b9645d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::ion-button[1]</value>
+      <webElementGuid>cfa5cac9-5d8a-439a-aed4-9e09a9885a7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>015543cf-6108-49ab-9d34-f87402672dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>0cb569c1-8d53-479b-b811-4e7a971b565f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>30c232ad-aec8-4b87-a9cb-a8db6eeed794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-buttons[2]/ion-button</value>
+      <webElementGuid>7cc79d16-1250-4aa7-8c21-b017971f5ca1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>8ed58417-6b99-4aa2-83c9-bb57419e2700</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-row_Reference9000000132023-11-04 080701-61.46</name>
+   <tag></tag>
+   <elementGuidId>66410cf2-900b-41c8-9bb5-dda3a5de8ab3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[22]/ion-label/ion-grid/ion-row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-row</value>
+      <webElementGuid>2cce597e-86e4-4ff9-aad4-6d6d1a28b45f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md</value>
+      <webElementGuid>23cebede-5e0d-4828-9f2c-1617146c1960</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reference:9000000132023-11-04 08:07:01-61.46€</value>
+      <webElementGuid>57b113db-8a71-4356-8174-14d832cd9d60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]</value>
+      <webElementGuid>77c4d5eb-d882-48d3-b31e-a3e87e749391</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list/ion-item[22]/ion-label/ion-grid/ion-row</value>
+      <webElementGuid>09ace010-dc33-43fe-813f-57310e6a4453</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='joaquim.batista@batista.eu'])[1]/following::ion-row[4]</value>
+      <webElementGuid>4a343dc8-0943-4162-844b-eac93054d262</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='emanuel05@sapo.pt'])[1]/following::ion-row[5]</value>
+      <webElementGuid>71dccd05-17ac-4170-8d36-10c012e9dc03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-item[22]/ion-label/ion-grid/ion-row</value>
+      <webElementGuid>8244b00f-e62f-43d5-88db-16722ea6b0e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-row[(text() = 'Reference:9000000132023-11-04 08:07:01-61.46€' or . = 'Reference:9000000132023-11-04 08:07:01-61.46€')]</value>
+      <webElementGuid>8f2cc4c4-3dec-4056-bfa5-98dec39f0597</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

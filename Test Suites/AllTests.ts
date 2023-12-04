@@ -47,13 +47,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1a53c67-b3ca-4f5e-9a8e-42fd17a1f526</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28SubtractMyPiggyBankBalance</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>84a2a4eb-db39-4b46-b8b8-9bdec63b1ba8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -75,10 +68,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>90472caa-b332-40b1-b7e7-451650e454e0</guid>
+      <guid>d1a53c67-b3ca-4f5e-9a8e-42fd17a1f526</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP-42-us13-filter-transactions-by-all-de/TP-42-us13-filter-transactions-by-all-de</testCaseId>
+      <testCaseId>Test Cases/TP28SubtractMyPiggyBankBalance/TP28SubtractMyPiggyBankBalance</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>211caffa-2683-421f-becf-ccefd3d01cce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP50SendMoney/TP50SendMoney</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e1d41e2-975d-4b8d-a1f1-0dc6380018c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP43SortTransactionsByMostRecentOrHighestValue/TP43SortTransactionsByMostRecentOrHighestValue</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
