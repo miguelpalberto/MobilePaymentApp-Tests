@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CBC284950B2F33D79A75781EE2FF3C79",
+  "keywordClasses": [
+    {
+      "name": "contacts.TP51CheckIfPhoneContactIsVCard",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

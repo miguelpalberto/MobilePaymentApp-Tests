@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Add New Contact</name>
+   <tag></tag>
+   <elementGuidId>754ae46a-ca50-4dc1-96b8-fb10098a3810</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-list.md.list-md.list-inset</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>a6671633-1a49-4c46-a056-0d406773e3f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md list-inset</value>
+      <webElementGuid>06716fc7-b424-4455-a5d6-1e4d53004bb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>7cfcaf33-fe35-4476-8813-16ef0a236366</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add New Contact</value>
+      <webElementGuid>bbd5401c-812f-461a-b995-050ffebf11dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md list-inset&quot;]</value>
+      <webElementGuid>5f4666ba-b4d4-4455-ab09-daa0963764c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      <webElementGuid>20c9265c-36e9-4a60-a354-9f14f95eb886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::ion-list[1]</value>
+      <webElementGuid>a227f30f-5b36-4a37-b35d-7c7a536678df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-list[1]</value>
+      <webElementGuid>22b70d58-f9be-43e7-94b7-6490d85c8f1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Afonso Cancela'])[1]/preceding::ion-list[1]</value>
+      <webElementGuid>3bee65f9-53aa-401e-860d-9e98c1ecf234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list</value>
+      <webElementGuid>5673671a-a22a-41e8-9876-9ee0ba888d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Add New Contact' or . = 'Add New Contact')]</value>
+      <webElementGuid>a9a154d8-c257-4b1d-8d3e-7f737f2b10eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

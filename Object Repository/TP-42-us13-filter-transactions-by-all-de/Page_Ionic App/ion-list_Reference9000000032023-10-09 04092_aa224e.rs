@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Reference9000000032023-10-09 04092_aa224e</name>
+   <tag></tag>
+   <elementGuidId>4c9177fb-b09a-441a-a216-032cb43cd172</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div > div > ion-list.md.list-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>e2a6a47d-bac9-44f5-9ea1-04574ab4e1c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>6ab05167-7da7-4818-964a-aeb56eb0b5ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md</value>
+      <webElementGuid>1a8c626e-a8e7-41d1-af53-106b2e39825b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reference:9000000032023-10-09 04:09:24+223.01€Reference:9000000162023-10-27 06:53:00+161.48€Reference:9502042442023-11-16 02:00:57+144.67€Reference:9894810892023-11-26 03:17:11+30.41€Reference:PT559678343026672433642692023-10-11 04:47:15-21.17€Reference:ppacheco@neves.com2023-11-17 07:33:38-37.81€Reference:13152-8488636492023-10-29 05:18:51-38.84€Reference:39676-8691850102023-11-29 02:24:08-46.24€Reference:9568948272023-10-30 10:11:20-51.49€Reference:61742-7944542302023-10-31 08:45:44-54.77€Reference:23317-8437156232023-10-30 06:56:12-58.92€Reference:29897-2253887572023-10-23 01:04:09-64.36€Reference:9484176542023-11-12 01:09:08-94.94€</value>
+      <webElementGuid>c275707e-7092-471d-9502-0e7b0fb87955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]</value>
+      <webElementGuid>88de7a22-2f20-4625-b1a4-a280ccb6dd57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      <webElementGuid>07b39f01-8db0-40ca-9374-8937e380abed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::ion-list[1]</value>
+      <webElementGuid>5dc93106-23ca-41c9-b9a4-e7cc2e9c860b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list</value>
+      <webElementGuid>99e333a2-a70e-40d9-b407-4078241ba523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Reference:9000000032023-10-09 04:09:24+223.01€Reference:9000000162023-10-27 06:53:00+161.48€Reference:9502042442023-11-16 02:00:57+144.67€Reference:9894810892023-11-26 03:17:11+30.41€Reference:PT559678343026672433642692023-10-11 04:47:15-21.17€Reference:ppacheco@neves.com2023-11-17 07:33:38-37.81€Reference:13152-8488636492023-10-29 05:18:51-38.84€Reference:39676-8691850102023-11-29 02:24:08-46.24€Reference:9568948272023-10-30 10:11:20-51.49€Reference:61742-7944542302023-10-31 08:45:44-54.77€Reference:23317-8437156232023-10-30 06:56:12-58.92€Reference:29897-2253887572023-10-23 01:04:09-64.36€Reference:9484176542023-11-12 01:09:08-94.94€' or . = 'Reference:9000000032023-10-09 04:09:24+223.01€Reference:9000000162023-10-27 06:53:00+161.48€Reference:9502042442023-11-16 02:00:57+144.67€Reference:9894810892023-11-26 03:17:11+30.41€Reference:PT559678343026672433642692023-10-11 04:47:15-21.17€Reference:ppacheco@neves.com2023-11-17 07:33:38-37.81€Reference:13152-8488636492023-10-29 05:18:51-38.84€Reference:39676-8691850102023-11-29 02:24:08-46.24€Reference:9568948272023-10-30 10:11:20-51.49€Reference:61742-7944542302023-10-31 08:45:44-54.77€Reference:23317-8437156232023-10-30 06:56:12-58.92€Reference:29897-2253887572023-10-23 01:04:09-64.36€Reference:9484176542023-11-12 01:09:08-94.94€')]</value>
+      <webElementGuid>3b2beb83-bd7d-4c4c-ad20-dc163cd467a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

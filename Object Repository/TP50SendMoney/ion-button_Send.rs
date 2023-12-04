@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Send</name>
+   <tag></tag>
+   <elementGuidId>d836ec58-81d6-4c05-aec0-9b11e3ae22dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-card.md.w-100 > ion-card-content.md.card-content-md > ion-button.md.button.button-solid.ion-activatable.ion-focusable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-row/ion-card/ion-card-content/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>a8921f9e-6406-4030-a5e0-14ab97a6df10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button button-solid ion-activatable ion-focusable</value>
+      <webElementGuid>b89dd873-ea83-441d-bd41-85cb716825d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send </value>
+      <webElementGuid>6ec5475a-cb02-4c7c-9b94-cedd15cc99dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;d-flex flex-column justify-content-space-between h-100&quot;]/ion-row[@class=&quot;md ion-justify-content-center w-100&quot;]/ion-card[@class=&quot;md w-100&quot;]/ion-card-content[@class=&quot;md card-content-md&quot;]/ion-button[@class=&quot;md button button-solid ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>52141d10-15c5-434f-8f50-48532b22ce86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-row/ion-card/ion-card-content/ion-button</value>
+      <webElementGuid>088b4c56-1dbe-4bd2-baaa-0daf8ed4818b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Code'])[1]/following::ion-button[1]</value>
+      <webElementGuid>dd751efc-660b-4b63-aca7-52df575d8c8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::ion-button[1]</value>
+      <webElementGuid>71f52dc3-0fdc-4632-bb2c-d6bad7b0e0db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>093db3d5-291a-46ad-ab2a-449e8a316277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-row/ion-card/ion-card-content/ion-button</value>
+      <webElementGuid>b5b51b03-9a26-493d-8609-c9d444547fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-button[(text() = 'Send ' or . = 'Send ')]</value>
+      <webElementGuid>d03a8cfa-5e2b-4dfc-8560-777971551b11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
