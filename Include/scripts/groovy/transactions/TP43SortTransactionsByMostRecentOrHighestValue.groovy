@@ -93,16 +93,16 @@ class TP43SortTransactionsByMostRecentOrHighestValue {
 
 	@Then("I see my transactions sorted by decrescent amount")
 	public void i_see_my_transactions_sorted_by_decrescent_amount() {
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ion-col_ReferencePT96208402479312057159036'), 
-    0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ion-col_ReferencePT96208402479312057159036'),
+				0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/h1_1348.47'), 
-    '+1348.47€')
+		WebUI.verifyElementText(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/h1_1348.47'),
+				'+1348.47€')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ion-col_Reference42231-399679499'), 
-    0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/ion-col_Reference42231-399679499'),
+				0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/h1_-863.36'), 
-    '-863.36€')
+		WebUI.verifyElementText(findTestObject('Object Repository/TP43SortTransactionsByMostRecentOrHighestValue/h1_-863.36'),
+				'-863.36€')
 	}
 }
