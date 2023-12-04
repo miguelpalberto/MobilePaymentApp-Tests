@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_ReferencePT96208402479312057159036_7dd950</name>
+   <tag></tag>
+   <elementGuidId>62fb083e-b7f1-47ad-86a7-888c31a00753</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div > div > ion-list.md.list-md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>bc254145-d498-4223-9a87-3435c94a9c78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>8bf137c3-c373-47a4-8710-126e6dd1fd61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md</value>
+      <webElementGuid>776c82e8-2824-4bda-ab78-fc5e444da02a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reference:PT962084024793120571590362023-10-26 02:40:05+1348.47€Reference:PT247975553447923474423342023-11-19 03:45:20+877.73€Reference:PT656637337139805557235102023-10-12 03:58:21+815.58€Reference:9000000062023-10-05 04:58:01+246.49€Reference:PT457228169430487064558692023-10-19 05:15:24+152.58€Reference:9000000192023-10-04 08:14:26+141.91€Reference:PT729981778390905254955892023-11-18 07:18:44+120.41€Reference:9000000182023-10-18 05:58:35+109.98€Reference:9554290342023-10-09 10:07:46+108.40€Reference:9000000092023-09-26 06:52:50+103.18€Reference:9752028382023-11-07 02:39:29+88.72€Reference:9678038082023-12-03 23:16:46+83.16€Reference:77804982923412092023-10-16 12:10:16+60.72€Reference:9000000122023-10-25 06:02:28+46.42€Reference:PT543111376931756493826872023-10-23 09:59:24+40.91€Reference:9000000032023-09-25 09:51:18+38.76€Reference:PT470937296010036451116362023-09-29 07:58:42+34.53€Reference:9678038082023-12-04 00:27:20+5.00€Reference:9678038082023-12-03 23:19:07+2.00€Reference:9678038082023-12-03 22:26:12+1.11€Reference:9678038082023-12-04 00:24:22+1.00€Reference:9678038082023-12-03 23:26:22+1.00€Reference:9678038082023-12-03 22:26:33+0.01€</value>
+      <webElementGuid>ddc5401f-279e-4adc-9491-1f4a6b769b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[1]/div[1]/ion-list[@class=&quot;md list-md&quot;]</value>
+      <webElementGuid>6d1e9d86-1ad2-44d9-9d41-5078951151ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div/ion-list</value>
+      <webElementGuid>d3a25c6f-3fe9-419e-846e-16fbad96b6d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::ion-list[1]</value>
+      <webElementGuid>016e4c79-53fe-4f22-bb7c-a7d24188f6d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ion-list</value>
+      <webElementGuid>1f5b4baa-a724-4c08-873b-68eb666d78c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Reference:PT962084024793120571590362023-10-26 02:40:05+1348.47€Reference:PT247975553447923474423342023-11-19 03:45:20+877.73€Reference:PT656637337139805557235102023-10-12 03:58:21+815.58€Reference:9000000062023-10-05 04:58:01+246.49€Reference:PT457228169430487064558692023-10-19 05:15:24+152.58€Reference:9000000192023-10-04 08:14:26+141.91€Reference:PT729981778390905254955892023-11-18 07:18:44+120.41€Reference:9000000182023-10-18 05:58:35+109.98€Reference:9554290342023-10-09 10:07:46+108.40€Reference:9000000092023-09-26 06:52:50+103.18€Reference:9752028382023-11-07 02:39:29+88.72€Reference:9678038082023-12-03 23:16:46+83.16€Reference:77804982923412092023-10-16 12:10:16+60.72€Reference:9000000122023-10-25 06:02:28+46.42€Reference:PT543111376931756493826872023-10-23 09:59:24+40.91€Reference:9000000032023-09-25 09:51:18+38.76€Reference:PT470937296010036451116362023-09-29 07:58:42+34.53€Reference:9678038082023-12-04 00:27:20+5.00€Reference:9678038082023-12-03 23:19:07+2.00€Reference:9678038082023-12-03 22:26:12+1.11€Reference:9678038082023-12-04 00:24:22+1.00€Reference:9678038082023-12-03 23:26:22+1.00€Reference:9678038082023-12-03 22:26:33+0.01€' or . = 'Reference:PT962084024793120571590362023-10-26 02:40:05+1348.47€Reference:PT247975553447923474423342023-11-19 03:45:20+877.73€Reference:PT656637337139805557235102023-10-12 03:58:21+815.58€Reference:9000000062023-10-05 04:58:01+246.49€Reference:PT457228169430487064558692023-10-19 05:15:24+152.58€Reference:9000000192023-10-04 08:14:26+141.91€Reference:PT729981778390905254955892023-11-18 07:18:44+120.41€Reference:9000000182023-10-18 05:58:35+109.98€Reference:9554290342023-10-09 10:07:46+108.40€Reference:9000000092023-09-26 06:52:50+103.18€Reference:9752028382023-11-07 02:39:29+88.72€Reference:9678038082023-12-03 23:16:46+83.16€Reference:77804982923412092023-10-16 12:10:16+60.72€Reference:9000000122023-10-25 06:02:28+46.42€Reference:PT543111376931756493826872023-10-23 09:59:24+40.91€Reference:9000000032023-09-25 09:51:18+38.76€Reference:PT470937296010036451116362023-09-29 07:58:42+34.53€Reference:9678038082023-12-04 00:27:20+5.00€Reference:9678038082023-12-03 23:19:07+2.00€Reference:9678038082023-12-03 22:26:12+1.11€Reference:9678038082023-12-04 00:24:22+1.00€Reference:9678038082023-12-03 23:26:22+1.00€Reference:9678038082023-12-03 22:26:33+0.01€')]</value>
+      <webElementGuid>af42367a-aced-4c34-8ff8-1a28760670b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

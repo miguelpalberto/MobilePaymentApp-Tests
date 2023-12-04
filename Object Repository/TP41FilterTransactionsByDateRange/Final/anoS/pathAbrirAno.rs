@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pathAbrirAno</name>
+   <tag></tag>
+   <elementGuidId>baca96fc-19c1-419a-a402-a3c78ec01b10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.icon-inner > svg.ionicon > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>6bea5034-849a-43e9-ae20-d06ff0daa1ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M64 144l192 224 192-224H64z</value>
+      <webElementGuid>c8eb8dd0-63df-4a02-8b2d-5cadef83051c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;icon-inner&quot;]/svg[@class=&quot;ionicon&quot;]/path[1]</value>
+      <webElementGuid>c691850b-e40f-494b-a5e3-47188edefb49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/anoS/ion-icon_md flip-rtl-e-ready-fb7</value>
+      <webElementGuid>4d53eec0-7d05-49d7-bb6f-81d806d401c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>621e33cb-d6fd-4546-8930-aef0e44f2193</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

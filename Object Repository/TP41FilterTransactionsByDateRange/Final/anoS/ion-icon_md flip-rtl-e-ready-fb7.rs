@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-icon_md flip-rtl-e-ready-fb7</name>
+   <tag></tag>
+   <elementGuidId>575677f2-3b0f-4b99-92af-3391e009eb1b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.datetime-calendar > div.calendar-header > div.calendar-action-buttons > div.calendar-month-year > ion-item.item.md.item-lines-none.item-fill-none.ion-activatable.ion-focusable.item-label > ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md > ion-icon.md.flip-rtl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-icon</value>
+      <webElementGuid>099c36c4-7db2-4443-b1f6-06a36e350a44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>0441711e-79e3-4b1b-a078-58ca124adf31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>202554d1-81e5-49dc-b9bf-ef7d4536f7e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md flip-rtl</value>
+      <webElementGuid>9410e15b-61de-4b37-8271-763ef5ea2f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;datetime-calendar&quot;]/div[@class=&quot;calendar-header&quot;]/div[@class=&quot;calendar-action-buttons&quot;]/div[@class=&quot;calendar-month-year&quot;]/ion-item[@class=&quot;item md item-lines-none item-fill-none ion-activatable ion-focusable item-label&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md&quot;]/ion-icon[@class=&quot;md flip-rtl&quot;]</value>
+      <webElementGuid>82847894-2317-4667-a633-550ed70de192</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/anoS/ion-datetime_Start Date_ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready</value>
+      <webElementGuid>9afc107a-cc30-4809-aca8-9d9c73bd6009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>47e299ff-1616-439a-b536-8eb1a8c384f5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
