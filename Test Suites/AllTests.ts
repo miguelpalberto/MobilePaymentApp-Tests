@@ -74,4 +74,11 @@
       <testCaseId>Test Cases/TP23AccessMyPhoneContactList/TP23AccessMyPhoneContactList</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>90472caa-b332-40b1-b7e7-451650e454e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP-42-us13-filter-transactions-by-all-de/TP-42-us13-filter-transactions-by-all-de</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

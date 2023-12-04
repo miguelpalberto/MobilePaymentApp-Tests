@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FilterByAll</name>
+   <name>TP-42-us13-filter-transactions-by-all-de</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a61451d4-9ee8-4954-93a1-45667ada320d</testCaseGuid>
+   <testCaseGuid>258ab5b3-2da6-483e-9743-6a3b53388078</testCaseGuid>
 </TestCaseEntity>
