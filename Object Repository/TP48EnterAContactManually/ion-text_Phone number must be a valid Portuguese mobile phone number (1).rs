@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-text_Phone number must be a valid Portuguese mobile phone number (1)</name>
+   <tag></tag>
+   <elementGuidId>0aaf1b6f-a9ee-4188-bd97-2cf974f0145a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-text.ion-color.ion-color-danger.md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-grid/ion-row/ion-col/ion-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-text</value>
+      <webElementGuid>efb73953-883f-4e14-b0d0-7d2629b4a66d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-danger md</value>
+      <webElementGuid>3916ad7c-a692-4110-9171-2d3ec2c1f500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>danger</value>
+      <webElementGuid>a8219229-5dc3-4de3-9f6e-6723cd036329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone number must be a valid Portuguese mobile phone number</value>
+      <webElementGuid>0fb24495-41b0-4ce0-ab41-e807e4eb7b09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;d-flex flex-column justify-content-space-between h-100&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/ion-text[@class=&quot;ion-color ion-color-danger md&quot;]</value>
+      <webElementGuid>c3a21324-3b87-43a2-878e-abccab18fdf5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-grid/ion-row/ion-col/ion-text</value>
+      <webElementGuid>9e7f27e2-be5d-4a28-a2f2-31eeb8ba0641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::ion-text[1]</value>
+      <webElementGuid>0499f9cf-f374-446f-b4ca-c3eef0b89491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Contact'])[2]/following::ion-text[1]</value>
+      <webElementGuid>3b44835e-93fc-4901-b254-409fa36c5f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (optional)'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>a9a6555e-307c-4312-96c6-5a76c80ec441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save contact in my contacts list'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>eb8e70fe-a5da-4891-9b25-d100b22b84c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-text</value>
+      <webElementGuid>1f27b70c-1a6b-487d-b428-cfaa132b0a42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-text[(text() = 'Phone number must be a valid Portuguese mobile phone number' or . = 'Phone number must be a valid Portuguese mobile phone number')]</value>
+      <webElementGuid>ab93560c-3f47-4b06-b83f-548f15c2cadd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-text_Phone number is not associated with a vCard</name>
+   <tag></tag>
+   <elementGuidId>a48ad90c-8b3e-41a0-bac7-9636ce2e56b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-text.ion-color.ion-color-danger.md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-grid/ion-row/ion-col/ion-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-text</value>
+      <webElementGuid>2b67c146-bd2e-4fdb-b910-bd3207f95cde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-danger md</value>
+      <webElementGuid>fff33ff4-de25-464f-bec8-6a4523409b88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>danger</value>
+      <webElementGuid>c0e7f284-d243-448e-b238-c6de9f72e2e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone number is not associated with a vCard</value>
+      <webElementGuid>07e3166f-e211-4133-959f-5f55b42ba1f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;d-flex flex-column justify-content-space-between h-100&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/ion-text[@class=&quot;ion-color ion-color-danger md&quot;]</value>
+      <webElementGuid>b3aa1cd2-edda-43a8-a11c-8f3d988d28cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/div/ion-grid/ion-row/ion-col/ion-text</value>
+      <webElementGuid>ae029db0-27ab-4079-adb1-6e5acab8e409</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number'])[1]/following::ion-text[1]</value>
+      <webElementGuid>60d52153-9251-4603-8d93-fdb89c136a84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Contact'])[2]/following::ion-text[1]</value>
+      <webElementGuid>e7f6bd87-b736-4d65-b85d-a9ba01920347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (optional)'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>58566f72-44f5-43db-b8ed-744177364a34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save contact in my contacts list'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>8373a1be-8606-4401-be4e-66672c80d898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-text</value>
+      <webElementGuid>94cb7328-4db1-4f8a-a6f7-873baa72c8d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-text[(text() = 'Phone number is not associated with a vCard' or . = 'Phone number is not associated with a vCard')]</value>
+      <webElementGuid>55255261-4d87-4454-ad8d-cede1527cc70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
