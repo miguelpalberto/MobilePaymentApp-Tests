@@ -116,4 +116,11 @@
       <testCaseId>Test Cases/TP41FilterTransactionsByDateRange/TP41FilterTransactionsByDateRange</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>eda5ba44-7233-4486-8f40-bac168d3ab3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP80OnlineNotificationsAboutTransactions/TP80OnlineNotificationsAb</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
