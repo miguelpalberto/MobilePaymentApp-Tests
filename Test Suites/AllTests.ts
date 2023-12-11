@@ -123,4 +123,11 @@
       <testCaseId>Test Cases/TP80OnlineNotificationsAboutTransactions/TP80OnlineNotificationsAb</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8f8ba598-95d4-41c4-8ecc-72edb85f08f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP81AutoSaveMoneyInThePiggyBank/TP81AutoSaveMoneyInThePiggyBank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

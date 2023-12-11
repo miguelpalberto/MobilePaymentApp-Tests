@@ -44,25 +44,37 @@ import cucumber.api.java.en.When
 
 
 
-class TP7ViewListOfTransactions {
-
-	@Then("I see the list of my transactions")
-	public void i_see_the_list_of_my_transactions() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('TP7ViewListOfTransactions/ion-row_Reference'), 0)
-
+class TP81AutoSaveMoneyInThePiggyBank {
+	@Given("I click on the settings button")
+	public void i_click_on_the_settings_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new PendingException();
+		return;
 	}
-
-	@When("I click on the Show More button")
-	public void i_click_on_the_Show_More_button() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'))
-
+	
+	@Then("I see the settings page")
+	public void i_see_the_settings_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new PendingException();
+		return;
 	}
-
-	@Then("I do not see the Show More button")
-	public void i_do_not_see_the_Show_More_button() {
+	
+	@Then("I disable the auto-saving option")
+	public void i_disable_the_auto_saving_option() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new PendingException();
+		return;
+	}
+	
+	@Then("I don't see the value saved in piggy bank balance")
+	public void i_don_t_see_the_value_saved_in_piggy_bank_balance() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new PendingException();
+		return;
+	}
+	@Then("I see the value saved in piggy bank balance")
+	public void i_see_the_value_saved_in_piggy_bank_balance() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementNotPresent(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'), 0)
+		return;
 	}
 }
