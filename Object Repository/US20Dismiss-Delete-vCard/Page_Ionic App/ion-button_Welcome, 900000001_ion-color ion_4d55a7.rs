@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Welcome, 900000001_ion-color ion_4d55a7</name>
+   <tag></tag>
+   <elementGuidId>3bc7dd0b-a682-4259-a274-d0e82894be05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[2]/ion-content/div/div/ion-grid/ion-row/ion-col[2]/div/ion-button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-button.ion-color.ion-color-dark.md.button.button-small.button-solid.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>d63a44a3-938a-4a57-a58e-42722ef02c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-dark md button button-small button-solid ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>0321892d-6e30-4929-8218-003960f1a6a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/mydetails/900000001</value>
+      <webElementGuid>9580f990-8e91-4caf-8691-a7778d1389f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>dark</value>
+      <webElementGuid>76fae6ae-dfd3-462c-b6a5-d9f135e4e36d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>de7bb745-b4db-4254-bb77-320da26dec28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[1]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/div[@class=&quot;ion-text-end&quot;]/ion-button[@class=&quot;ion-color ion-color-dark md button button-small button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>d2d4b545-2f4f-4b57-87a4-80e57bce3b14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[2]/ion-content/div/div/ion-grid/ion-row/ion-col[2]/div/ion-button</value>
+      <webElementGuid>cfbaa3b9-9cda-4b27-a947-d00a9b82aee0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome, 900000001'])[1]/following::ion-button[1]</value>
+      <webElementGuid>e935e390-d588-4e5c-b60c-e1f04ae4c07d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::ion-button[1]</value>
+      <webElementGuid>80178e3a-6178-4b97-9fd4-ef904fe2fb6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No funds'])[1]/preceding::ion-button[2]</value>
+      <webElementGuid>562df0e3-d9ce-4bbb-be01-31c131a132a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Balance'])[1]/preceding::ion-button[2]</value>
+      <webElementGuid>cad82b21-483f-436c-8b91-de6e67fa01ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-col[2]/div/ion-button</value>
+      <webElementGuid>e5bd460b-af3c-4841-8af3-1da2c9d19f9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
