@@ -79,20 +79,20 @@ class TP50SendMoney {
 	@Then("I fill the confirmation code with my pin")
 	public void i_fill_the_confirmation_code_with_my_pin() {
 		boolean isPresent = true;
-		
+
 		try {
 			WebUI.verifyElementPresent(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 0)
 		}
 		catch(StepFailedException ignore) {
 			isPresent = false;
 		}
-		
+
 		//fix para o element ser o mesmo mas o xpath ser um bocadinho difente
 		if (isPresent) {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')	
+			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')
 		}
 		else {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')		
+			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')
 		}
 	}
 

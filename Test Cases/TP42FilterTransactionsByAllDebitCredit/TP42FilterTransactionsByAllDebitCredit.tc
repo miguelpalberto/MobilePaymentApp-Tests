@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TP42FilterTransactionsByAllDebitCredit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>258ab5b3-2da6-483e-9743-6a3b53388078</testCaseGuid>
+</TestCaseEntity>

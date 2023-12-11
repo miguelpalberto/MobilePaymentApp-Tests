@@ -50,14 +50,14 @@ class TP7ViewListOfTransactions {
 	public void i_see_the_list_of_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('TP7ViewListOfTransactions/ion-row_Reference'), 0)
-		
+
 	}
 
 	@When("I click on the Show More button")
 	public void i_click_on_the_Show_More_button() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.click(findTestObject('TP7ViewListOfTransactions/ion-button_Show More'))
-		
+
 	}
 
 	@Then("I do not see the Show More button")

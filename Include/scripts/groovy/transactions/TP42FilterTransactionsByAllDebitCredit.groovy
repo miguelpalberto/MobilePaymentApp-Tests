@@ -44,46 +44,46 @@ import cucumber.api.java.en.When
 
 
 
-class TP42us13filtertransactions {
+class TP42FilterTransactionsByAllDebitCredit {
 	@When("I select All in the select box")
 	public void i_select_All_in_the_select_box() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-select_AllDebitCredit (2)'))
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-radio_All'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-select_AllDebitCredit (2)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_All'))
 	}
 
 	@When("I click on the apply button")
 	public void i_click_on_the_apply_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Confirm (1)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Confirm (1)'))
 
 	}
 	@When("I select the filter button")
 	public void i_click_on_the_filter_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Filters (1)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Filters (1)'))
 
 	}
 
 	@Then("I should see all my transactions")
 	public void i_should_see_all_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
 						0)
 	}
 
 	@When("I select Debit Only in the select box")
 	public void i_select_Debit_Only_in_the_select_box() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-select_AllDebitCredit (1)'))
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-radio_Credit'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-select_AllDebitCredit (1)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_Credit'))
 
 	}
 
 	@Then("I should see all my debit transactions")
 	public void i_should_see_all_my_debit_transactions() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
 				0)
 
 	}
@@ -91,20 +91,20 @@ class TP42us13filtertransactions {
 	@Then("I click on the show more transactions")
 	public void i_should_see_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Show More (1)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Show More (1)'))
 
 	}
 
 	@When("I select Credit Only in the select box")
 	public void i_select_Credit_Only_in_the_select_box() {
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-select_AllDebitCredit (1)'))
-		WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-radio_Credit'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-select_AllDebitCredit (1)'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_Credit'))
 	}
 
 	@Then("I should see all my credit transactions")
 	public void i_should_see_all_my_credit_transactions() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
 				0)
 	}
 }
