@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-button_md button button-clear in-buttons button-has-icon-only ion-activatable ion-focusable-e-ready-2e6</name>
+   <name>ion-button_md butffggt</name>
    <tag></tag>
    <elementGuidId>706afab5-4ec6-4864-bc19-662f7b02360e</elementGuidId>
    <selectorCollection>

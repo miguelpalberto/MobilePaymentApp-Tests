@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/setaDireitaCalendarioB/ion-button_md button button-clear in-buttons button-has-icon-only ion-activatable ion-focusable-e-ready-2e6</value>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/setaDireitaCalendarioB/ion-button_md butffggt</value>
       <webElementGuid>579e205a-54a8-4411-afc7-03243457a708</webElementGuid>
    </webElementProperties>
    <webElementProperties>

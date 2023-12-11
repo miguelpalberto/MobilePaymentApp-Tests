@@ -21,30 +21,30 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/input_Phone_ion-input-0 (1)'), 
+WebUI.setText(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/input_Phone_ion-input-0 (1)'), 
     '900000001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/input_Password_ion-input-1 (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/input_Password_ion-input-1 (1)'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/input_PIN_ion-input-2 (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/input_PIN_ion-input-2 (1)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Create (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Create (1)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/input_Pin_ion-input-3 (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/input_Pin_ion-input-3 (1)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Enter (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Enter (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Show More (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Show More (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Filters (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Filters (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-select_AllDebitCredit (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-select_AllDebitCredit (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-radio_Credit'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_Credit'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-button_Confirm (1)'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-button_Confirm (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP-42-us13-filter-transactions-by-all-de/Page_Ionic App/ion-list_ReferencePT96208402479312057159036_7dd950'))
+WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_ReferencePT96208402479312057159036_7dd950'))
