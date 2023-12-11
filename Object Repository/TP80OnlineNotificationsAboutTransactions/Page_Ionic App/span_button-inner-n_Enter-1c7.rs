@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_button-inner-ady-2e6-a45</name>
+   <name>span_button-inner-n_Enter-1c7</name>
    <tag></tag>
-   <elementGuidId>3004459b-47c9-4947-9683-70b43ccee166</elementGuidId>
+   <elementGuidId>f8ac8b79-319f-45aa-8345-2d23da6dc64f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e639b93f-13cf-4c48-b7dc-29b0489ef001</webElementGuid>
+      <webElementGuid>cf165aa0-a67f-400e-ba62-478ec05aa2ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-inner</value>
-      <webElementGuid>2a576512-82fb-44a7-905d-a8d57cf9e6f7</webElementGuid>
+      <webElementGuid>2404a0f6-135c-46ab-a9b2-68c5dba22b52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]/span[@class=&quot;button-inner&quot;]</value>
-      <webElementGuid>272bd4df-110c-403d-bf85-2fad710c56df</webElementGuid>
+      <webElementGuid>75c7f224-c1df-414a-bc32-1afa8be51c98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/setaDireitaCalendarioB/ion-button_md butffggt</value>
-      <webElementGuid>579e205a-54a8-4411-afc7-03243457a708</webElementGuid>
+      <value>Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Enter</value>
+      <webElementGuid>2db025b5-0e3c-43e9-8267-354524670bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>78a63441-bcc8-4dae-ba2e-1d6f188702ff</webElementGuid>
+      <webElementGuid>35c783fc-1553-4595-8695-afe14d56a2e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>7def2694-120d-4d68-bb23-cfe166f846e4</webElementGuid>
+      <webElementGuid>f4f7e923-c073-4163-b258-e8674bbb8589</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

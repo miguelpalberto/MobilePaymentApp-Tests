@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-datetime_Start Date_ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready</name>
+   <name>ion-datetime_Starth</name>
    <tag></tag>
    <elementGuidId>1ea3bf7e-68b9-462f-9ebf-affc0c58e6a9</elementGuidId>
    <selectorCollection>
