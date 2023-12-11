@@ -102,4 +102,11 @@
       <testCaseId>Test Cases/TP51CheckIfPhoneContactIsVCard/TP51CheckIfPhoneContactIsVCard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cdfaeb98-1b74-46b9-bd11-79b48d456f69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP77PushNotificationsAboutTransactions/TP77PushNotificationsAboutTransactions</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
