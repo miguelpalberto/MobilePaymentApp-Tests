@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Dismiss all2023-11-11 025908916072_1c9183</name>
+   <tag></tag>
+   <elementGuidId>0c1a53f1-45f4-4b23-bdcd-5fa571ab574f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-content.md.content-ltr.ion-padding > ion-list.md.list-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>54319ed1-deef-40e8-9b85-d054abed6433</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md</value>
+      <webElementGuid>bc3b5032-fb2d-4eda-97b0-ebd5644fb104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>8b7a0763-0d6b-4039-9097-dc4fe1d3f750</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dismiss all2023-11-11 02:59:08916072216 sent 287.43€2023-10-26 08:12:01900000006 sent 34.13€</value>
+      <webElementGuid>b24111df-d08d-488d-adfb-00a07786c9c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/ion-list[@class=&quot;md list-md&quot;]</value>
+      <webElementGuid>8a9b8a46-af52-45f1-9d67-f49b6649923e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list</value>
+      <webElementGuid>5438436c-9fd5-4185-85e8-a06b593c9d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::ion-list[1]</value>
+      <webElementGuid>0faf36a0-ea41-465a-b37d-bb5c2af3a28b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-list[1]</value>
+      <webElementGuid>a975d597-7093-4389-b497-28e51153652c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ion-content/ion-list</value>
+      <webElementGuid>750c176e-a30e-41fb-876f-471b1c4c8dfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Dismiss all2023-11-11 02:59:08916072216 sent 287.43€2023-10-26 08:12:01900000006 sent 34.13€' or . = 'Dismiss all2023-11-11 02:59:08916072216 sent 287.43€2023-10-26 08:12:01900000006 sent 34.13€')]</value>
+      <webElementGuid>a3fc8cae-c423-4e2f-ad54-001e1b1aeed0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -2,7 +2,6 @@ Feature: dismiss vcard in details view
 As a user I want to go to a personal details view
 So that I can dismiss my vcard and delete my account
 
-
 Background:
    Given I open the app
 		And I see the vcard creation page
@@ -14,7 +13,7 @@ Background:
 	  And I enter my pin
 	  And I click on the enter button
     And I click on the profile page button
-
+    
 
 Scenario: dismiss vcard 
     Given I am in the profile page
