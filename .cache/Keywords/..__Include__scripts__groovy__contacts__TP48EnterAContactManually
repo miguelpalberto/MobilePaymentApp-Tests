@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "2E4BE73E9AC7A22AE6AA1CDADD4D20A9",
+  "keywordFileContentHash": "8536B491F2245824CA37957E06306394",
   "keywordClasses": [
     {
       "name": "contacts.TP48EnterAContactManually",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

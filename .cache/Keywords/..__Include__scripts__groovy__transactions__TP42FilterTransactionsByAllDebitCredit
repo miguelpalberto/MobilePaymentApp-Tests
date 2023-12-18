@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "33E68699709D76EBD97E23020CBE997E",
+  "keywordClasses": [
+    {
+      "name": "transactions.TP42FilterTransactionsByAllDebitCredit",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
