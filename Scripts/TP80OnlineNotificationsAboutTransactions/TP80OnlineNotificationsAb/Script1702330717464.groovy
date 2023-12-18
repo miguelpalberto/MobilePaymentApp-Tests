@@ -19,30 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8100/login')
+WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_PhonePasswordPINCreate'), 
-    0)
+WebUI.setText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Phone_ion-input-0 (3)'), 
+    '900000001')
 
-WebUI.setText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Phone_ion-input-0'), '900000001')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Password_ion-input-1 (3)'), 
+    'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_Password_ion-input-1'), 'tzH6RvlfSTg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_PIN_ion-input-2 (3)'), 
+    'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PIN_ion-input-2'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Create (3)'))
 
-WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_Create'))
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Pin_ion-input-3 (3)'), 
+    'tzH6RvlfSTg=')
 
-//Entrar
-WebUI.verifyElementPresent(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/div_ModalLoginDashboard'), 0)
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Enter (3)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/input_PinDashboard'), 'tzH6RvlfSTg=')
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_1 (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP3CreateAVcardAssociateVcard/ion-button_EnterDashboard'))
-
-WebUI.click(findTestObject('TP80OnlineNotificationsAboutTransactions/Final/ion-buttonSinoNotificacoes'))
-
-WebUI.verifyElementPresent(findTestObject('TP80OnlineNotificationsAboutTransactions/Final/ion-col_primeiraNotific'), 
-    0)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-checkbox_Dismiss all_md in-item interac_5fd74e (1)'))
 

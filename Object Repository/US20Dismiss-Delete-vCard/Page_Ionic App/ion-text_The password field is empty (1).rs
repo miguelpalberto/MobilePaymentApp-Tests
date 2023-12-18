@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-text_The password field is empty (1)</name>
+   <tag></tag>
+   <elementGuidId>cb4f74b2-9b9a-4bca-a3b8-5ea4db511f8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-text.ion-color.ion-color-danger.md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-card/ion-card-content/ion-item/ion-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-text</value>
+      <webElementGuid>f9d78e16-6895-4afa-acb1-da70fcff9fb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-danger md</value>
+      <webElementGuid>6b0cf598-8c5c-47d1-ba07-bdd83d433919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>danger</value>
+      <webElementGuid>9c56391d-2a38-4ce1-8068-49f72c839287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The password field is empty</value>
+      <webElementGuid>6ee0e809-3344-4278-a5dc-1ef086969fef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;ion-text-center md content-ltr&quot;]/ion-card[@class=&quot;md&quot;]/ion-card-content[@class=&quot;md card-content-md&quot;]/ion-item[@class=&quot;item-interactive item-input item md item-lines-default item-fill-none item-label item-label-floating&quot;]/ion-text[@class=&quot;ion-color ion-color-danger md&quot;]</value>
+      <webElementGuid>b1f31c69-6427-4567-aae4-7395c8fac0e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-card/ion-card-content/ion-item/ion-text</value>
+      <webElementGuid>db0de7c0-3626-4211-bb39-28463ad74c3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::ion-text[1]</value>
+      <webElementGuid>26f8488d-de7e-4380-b127-237690c4a295</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete VCard'])[1]/following::ion-text[1]</value>
+      <webElementGuid>37939eaf-295b-4c27-ae0b-1b48488f01b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[2]/preceding::ion-text[1]</value>
+      <webElementGuid>6e2d03e5-356a-42b7-99a2-056bcaae0369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The confirmation code field is empty'])[1]/preceding::ion-text[1]</value>
+      <webElementGuid>6f5fb9c7-aceb-4554-8783-7d4d60bd6463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-text</value>
+      <webElementGuid>a0032bae-3c59-49da-9b4f-b587c1a135d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-text[(text() = 'The password field is empty' or . = 'The password field is empty')]</value>
+      <webElementGuid>83dc8f53-80fb-47dd-b32b-57a4702b4e62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

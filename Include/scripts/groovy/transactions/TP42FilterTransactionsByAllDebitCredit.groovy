@@ -69,7 +69,7 @@ class TP42FilterTransactionsByAllDebitCredit {
 	public void i_should_see_all_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
-						0)
+				0)
 	}
 
 	@When("I select Debit Only in the select box")

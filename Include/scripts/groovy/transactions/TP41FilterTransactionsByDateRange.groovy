@@ -144,10 +144,11 @@ class TP41FilterTransactionsByDateRange {
 
 	@Then("I see there are no transactions after the filter")
 	public void i_see_there_are_no_transactions_after_the_filter() {
-		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'))
-		
-		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'),'No transactions')
-		
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'))
+
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/p_No transactions'),
+				'No transactions')
+
 	}
 	//////////////////////////////////
 

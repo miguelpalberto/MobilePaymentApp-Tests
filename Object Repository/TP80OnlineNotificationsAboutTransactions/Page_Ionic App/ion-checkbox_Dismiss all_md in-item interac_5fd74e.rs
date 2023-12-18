@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-checkbox_Dismiss all_md in-item interac_5fd74e</name>
+   <tag></tag>
+   <elementGuidId>ae3275b3-d234-42e6-be09-6202d6d666b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-checkbox.md.in-item.interactive.checkbox-justify-space-between.checkbox-alignment-center.checkbox-label-placement-start</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item[2]/ion-grid/ion-row/ion-col[2]/ion-checkbox</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-checkbox</value>
+      <webElementGuid>1849ac94-cb07-40cf-a326-1d8360e44813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md in-item interactive checkbox-justify-space-between checkbox-alignment-center checkbox-label-placement-start</value>
+      <webElementGuid>0f68cab5-b71f-4e45-9037-09f26a085b88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none item-has-interactive-control in-list ion-activatable ion-focusable ion-activated&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/ion-checkbox[@class=&quot;md in-item interactive checkbox-justify-space-between checkbox-alignment-center checkbox-label-placement-start&quot;]</value>
+      <webElementGuid>e86f019a-dc17-4489-9b9b-49808535d829</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item[2]/ion-grid/ion-row/ion-col[2]/ion-checkbox</value>
+      <webElementGuid>d11a74cd-27f1-494b-8921-067c08beadf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dismiss all'])[1]/following::ion-checkbox[1]</value>
+      <webElementGuid>e0361d3b-db73-44ac-b464-a37e7f793507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::ion-checkbox[1]</value>
+      <webElementGuid>395c9c8c-bf7a-49cb-9f23-9324380b9ec3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-checkbox</value>
+      <webElementGuid>2e569898-f967-41f1-9f1f-641451fd60c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

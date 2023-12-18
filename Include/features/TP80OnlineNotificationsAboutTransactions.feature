@@ -70,3 +70,5 @@ so that I can see what is happening on my account
 	    Then I see all notifications
 	    When I click on the dismiss all button
 	    Then all notifications are dismissed
+	    
+	    
