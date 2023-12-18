@@ -82,10 +82,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e1d41e2-975d-4b8d-a1f1-0dc6380018c5</guid>
+      <guid>a8a8a125-f739-4120-b442-e3a51e937828</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP43SortTransactionsByMostRecentOrHighestValue/TP43SortTransactionsByMostRecentOrHighestValue</testCaseId>
+      <testCaseId>Test Cases/TP51CheckIfPhoneContactIsVCard/TP51CheckIfPhoneContactIsVCard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -96,10 +96,45 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8a8a125-f739-4120-b442-e3a51e937828</guid>
+      <guid>3e1d41e2-975d-4b8d-a1f1-0dc6380018c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP51CheckIfPhoneContactIsVCard/TP51CheckIfPhoneContactIsVCard</testCaseId>
+      <testCaseId>Test Cases/TP43SortTransactionsByMostRecentOrHighestValue/TP43SortTransactionsByMostRecentOrHighestValue</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9b6b227-a2dd-4a6e-91b1-7a54136fdccf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP42FilterTransactionsByAllDebitCredit/TP42FilterTransactionsByAllDebitCredit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abc98369-6505-4b2d-a3ed-c9a15c039155</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP41FilterTransactionsByDateRange/TP41FilterTransactionsByDateRange</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eda5ba44-7233-4486-8f40-bac168d3ab3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP80OnlineNotificationsAboutTransactions/TP80OnlineNotificationsAb</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f8ba598-95d4-41c4-8ecc-72edb85f08f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP81AutoSaveMoneyInThePiggyBank/TP81AutoSaveMoneyInThePiggyBank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e66a896-1d16-4b45-89f4-f1e38235b43a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TP77PushNotificationsAboutTransactions/TP77PushNotificationsAboutTransactions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

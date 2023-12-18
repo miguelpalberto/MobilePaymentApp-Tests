@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3BEB43EA6EEE2FBD1410C380CD55F205",
+  "keywordClasses": [
+    {
+      "name": "transactions.TP83ConfirmTransaction",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

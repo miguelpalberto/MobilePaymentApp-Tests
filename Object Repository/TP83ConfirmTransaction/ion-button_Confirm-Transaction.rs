@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ion-button_Continue</name>
+   <name>ion-button_Confirm-Transaction</name>
    <tag></tag>
-   <elementGuidId>ea04c068-9a6a-4091-a4aa-2f499fc74f05</elementGuidId>
+   <elementGuidId>00a05d9c-18ee-4370-8ff4-880354b66e0e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ion-button.ion-color.ion-color-success.md.button.button-full.button-solid.ion-activatable.ion-focusable</value>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-grid/ion-row/div[3]/ion-button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-button</value>
+         <key>CSS</key>
+         <value>ion-button.ion-color.ion-color-primary.md.button.button-full.button-solid.ion-activatable.ion-focusable</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>ion-button</value>
-      <webElementGuid>c69d0d6b-4852-4f17-b4a5-678e645ab1c2</webElementGuid>
+      <webElementGuid>fed13e3c-741a-4290-949a-4039fede013d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ion-color ion-color-success md button button-full button-solid ion-activatable ion-focusable</value>
-      <webElementGuid>70aaadbc-4591-4ae1-ab73-feeb61a62b5a</webElementGuid>
+      <value>ion-color ion-color-primary md button button-full button-solid ion-activatable ion-focusable</value>
+      <webElementGuid>1895bd7e-b041-49e2-8f36-7488e2cfcbec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>color</name>
       <type>Main</type>
-      <value>success</value>
-      <webElementGuid>836725b8-383a-46e8-bfdd-2427cf52f560</webElementGuid>
+      <value>primary</value>
+      <webElementGuid>e13b9e9f-4db3-4bde-b4ff-e1ee6ef30d03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,78 +46,78 @@
       <name>expand</name>
       <type>Main</type>
       <value>full</value>
-      <webElementGuid>ff5b05d8-fcbe-4388-ac9d-6bb23c6f15b1</webElementGuid>
+      <webElementGuid>8f7c6887-31eb-46b8-b7e0-16b7e13d3d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>78824a29-1cd6-4c11-aafb-1a4dc7576d65</webElementGuid>
+      <value>Confirm</value>
+      <webElementGuid>1672ce94-d739-408b-8342-a18ba9954113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;ion-text-center md content-ltr&quot;]/ion-button[@class=&quot;ion-color ion-color-success md button button-full button-solid ion-activatable ion-focusable&quot;]</value>
-      <webElementGuid>eb63387f-701b-4ecf-8457-22cf3cbda3e6</webElementGuid>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;ion-text-center md content-ltr&quot;]/ion-grid[@class=&quot;vertically-center-aligned md&quot;]/ion-row[@class=&quot;md vertically-center-aligned&quot;]/div[@class=&quot;w-100&quot;]/ion-button[@class=&quot;ion-color ion-color-primary md button button-full button-solid ion-activatable ion-focusable&quot;]</value>
+      <webElementGuid>9926d568-534c-4e2c-b9b8-8dcc5b7d99a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-button</value>
-      <webElementGuid>1058a90d-bec5-4846-b5bd-a01c44848ec3</webElementGuid>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-grid/ion-row/div[3]/ion-button</value>
+      <webElementGuid>82278d75-7969-4e01-b0de-d4786b10e969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/following::ion-button[1]</value>
-      <webElementGuid>bd122ae3-1659-40f0-abea-dd47c39d947b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The confirmation code is incorrect'])[1]/following::ion-button[1]</value>
+      <webElementGuid>07fdee07-f6bc-4e32-96ac-b72cc5a0643c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Code'])[1]/following::ion-button[2]</value>
-      <webElementGuid>f9ed868e-3db9-4f9e-9c38-9633a92a36ba</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation Code'])[1]/following::ion-button[1]</value>
+      <webElementGuid>729d7f49-cb2c-42a3-a760-684ac8e8c696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('/button[@class=', '&quot;', 'button-native', '&quot;', ']')])[1]/preceding::ion-button[1]</value>
-      <webElementGuid>1cd6c9c8-43ee-4a0f-9aac-9af5b5885c3c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::ion-button[1]</value>
+      <webElementGuid>4573b853-487e-40ec-9295-76f8d9a49ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>b3aee972-bb3e-42a5-9f8c-e0f20e7b8ca0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-button[2]</value>
+      <webElementGuid>d0f387e5-50b2-4bf8-b892-74815974652f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ion-content/ion-button</value>
-      <webElementGuid>0aeeff44-4a43-4457-ac46-9acddbc7a5aa</webElementGuid>
+      <value>//div[3]/ion-button</value>
+      <webElementGuid>5a29569c-7516-475e-b235-968f8cf3c1fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//ion-button[(text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>d01a2c8f-dba0-4dc6-a101-934af48bc738</webElementGuid>
+      <value>//ion-button[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>52216731-5d3c-414c-b2b4-f4f2bc92d4e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

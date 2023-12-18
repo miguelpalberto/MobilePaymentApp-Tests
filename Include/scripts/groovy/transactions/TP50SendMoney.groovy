@@ -56,19 +56,19 @@ class TP50SendMoney {
 		WebUI.verifyElementClickable(findTestObject('TP50SendMoney/ion-button_Send'))
 	}
 
-	@When("I press the save button")
-	public void i_press_the_save_button() {
+	@When("I press the send button")
+	public void i_press_the_send_button() {
 		WebUI.click(findTestObject('TP50SendMoney/ion-button_Send'))
 	}
 
 	@Then("I should see the continue button")
 	public void i_should_see_the_continue_button() {
-		WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion-button_Continue'), 0)
+		WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion--button_Continue-after-transaction'), 0)
 	}
 
 	@Then("I press continue button")
 	public void i_press_continue_button() {
-		WebUI.click(findTestObject('TP50SendMoney/ion-button_Continue'))
+		WebUI.click(findTestObject('TP50SendMoney/ion--button_Continue-after-transaction'))
 	}
 
 	@Then("I fill the amount with {string}")
@@ -79,20 +79,20 @@ class TP50SendMoney {
 	@Then("I fill the confirmation code with my pin")
 	public void i_fill_the_confirmation_code_with_my_pin() {
 		boolean isPresent = true;
-		
+
 		try {
 			WebUI.verifyElementPresent(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 0)
 		}
 		catch(StepFailedException ignore) {
 			isPresent = false;
 		}
-		
+
 		//fix para o element ser o mesmo mas o xpath ser um bocadinho difente
 		if (isPresent) {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')	
+			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')
 		}
 		else {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')		
+			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')
 		}
 	}
 
@@ -122,8 +122,8 @@ class TP50SendMoney {
 		WebUI.getText(findTestObject('TP50SendMoney/ion-text-amount-error'), FailureHandling.STOP_ON_FAILURE).contains(string)
 	}
 
-	@Then("I see the save button disabled")
-	public void i_see_the_save_button_disabled() {
+	@Then("I see the send button disabled")
+	public void i_see_the_send_button_disabled() {
 		WebUI.getAttribute(findTestObject('TP50SendMoney/ion-button_Send'), 'class').contains('button-disabled')
 	}
 

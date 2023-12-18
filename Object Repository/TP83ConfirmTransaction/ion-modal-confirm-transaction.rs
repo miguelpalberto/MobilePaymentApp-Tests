@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-modal-confirm-transaction</name>
+   <tag></tag>
+   <elementGuidId>b21eef57-f2a7-4ebf-aa67-a7b9c6909c9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-grid/ion-row</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-row.md.vertically-center-aligned</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-row</value>
+      <webElementGuid>0825861a-b9fe-4611-a833-108de5a9dcf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md vertically-center-aligned</value>
+      <webElementGuid>4b9cb6ef-2d7c-403e-93b1-a2d6bdf42b65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sending 0,01€to Miguel Pedrosa Alberto (900000002)Confirmation CodeThe confirmation code is incorrectConfirmCancel</value>
+      <webElementGuid>76178fa4-14ed-4dd1-8de6-7b6a581dd3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ion-overlay-2&quot;)/div[@class=&quot;ion-delegate-host ion-page&quot;]/ion-content[@class=&quot;ion-text-center md content-ltr&quot;]/ion-grid[@class=&quot;vertically-center-aligned md&quot;]/ion-row[@class=&quot;md vertically-center-aligned&quot;]</value>
+      <webElementGuid>98ebcd1d-93c6-42e8-acc1-e8053b25d5e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-modal[@id='ion-overlay-2']/div/ion-content/ion-grid/ion-row</value>
+      <webElementGuid>95d6b549-169e-49a4-9459-d2283c9d114f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send'])[1]/following::ion-row[1]</value>
+      <webElementGuid>6761dbe6-2e74-4a53-bcf8-3f9a64f088e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::ion-row[2]</value>
+      <webElementGuid>56df7a58-609b-4fcb-bb43-b65aa330a4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-content/ion-grid/ion-row</value>
+      <webElementGuid>7142efe5-92df-4283-8cdd-8d4ea2fb406c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-row[(text() = 'Sending 0,01€to Miguel Pedrosa Alberto (900000002)Confirmation CodeThe confirmation code is incorrectConfirmCancel' or . = 'Sending 0,01€to Miguel Pedrosa Alberto (900000002)Confirmation CodeThe confirmation code is incorrectConfirmCancel')]</value>
+      <webElementGuid>b573ab8b-8e0e-4db8-845b-ea96c5b6c28e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
