@@ -38,29 +38,38 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.exception.StepFailedException
+
+import java.lang.Thread
 
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+import io.appium.java_client.AppiumDriver
+import io.appium.java_client.MobileElement
+import io.appium.java_client.android.AndroidDriver
+import io.appium.java_client.ios.IOSDriver
+import org.openqa.selenium.remote.DesiredCapabilities
 
 
 class TP77PushNotificationsAboutTransactions {
 	@Given("I open the mobile app")
 	public void i_open_the_mobile_app() {
-		// Define the relative path to the APK file
 		String relativeAppPath = "vcardApp.apk"
 
 		// Construct the absolute path using the project directory
 		String absoluteAppPath = RunConfiguration.getProjectDir() + "/" + relativeAppPath
 
 		Mobile.startApplication(absoluteAppPath, true)
-		//Mobile.startApplication('C:\\UnivCoding\\TAES\\Project\\Repositories\\tests\\vCardApp.apk', true)
 	}
 
 	@Given("I see the vcard creation page in mobile")
 	public void i_see_the_vcard_creation_page_in_mobile() {
+		if (!Mobile.getText('Object Repository/TP77PushNotificationsAboutTransactions/android.widget.TextView - Login', 0).contains("Login")) {
+			throw new StepFailedException("Not in the login page")
+		}
 	}
 
 	@Given("I fill the phone with phone in mobile")
@@ -86,6 +95,7 @@ class TP77PushNotificationsAboutTransactions {
 
 	@Given("I see a modal to enter my pin in mobile")
 	public void i_see_a_modal_to_enter_my_pin_in_mobile() {
+		Mobile.verifyElementExist('Object Repository/TP77PushNotificationsAboutTransactions/android.app-pin-modal', 0)
 	}
 
 	@Given("I enter my pin in mobile")
@@ -100,6 +110,9 @@ class TP77PushNotificationsAboutTransactions {
 
 	@Then("I see the dashboard page in mobile")
 	public void i_see_the_dashboard_page_in_mobile() {
+		if (!Mobile.getText('android.widget.TextView - Dashboard', 0).contains("Dashboard")) {
+			throw new StepFailedException("Not in the dashboard page")
+		}
 	}
 
 	@When("I open my notifications")
@@ -109,33 +122,37 @@ class TP77PushNotificationsAboutTransactions {
 
 	@Then("I see a notification about a transaction")
 	public void i_see_a_notification_about_a_transaction() {
+		//sleep for 1 minute while waiting for notification
+		Thread.sleep(60000)
+		if (!hasTransaction()) {
+			throw new StepFailedException("No transactions found in the notifications.")
+		}
 	}
 
 	public boolean hasTransaction() {
-		return true;
-		/*List<WebElement> allnotifications=Mobile.findElements(By.id("android:id/title"));
-		 for (WebElement webElement : allnotifications) {
-		 System.out.println(webElement.getText());
-		 if(webElement.getText().contains("something")){
-		 return true;
-		 }
-		 }
-		 */
-	}
+		List<WebElement> allnotifications= Mobile.findElements(By.id("android:id/title"));
+		for (WebElement webElement : allnotifications) {
+			if(webElement.getText().contains("You have received")){
+				return true;
+			}
+		}
 
-	public boolean hasNoTransaction() {
-		return true;
+		return false;
 	}
 
 	@Then("I close the mobile app")
 	public void i_close_the_mobile_app() {
 		Mobile.closeApplication()
-		InteractsWithApps driver = MobileDriverFactory.getDriver()
-
-		driver.removeApp('io.ionic.starter')
+		def desiredCapabilities = new DesiredCapabilities()
+		AppiumDriver<MobileElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities)
+		driver.removeApp("io.ionic.starter")
+		driver.quit()
 	}
 
 	@Then("I see that there are no notifications about new transactions")
 	public void i_see_that_there_are_no_notifications_about_new_transactions() {
+		if (hasTransaction()) {
+			throw new StepFailedException("Transactions found in the notifications.")
+		}
 	}
 }

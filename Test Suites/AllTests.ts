@@ -131,7 +131,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8da8e66d-797a-4db0-a7bd-b7b3c28ecc28</guid>
+      <guid>2e66a896-1d16-4b45-89f4-f1e38235b43a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Old/Apagar/TP11DismissDeletevCard/TP11DismissDeletevCard</testCaseId>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_button-native-ontinue-565</name>
+   <name>button_button-native-Confirm-f2b</name>
    <tag></tag>
-   <elementGuidId>dc523e73-3ea7-4a5c-880b-2f6f4ff8935a</elementGuidId>
+   <elementGuidId>e5997bde-036e-49ec-94a3-e6a932252ae0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.button-native</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button-native</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>abdf0749-739a-4790-a038-75e950dd37aa</webElementGuid>
+      <webElementGuid>fa46d52c-a0a8-4f7b-aa5c-f8c52cdb4961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d5c8db4f-627d-4a98-8584-d13612577e23</webElementGuid>
+      <webElementGuid>3ef873e1-a174-4f95-9260-f8005cb33dad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-native</value>
-      <webElementGuid>d482959d-5856-49a2-a0aa-f846634b8853</webElementGuid>
+      <webElementGuid>a4381bdc-0d12-4c01-b64e-706939178bf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>part</name>
       <type>Main</type>
       <value>native</value>
-      <webElementGuid>db5ddefe-207d-4dd4-a903-6bb06a5d9df7</webElementGuid>
+      <webElementGuid>b3a2bf92-b594-4df5-83d9-4fe02998670a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/button[@class=&quot;button-native&quot;]</value>
-      <webElementGuid>654dbf23-8e49-4f95-a6f3-67518161a3ba</webElementGuid>
+      <webElementGuid>8e59c7e7-3a13-464f-918b-a12a1efa0d79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP50SendMoney/ion--button_Continue-after-transaction</value>
-      <webElementGuid>2ca9696b-d964-4bfe-9728-3dd90dbfa9ad</webElementGuid>
+      <value>Object Repository/TP83ConfirmTransaction/ion-button_Confirm-Transaction</value>
+      <webElementGuid>6df3f0c0-acae-4bba-88a4-3d9fa2c874c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>ref_element_is_shadow_root</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>47439d53-6566-4c78-9e58-184f2f706fdf</webElementGuid>
+      <webElementGuid>a000af82-8eb8-42f9-90ad-6d4b266b865d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>a58ada94-0de0-4d68-a7a5-14c405042052</webElementGuid>
+      <webElementGuid>6a5e0157-f51a-49fb-9a26-9b3c903724f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>57135723-3c40-43c3-b952-e1f2db6bb3bf</webElementGuid>
+      <webElementGuid>3060ba0e-e286-4ba1-a7f2-354e6fd80a96</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

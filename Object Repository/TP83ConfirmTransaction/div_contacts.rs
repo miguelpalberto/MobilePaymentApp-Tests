@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_contacts</name>
+   <tag></tag>
+   <elementGuidId>7ba15b3f-e251-45b7-b832-d8224f4d73f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5ed556ba-9043-4d15-90cf-0621179aebe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add New ContactAfonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003</value>
+      <webElementGuid>fbdfa5b3-886f-415c-a372-dd3e71981225</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]</value>
+      <webElementGuid>bf587a5f-305a-4e6a-bc0b-015134c93f0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div</value>
+      <webElementGuid>9bf30c41-4040-4d1b-a903-1298fcfbcac3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::div[1]</value>
+      <webElementGuid>6f3bf465-e250-420e-b72e-66e8ee4d616a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::div[2]</value>
+      <webElementGuid>9c994ac0-1a35-4128-a001-8deb782c0935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ion-content/div</value>
+      <webElementGuid>819de94d-e4f9-4e55-99ec-f65358463c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add New ContactAfonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003' or . = 'Add New ContactAfonso Cancela918821097João Tavares900000001Miguel Pedrosa Alberto900000002João Miguel Antunes Carvalho da Silva900000003')]</value>
+      <webElementGuid>05ca2c03-e33a-412f-96ab-806eeeedec76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
