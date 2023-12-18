@@ -49,9 +49,18 @@ class TP51CheckIfPhoneContactIsVCard {
 	public void i_have_a_vCard_contact() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP51CheckIfPhoneContactIsVCard/ion-non_vcard_contact'), 0);
 	}
-	
+
 	@Then("I should see a vCard icon on that contact")
 	public void i_should_see_a_vCard_icon_on_that_contact() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP51CheckIfPhoneContactIsVCard/ion-icon_vcard'), 0);
+	}
+	@When("I have a contact that is not associated to vCard")
+	public void i_have_a_contact_that_is_not_associated_to_vCard() {
+
+	}
+	
+	@Then("I should see that contact without a vCard icon")
+	public void i_should_see_that_contact_without_a_vCard_icon() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP51CheckIfPhoneContactIsVCard/ion-icon_vcard'), 0);
 	}
 }

@@ -1,11 +1,10 @@
 Feature: Filter Transactions by Date Range
-  As a vcard mobile application user I want to access my Transactions
-  So that I can sort them by most recent or highest amount
+  As a vcard mobile application user I want to sort my Transactions in ascendent or descendent order and by date or by amount
+  So that I can see them better in a sorted way
 
   Background: 
   	Given I open the app
 		And I see the vcard creation page
-    And I see the vcard creation page
     And I fill the phone with phone that has transactions and balance
     And I fill the password with password
     And I fill the pin with pin
@@ -14,6 +13,7 @@ Feature: Filter Transactions by Date Range
     And I enter my pin
     And I click on the enter button
     And I see the dashboard page
+    
     And I click on the Show More button
     And I see the list of my transactions
     
@@ -28,4 +28,4 @@ Feature: Filter Transactions by Date Range
     And I select the Decrescent button
     Then I see my transactions sorted by decrescent amount
     And I close the app
-
+    

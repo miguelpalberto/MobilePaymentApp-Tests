@@ -15,6 +15,7 @@ Background:
 			And I see a modal to enter my pin
 			And I enter my pin 
 			And I click on the enter button
+			
 			Then I see my balance on the dashboard
 			And I close the app
 	
@@ -26,5 +27,6 @@ Background:
 			And I see a modal to enter my pin
 			And I enter my pin 
 			And I click on the enter button
+			
 			Then I see the text No Funds on the dashboard
 			And I close the app
