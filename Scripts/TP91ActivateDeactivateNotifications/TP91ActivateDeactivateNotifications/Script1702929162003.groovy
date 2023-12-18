@@ -17,5 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Includes/features/TP83ConfirmTransaction.feature')
+Mobile.startApplication('C:\\Repositories\\tests\\vCardApp.apk', true)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.setText(findTestObject('null'), '123', 
+    0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('null'), 0)
+
+Mobile.tap(findTestObject('Object Repository/TP91ActivateDeactivateNotifications/toggle-input'), 0)
+
+Mobile.closeApplication()
 
