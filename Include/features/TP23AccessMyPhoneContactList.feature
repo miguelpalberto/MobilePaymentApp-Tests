@@ -16,7 +16,7 @@ Feature: access phone contacts list
     And I see a modal to enter my pin
     And I enter my pin
     And I click on the enter button
-    Then I see the dashboard page
+    And I see the dashboard page
     When I click on the send money button
     Then I see my phone contacts list
     And I close the app
