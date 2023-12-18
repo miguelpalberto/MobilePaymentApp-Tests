@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "33DBEDE05B95BFE873539A167D2503FE",
+  "keywordFileContentHash": "42FBF33FE0A5F8F4635F429DC12D77EC",
   "keywordClasses": [
     {
       "name": "transactions.TP81AutoSaveMoneyInThePiggyBank",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

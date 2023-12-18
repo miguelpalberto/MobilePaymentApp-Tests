@@ -14,13 +14,33 @@ Background:
   And I click on the enter button in mobile
   Then I see the dashboard page in mobile
 
-Scenario: I receive a push notification about a transaction
+Scenario: I'm a new user and I receive a push notification about a transaction
+  Given I open the mobile app
+	And I see the vcard creation page in mobile
+	And I fill the phone with phone in mobile
+  And I fill the password with password in mobile
+  And I fill the pin with pin in mobile
+  And I click on the create button in mobile
+  And I see a modal to enter my pin in mobile
+  And I enter my pin in mobile
+  And I click on the enter button in mobile
+  Then I see the dashboard page in mobile
   When I open my notifications
   Then I see a notification about a transaction
   And I close the mobile app
 
 
 Scenario: I open my notifications but there is no new transactions
+  Given I open the mobile app
+	And I see the vcard creation page in mobile
+	And I fill the phone with phone in mobile
+  And I fill the password with password in mobile
+  And I fill the pin with pin in mobile
+  And I click on the create button in mobile
+  And I see a modal to enter my pin in mobile
+  And I enter my pin in mobile
+  And I click on the enter button in mobile
+  Then I see the dashboard page in mobile
   When I open my notifications
   Then I see that there are no notifications about new transactions
   And I close the mobile app
