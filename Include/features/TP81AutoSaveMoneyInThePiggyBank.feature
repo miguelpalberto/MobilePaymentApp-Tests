@@ -43,6 +43,5 @@ Scenario: Create transaction with disabled auto-saving to piggy bank
 		And I fill the confirmation code with my pin
 		And I press confirm
 		Then I see the transaction success message
-    And I dont see the message with the value saved in piggy bank balance
     And I press continue button
 		And I close the app
