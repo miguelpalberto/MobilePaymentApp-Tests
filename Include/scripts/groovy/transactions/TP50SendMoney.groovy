@@ -49,56 +49,67 @@ class TP50SendMoney {
 	@Then("I choose a contact linked to a vCard")
 	public void i_choose_a_contact_a_linked_to_vCard() {
 		WebUI.click(findTestObject('TP50SendMoney/ion-item-contact-vcard'))
+		//WebUI.click(findTestObject('Object Repository/TP50SendMoney/2/h1_Miguel Pedrosa Alberto'))
 	}
 
-	@Then("I should see the send button not disabled")
-	public void i_should_see_the_send_button_not_disabled() {
+	@Then("I see the send button not disabled")
+	public void i_see_the_send_button_not_disabled() {
 		WebUI.verifyElementClickable(findTestObject('TP50SendMoney/ion-button_Send'))
 	}
 
 	@When("I press the send button")
 	public void i_press_the_send_button() {
-		WebUI.click(findTestObject('TP50SendMoney/ion-button_Send'))
+		//WebUI.click(findTestObject('TP50SendMoney/ion-button_Send'))
+		WebUI.click(findTestObject('Object Repository/TP50SendMoney/2/ion-label_Send'))
 	}
 
-	@Then("I should see the continue button")
-	public void i_should_see_the_continue_button() {
-		WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion--button_Continue-after-transaction'), 0)
+	@Then("I see the continue button")
+	public void i_see_the_continue_button() {
+		WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion-button_Continue'), 0)
 	}
 
 	@Then("I press continue button")
 	public void i_press_continue_button() {
-		WebUI.click(findTestObject('TP50SendMoney/ion--button_Continue-after-transaction'))
+		//WebUI.click(findTestObject('TP50SendMoney/ion-button_Continue'))
+		WebUI.click(findTestObject('Object Repository/TP50SendMoney/2/ion-button_Continue'))
 	}
 
 	@Then("I fill the amount with {string}")
 	public void i_fill_the_amount_with(String string) {
 		WebUI.setText(findTestObject('TP50SendMoney/input_Amount_inputValue'), string)
+		//WebUI.click(findTestObject('Object Repository/TP50SendMoney/2/input_Amount_inputValue'))
 	}
 
 	@Then("I fill the confirmation code with my pin")
 	public void i_fill_the_confirmation_code_with_my_pin() {
-		boolean isPresent = true;
+		//boolean isPresent = true;
+		WebUI.setEncryptedText(findTestObject('Object Repository/TP50SendMoney/2/input_Confirmation Code_inputCode'),'tzH6RvlfSTg=')
+		//try {
+		//	WebUI.verifyElementPresent(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 0)
 
-		try {
-			WebUI.verifyElementPresent(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 0)
-		}
-		catch(StepFailedException ignore) {
-			isPresent = false;
-		}
+		//}
+		//catch(StepFailedException ignore) {
+		//	isPresent = false;
+		//}
 
 		//fix para o element ser o mesmo mas o xpath ser um bocadinho difente
-		if (isPresent) {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')
-		}
-		else {
-			WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')
-		}
+		//if (isPresent) {
+		//	WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-4'), 'tzH6RvlfSTg=')
+		//}
+		//else {
+		//	WebUI.setEncryptedText(findTestObject('TP50SendMoney/input_Confirmation Code_ion-input-6'), 'tzH6RvlfSTg=')
+		//}
+	}
+	@And("I press confirm")
+	public void i_press_confirm() {
+		//WebUI.click(findTestObject('TP50SendMoney/ion-button_Continue'))
+		WebUI.click(findTestObject('Object Repository/TP50SendMoney/2/ion-button_Confirm'))
 	}
 
-	@Then("I should see the transaction success message")
-	public void i_should_see_the_transaction_success_message() {
-		WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion-content-success-message'), 0)
+	@Then("I see the transaction success message")
+	public void i_see_the_transaction_success_message() {
+		WebUI.verifyElementText(findTestObject('Object Repository/TP50SendMoney/2/p_Transaction Successful'), 'Transaction Successful!')
+		//WebUI.verifyElementPresent(findTestObject('TP50SendMoney/ion-content-success-message'), 0)
 	}
 
 	@Then("I press the Add New Contact button")
@@ -117,8 +128,8 @@ class TP50SendMoney {
 		WebUI.click(findTestObject('TP50SendMoney/ion-button_Add Contact'))
 	}
 
-	@Then("I should see an error message below the amount that contains {string}")
-	public void i_should_see_an_error_message_below_the_amount_that_contains(String string) {
+	@Then("I see an error message below the amount that contains {string}")
+	public void i_see_an_error_message_below_the_amount_that_contains(String string) {
 		WebUI.getText(findTestObject('TP50SendMoney/ion-text-amount-error'), FailureHandling.STOP_ON_FAILURE).contains(string)
 	}
 
@@ -127,13 +138,25 @@ class TP50SendMoney {
 		WebUI.getAttribute(findTestObject('TP50SendMoney/ion-button_Send'), 'class').contains('button-disabled')
 	}
 
-	@Then("I should see an error message below the confirmation code that contains {string}")
-	public void i_should_see_an_error_message_below_the_confirmation_code_that_contains(String string) {
-		WebUI.getText(findTestObject('TP50SendMoney/ion-text-confirmation-code-error'), FailureHandling.STOP_ON_FAILURE).contains(string)
+	@Then("I see an error message below the confirmation code that contains {string}")
+	public void i_see_an_error_message_below_the_confirmation_code_that_contains(String string) {
+		//WebUI.getText(findTestObject('TP50SendMoney/ion-text-confirmation-code-error'), FailureHandling.STOP_ON_FAILURE).contains(string)
+		WebUI.verifyElementText(findTestObject('Object Repository/TP50SendMoney/4/ion-text_The confirmation code is incorrectb'),'The confirmation code is incorrect')
+
 	}
 
 	@Then("I fill the confirmation code with an incorrect pin")
 	public void i_fill_the_confirmation_code_with_an_incorrect_pin() {
-		WebUI.setEncryptedText(findTestObject('Object Repository/TP50SendMoney/input_Confirmation Code_ion-input-4'), '7WNIAkt6pzE=')
+		//WebUI.setEncryptedText(findTestObject('Object Repository/TP50SendMoney/input_Confirmation Code_ion-input-4'), 'CSt51UwWECc=')
+		WebUI.setEncryptedText(findTestObject('Object Repository/TP50SendMoney/2/input_Confirmation Code_inputCode'),'CSt51UwWECc=')
+	}
+	@And("I see the modal to input my pin")
+	public void i_see_the_modal_to_input_my_pin() {
+		WebUI.setEncryptedText(findTestObject('Object Repository/TP50SendMoney/2/input_Confirmation Code_inputCode'),'tzH6RvlfSTg=')
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP50SendMoney/2/ion-row_Sending 0,01to Miguel Pedrosa Alber_8b3140'))
+	}
+	@And("I press cancel")
+	public void i_press_cancel() {
+		WebUI.click(findTestObject('Object Repository/TP50SendMoney/3/ion-button_Cancel'))
 	}
 }

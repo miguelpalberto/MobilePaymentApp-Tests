@@ -69,14 +69,14 @@ class TP42FilterTransactionsByAllDebitCredit {
 	public void i_should_see_all_my_transactions() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
-						0)
+				0)
 	}
 
 	@When("I select Debit Only in the select box")
 	public void i_select_Debit_Only_in_the_select_box() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-select_AllDebitCredit (1)'))
-		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_Credit'))
+		WebUI.click(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-radio_Debit'))
 
 	}
 
@@ -106,5 +106,11 @@ class TP42FilterTransactionsByAllDebitCredit {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/Page_Ionic App/ion-list_Reference9000000032023-10-09 04092_aa224e'),
 				0)
+	}
+	
+	@Then("I should see no transactions and a message that says {string}")
+	public void i_should_see_no_transactions_and_a_message_that_says(String string) {
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/4/Page_Ionic App/p_No transactions'),0)
+		WebUI.verifyElementText(findTestObject('Object Repository/TP42FilterTransactionsByAllDebitCredit/4/Page_Ionic App/p_No transactions'),'No transactions')
 	}
 }

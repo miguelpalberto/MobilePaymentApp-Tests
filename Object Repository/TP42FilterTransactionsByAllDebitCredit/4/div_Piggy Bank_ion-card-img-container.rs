@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Piggy Bank_ion-card-img-container</name>
+   <tag></tag>
+   <elementGuidId>e58d3186-afe9-4289-ba07-9571800b7bef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[2]/ion-content/div/div/ion-grid/ion-row[3]/ion-col/ion-button/ion-card/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ion-card-img-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d6d9a906-0e3a-4b5c-a16a-4a3bcde629c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-card-img-container</value>
+      <webElementGuid>247bf10c-3ed5-472b-8c41-7313d0e77b67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr&quot;]/div[1]/div[1]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]/ion-button[@class=&quot;md button button-clear ion-activatable ion-focusable ion-activated&quot;]/ion-card[@class=&quot;md&quot;]/div[@class=&quot;ion-card-img-container&quot;]</value>
+      <webElementGuid>83549981-a863-406c-9551-9a492a0ec2f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[2]/ion-content/div/div/ion-grid/ion-row[3]/ion-col/ion-button/ion-card/div</value>
+      <webElementGuid>30908311-8625-4e4f-bd26-153e63c0da75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank'])[1]/following::div[1]</value>
+      <webElementGuid>a56da752-492b-4984-9b7a-6b5349ae6a22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No balance'])[1]/following::div[1]</value>
+      <webElementGuid>a9eab2a7-1c3b-49ab-b079-81b1c7b261d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Money'])[1]/preceding::div[1]</value>
+      <webElementGuid>0b4368ae-0881-4a1e-805e-d7f9b3e55d50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank'])[2]/preceding::div[2]</value>
+      <webElementGuid>a7fdfc5b-5fd8-4161-afcd-1e360490d12f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-card/div</value>
+      <webElementGuid>f11d52b5-052c-4c43-9638-ea81aaa45f48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-back-button_Last Transaction_md button _3b2975</name>
+   <tag></tag>
+   <elementGuidId>4069e584-f1fc-4266-9e64-fd8241ebf37d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-back-button.md.button.back-button-has-icon-only.in-toolbar.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-back-button</value>
+      <webElementGuid>58af8143-4674-4de7-bda0-654d152e31fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>9bc66ca9-842e-4b89-b5d3-c492029dd468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-header[@class=&quot;md header-md header-collapse-none&quot;]/ion-toolbar[@class=&quot;toolbar-title-default md in-toolbar&quot;]/ion-buttons[@class=&quot;buttons-first-slot sc-ion-buttons-md-h sc-ion-buttons-md-s md&quot;]/ion-back-button[@class=&quot;md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>cb7896e8-82af-4a83-96bf-f905462deaba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      <webElementGuid>ff99c06e-4dd7-4ac6-b6fb-87d1b944d078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transaction'])[1]/following::ion-back-button[1]</value>
+      <webElementGuid>20ffac16-e030-4141-beba-215b14f34157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank'])[2]/following::ion-back-button[1]</value>
+      <webElementGuid>74c9dcd7-0eff-4338-9b36-f5f228f9a7d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/preceding::ion-back-button[1]</value>
+      <webElementGuid>aef03840-618f-4c7c-8a42-1837eabeed56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Contact'])[1]/preceding::ion-back-button[1]</value>
+      <webElementGuid>aeec5e04-0c77-4814-9af0-195f6f8d9168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-back-button</value>
+      <webElementGuid>566b7d0b-48d8-4f74-b920-d75ce82187e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

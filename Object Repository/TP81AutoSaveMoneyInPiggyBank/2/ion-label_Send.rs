@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-label_Send</name>
+   <tag></tag>
+   <elementGuidId>f22b5c03-224f-469a-ad10-c228a2c4ba8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-row/ion-card/ion-card-content/ion-button/ion-label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ion-label.sc-ion-label-md-h.sc-ion-label-md-s.md.ion-label-w-spinner</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-label</value>
+      <webElementGuid>6673ed5b-fcd0-4a76-9ed2-8d1352f5ed1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-ion-label-md-h sc-ion-label-md-s md ion-label-w-spinner</value>
+      <webElementGuid>e341199c-7066-44e6-8284-8b4e2a028494</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send </value>
+      <webElementGuid>135197fc-2cd1-4db6-8adb-39f9adc3d208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;d-flex flex-column justify-content-space-between h-100&quot;]/ion-row[@class=&quot;md ion-justify-content-center w-100&quot;]/ion-card[@class=&quot;md w-100&quot;]/ion-card-content[@class=&quot;md card-content-md&quot;]/ion-button[@class=&quot;md button button-solid ion-activatable ion-focusable ion-activated&quot;]/ion-label[@class=&quot;sc-ion-label-md-h sc-ion-label-md-s md ion-label-w-spinner&quot;]</value>
+      <webElementGuid>18a2fcd9-b763-40f8-94e9-8f89ceeaf64b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[4]/ion-content/div/ion-row/ion-card/ion-card-content/ion-button/ion-label</value>
+      <webElementGuid>120ecdfe-a7fe-47a9-8027-3d97497dac4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/following::ion-label[1]</value>
+      <webElementGuid>3b7a9971-5f25-45bf-9ce7-89eae9a01824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send to:'])[1]/following::ion-label[1]</value>
+      <webElementGuid>eaa88cc2-bc59-46aa-b535-86968d8c2701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-card-content/ion-button/ion-label</value>
+      <webElementGuid>5c8f915c-c18a-4519-9f4e-8d8b1c4749e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-label[(text() = 'Send ' or . = 'Send ')]</value>
+      <webElementGuid>ce5d2c3a-2bd0-47c4-9f32-af8fb8db6c9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

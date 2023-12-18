@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-back-button4</name>
+   <tag></tag>
+   <elementGuidId>7dd5c206-e7a6-472d-b031-eb7fdbd26a2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-back-button.md.button.back-button-has-icon-only.in-toolbar.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-back-button</value>
+      <webElementGuid>f6f70b10-d4d6-484a-a69c-e6c815221659</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>e5a652c5-2179-4449-88fe-886789dee725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-header[@class=&quot;md header-md header-collapse-none&quot;]/ion-toolbar[@class=&quot;toolbar-title-default md in-toolbar&quot;]/ion-buttons[@class=&quot;buttons-first-slot sc-ion-buttons-md-h sc-ion-buttons-md-s md&quot;]/ion-back-button[@class=&quot;md button back-button-has-icon-only in-toolbar ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>fe10bc7f-d557-4d53-b9d8-f141a9cf5f9d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-header/ion-toolbar/ion-buttons/ion-back-button</value>
+      <webElementGuid>51587768-6399-4870-ba93-b2b3d02b088d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-back-button[1]</value>
+      <webElementGuid>cd63c903-f785-47da-b444-a1bc273e4300</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transaction'])[1]/following::ion-back-button[1]</value>
+      <webElementGuid>2c0713b0-4297-4b8f-9b0c-a8dcf6c405b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::ion-back-button[1]</value>
+      <webElementGuid>86a77839-d886-4ad2-9dbd-80bbde8df40b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-back-button</value>
+      <webElementGuid>22afded6-43c3-4f4e-be84-28788c9d1e48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

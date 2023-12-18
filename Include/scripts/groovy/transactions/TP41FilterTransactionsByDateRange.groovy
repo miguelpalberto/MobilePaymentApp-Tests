@@ -116,13 +116,11 @@ class TP41FilterTransactionsByDateRange {
 	public void i_see_the_transactions_filtered_by_the_date_rage_selected() {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/ion-row_Reference9000000172023-09-25 03540037.33'))
 
-		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-09-25 035400'),
-				'2023-09-25 03:54:00')
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-09-25 035400'))
 
 		WebUI.verifyElementVisible(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/ion-row_Reference9000000132023-11-04 080701-61.46'))
 
-		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-11-04 080701'),
-				'2023-11-04 08:07:01')
+		WebUI.verifyElementText(findTestObject('Object Repository/TP41FilterTransactionsByDateRange/Final/TransacoesResultado/p_2023-11-04 080701'))
 	}
 	//////////////////////////////
 

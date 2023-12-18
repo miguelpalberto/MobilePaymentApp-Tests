@@ -1,4 +1,4 @@
-Feature: display piggy bank vault balance in dashboard
+Feature: Display piggy bank vault balance in dashboard
   as a vcard mobile application user I want to see my piggy bank balance in the dashboard
   so that I know how much I have saved
   
@@ -13,7 +13,7 @@ Scenario: Piggy Bank Vault balance is greater than 0
 	    And I click on the create button
       And I see a modal to enter my pin
 		  And I enter my pin
-		  And I click on the enter button
+		  When I click on the enter button
       Then I see the dashboard page  
       And I see the Piggy Bank Vault balance
 			And I close the app
@@ -23,7 +23,7 @@ Scenario: There are no transactions
 	    And I click on the create button
       And I see a modal to enter my pin
 		  And I enter my pin
-		  And I click on the enter button
+		  When I click on the enter button
       Then I see the dashboard page  
       And I see the text No Balance
 			And I close the app

@@ -53,11 +53,11 @@ class TP83ConfirmTransaction {
 		WebUI.setText(findTestObject('TP83ConfirmTransaction/input_Transaction-confirmation-code'), string)
 	}
 
-	@And("I click on the confirm button")
-	public void i_click_on_the_confirm_button() {
+	@And("I click on the confirm transaction button")
+	public void i_click_on_the_confirm_transaction_button() {
 		WebUI.click(findTestObject('TP83ConfirmTransaction/ion-button_Confirm-Transaction'))
 	}
-	
+
 	@When("I click on the continue button")
 	public void i_click_on_the_continue_button() {
 		WebUI.click(findTestObject('TP83ConfirmTransaction/ion-button_Continue-after-transaction'))
@@ -68,14 +68,14 @@ class TP83ConfirmTransaction {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.verifyElementPresent(findTestObject('TP83ConfirmTransaction/p_Transaction Successful'), 0)
 	}
-	
+
 	@Then("I should see the error message {string}")
 	public void i_should_see_the_error_message(String string) {
 		WebUI.getText(findTestObject('TP83ConfirmTransaction/ion-text_transaction_error'), FailureHandling.STOP_ON_FAILURE).contains(string)
 	}
 
-	@When("I click on the cancel button")
-	public void i_click_on_the_cancel_button() {
+	@When("I click on the cancel transaction button")
+	public void i_click_on_the_cancel_transaction_button() {
 		WebUI.click(findTestObject('TP83ConfirmTransaction/ion-button-Cancel-Transaction'))
 	}
 
@@ -83,7 +83,7 @@ class TP83ConfirmTransaction {
 	public void i_should_see_my_contacts_page() {
 		WebUI.verifyElementPresent(findTestObject('TP83ConfirmTransaction/div_contacts'), 0)
 	}
-	
+
 	@Then("I see a modal to confirm my transaction")
 	public void i_see_a_modal_to_confirm_my_transaction() {
 		Thread.sleep(1000)

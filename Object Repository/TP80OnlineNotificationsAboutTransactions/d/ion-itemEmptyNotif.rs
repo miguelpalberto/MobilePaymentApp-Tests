@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-itemEmptyNotif</name>
+   <tag></tag>
+   <elementGuidId>6448e8cc-570f-4b0f-b9e4-398cb141618c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-item.item.md.item-lines-default.item-fill-none.in-list.ion-focusable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-item</value>
+      <webElementGuid>8c69d7e4-df92-432d-bc7c-bfc54cf69289</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item md item-lines-default item-fill-none in-list ion-focusable</value>
+      <webElementGuid>eaa31798-514b-4d0d-8147-c360454e1d4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listitem</value>
+      <webElementGuid>af055cce-0282-43d9-87df-16a02cef5464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dismiss all</value>
+      <webElementGuid>0853ee20-7932-4d47-89c7-437195beb678</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none in-list ion-focusable&quot;]</value>
+      <webElementGuid>de32a38f-1b63-485f-a0fe-b98f55b82363</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item</value>
+      <webElementGuid>8c36fc7f-161e-4b74-8476-54d4c577b421</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::ion-item[1]</value>
+      <webElementGuid>308552b9-7f29-45a0-a5d6-0c2bdfeba444</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-item[1]</value>
+      <webElementGuid>9b3fff1a-6ba0-432d-a3af-09ac74e55a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-content/ion-list/ion-item</value>
+      <webElementGuid>8d99fa7e-2f1f-4733-a497-9d0f50f83cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-item[(text() = 'Dismiss all' or . = 'Dismiss all')]</value>
+      <webElementGuid>c3e2403a-c784-4ed1-9e95-d0c69f4c94d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
