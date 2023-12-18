@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/ion-b
 
 WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/ion-toggle_Settings_md in-item toggle-check_4e4602'))
 
-WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/ion-back-button_Show More_md button back-bu_4c1eb1'))
+WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/ion-back-button4'))
 
 WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/div_Piggy Bank_ion-card-img-container'))
 

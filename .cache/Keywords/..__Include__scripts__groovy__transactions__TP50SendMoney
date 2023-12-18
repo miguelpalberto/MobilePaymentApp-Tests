@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "D1922B69D715C52E862D4BD6BA363A6A",
+  "keywordFileContentHash": "7785E36B19C9D05F038C383B63E9C53E",
   "keywordClasses": [
     {
       "name": "transactions.TP50SendMoney",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

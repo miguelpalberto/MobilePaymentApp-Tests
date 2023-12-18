@@ -14,29 +14,35 @@ Background:
     And I click on the enter button
     And I see the dashboard page
 
-Scenario: Add transaction with enabled auto-saving to piggy bank in transaction
-		When I click on the send money button
-    Then I see my phone contacts list
+Scenario: Create transaction with enabled auto-saving to piggy bank
+		And I click on the send money button
+    And I see my phone contacts list
     And I choose a contact linked to a vCard
-    And I fill the amount with "0.50"
-		Then I should see the send button not disabled
+    And I fill the amount with "1"
+		And I see the send button not disabled
+		When I press the send button
 		And I fill the confirmation code with my pin
-		When I press the save button
-		Then I should see the transaction success message
-    And I see the value saved in piggy bank balance
+		And I press confirm
+		Then I see the transaction success message
+    And I see the message with the value saved in piggy bank balance
+    And I press continue button
+		And I close the app
 
-Scenario: Add transaction with disabled auto-saving piggy bank
+Scenario: Create transaction with disabled auto-saving to piggy bank
     And I click on the settings button
-    Then I see the settings page
+    And I see the settings page
 		And I disable the auto-saving option
-		And I click on the go back button
+		And I press back
 		And I see the dashboard page
-		When I click on the send money button
-    Then I see my phone contacts list
+		And I click on the send money button
+    And I see my phone contacts list
     And I choose a contact linked to a vCard
-    And I fill the amount with "0.50"
-		Then I should see the send button not disabled
-		When I press the save button
+    And I fill the amount with "1"
+    And I see the send button not disabled
+    When I press the send button
 		And I fill the confirmation code with my pin
-		Then I should see the transaction success message
-    And I don't see the value saved in piggy bank balance
+		And I press confirm
+		Then I see the transaction success message
+    And I dont see the message with the value saved in piggy bank balance
+    And I press continue button
+		And I close the app

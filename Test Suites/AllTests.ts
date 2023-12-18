@@ -131,10 +131,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cdfaeb98-1b74-46b9-bd11-79b48d456f69</guid>
+      <guid>8da8e66d-797a-4db0-a7bd-b7b3c28ecc28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TP77PushNotificationsAboutTransactions/TP77PushNotificationsAboutTransactions</testCaseId>
+      <testCaseId>Test Cases/Old/Apagar/TP11DismissDeletevCard/TP11DismissDeletevCard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
