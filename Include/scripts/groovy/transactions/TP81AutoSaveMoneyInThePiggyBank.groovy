@@ -47,31 +47,34 @@ import cucumber.api.java.en.When
 class TP81AutoSaveMoneyInThePiggyBank {
 	@Given("I click on the settings button")
 	public void i_click_on_the_settings_button() {
-		WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/1/ion-button_Welcome, 900000001_ion-color ion_4d55a7'))
+		// Write code here that turns the phrase above into concrete actions
+		// throw new PendingException();
+		return;
 	}
 
 	@Then("I see the settings page")
 	public void i_see_the_settings_page() {
-		WebUI.verifyElementVisible(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/2/ion-content_Auto-SavingsNotifications'))
+		// Write code here that turns the phrase above into concrete actions
+		// throw new PendingException();
+		return;
 	}
 
 	@Then("I disable the auto-saving option")
 	public void i_disable_the_auto_saving_option() {
-		WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/2/ion-toggle2'))
-	}
-	@Then("I press back")
-	public void i_press_back() {
-		//WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/2/ion-back-button_Show More_md button back-bu_4c1eb1'))
-		WebUI.click(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/3/ion-back-button3'))
+		// Write code here that turns the phrase above into concrete actions
+		// throw new PendingException();
+		return;
 	}
 
-	@Then("I dont see the message with the value saved in piggy bank balance")
-	public void i_dont_see_the_message_with_the_value_saved_in_piggy_bank_balance() {
-		!WebUI.verifyElementText(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/2/p_0.90 saved to your Piggy Bank Vault'), '0.90€ saved to your Piggy Bank Vault')
+	@Then("I don't see the value saved in piggy bank balance")
+	public void i_don_t_see_the_value_saved_in_piggy_bank_balance() {
+		// Write code here that turns the phrase above into concrete actions
+		// throw new PendingException();
+		return;
 	}
-	@Then("I see the message with the value saved in piggy bank balance")
-	public void i_see_the_message_with_the_value_saved_in_piggy_bank_balance() {
-		//WebUI.verifyElementText(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/2/p_0.90 saved to your Piggy Bank Vault'), '0.90€ saved to your Piggy Bank Vault')
-		WebUI.verifyElementVisible(findTestObject('Object Repository/TP81AutoSaveMoneyInPiggyBank/3/p_0.99 saved to your Piggy Bank Vault'))
+	@Then("I see the value saved in piggy bank balance")
+	public void i_see_the_value_saved_in_piggy_bank_balance() {
+		// Write code here that turns the phrase above into concrete actions
+		return;
 	}
 }

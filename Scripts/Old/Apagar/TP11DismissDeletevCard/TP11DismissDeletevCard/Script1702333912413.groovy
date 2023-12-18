@@ -17,5 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
 
-CucumberKW.runFeatureFile('Include/features/TP81AutoSaveMoneyInThePiggyBank.feature')
+WebUI.navigateToUrl('http://localhost:8100/')
+
+WebUI.setText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Phone_ion-input-0'), '900000001')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Password_ion-input-1'), 
+    'tzH6RvlfSTg=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_PIN_ion-input-2'), 
+    'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Create'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Pin_ion-input-3'), 
+    'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Enter'))
+
+WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Welcome, 900000001_ion-color ion_4d55a7'))
+
+WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Dismiss'))
+
+WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Yes'))
+
