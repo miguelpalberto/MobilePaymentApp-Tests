@@ -21,32 +21,32 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Phone_ion-input-0 (5)'), '900000001')
+WebUI.setText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Phone_ion-input-0 (5)'), '900000001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Password_ion-input-1 (5)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Password_ion-input-1 (5)'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_PIN_ion-input-2 (5)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_PIN_ion-input-2 (5)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Create (5)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Create (5)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Pin_ion-input-3 (5)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Pin_ion-input-3 (5)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Enter (5)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Enter (5)'))
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Welcome, 900000001_ion-color ion_4d55a7 (5)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Welcome, 900000001_ion-color ion_4d55a7 (5)'))
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Delete (1)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Delete (1)'))
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-text_The password field is empty (1)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-text_The password field is empty (1)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Password_ion-input-7 (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Password_ion-input-7 (1)'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_PIN_ion-input-8 (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_PIN_ion-input-8 (1)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Yes (4)'))
+WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Yes (4)'))
 

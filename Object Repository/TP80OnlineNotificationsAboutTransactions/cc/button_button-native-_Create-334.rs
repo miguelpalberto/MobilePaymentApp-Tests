@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Create</value>
+      <value>Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-button_Create</value>
       <webElementGuid>c1c230a8-ac35-4558-9e34-4611caba3573</webElementGuid>
    </webElementProperties>
    <webElementProperties>

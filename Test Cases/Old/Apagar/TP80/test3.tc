@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TP91ActivateDeactivateNotifications</name>
+   <name>test3</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>35e9a2d7-09ff-43aa-96ca-3f3ea0422993</testCaseGuid>
+   <testCaseGuid>2df955c2-58a2-4728-a5e6-3e3b696deb64</testCaseGuid>
 </TestCaseEntity>

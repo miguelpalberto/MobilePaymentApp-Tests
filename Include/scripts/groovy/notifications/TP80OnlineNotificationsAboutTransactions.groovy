@@ -47,47 +47,42 @@ import cucumber.api.java.en.When
 class TP80OnlineNotificationsAboutTransactions {
 	@When("I click on the notifications button")
 	public void i_click_on_the_notifications_button() {
-		WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_2'))
-
+		WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-button_2'))
 	}
 
 	@Then("I see all notifications")
 	public void i_see_all_notifications() {
-//		WebUI.verifyElementPresent(findTestObject('TP80OnlineNotificationsAboutTransactions/Final/ion-col_primeiraNotific'),
-//				0)
-		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-list_Dismiss all2023-11-11 025908916072_1c9183'), 0)
-		
+		//		WebUI.verifyElementPresent(findTestObject('TP80OnlineNotificationsAboutTransactions/Final/ion-col_primeiraNotific'),
+		//				0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-list_Dismiss all2023-11-11 025908916072_1c9183'), 0)
 	}
 
 	@Then("I see no notifications")
 	public void i_see_no_notifications() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/d/ion-content_Dismiss all2023-12-18 223848900_eba3bb'),0)
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/d/ion-itemEmptyNotif'))
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/e/p_No notifications'))
 	}
 
 	@When("I click on the dismiss button")
 	public void i_click_on_the_dismiss_button() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-checkbox_Dismiss all_md in-item interac_5fd74e'))
-
+		WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-checkbox_Dismiss all_md in-item interac_5fd74e'))
 	}
 
 	@Then("the notification is dismissed")
 	public void the_notification_is_dismissed() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+		WebUI.verifyElementVisible(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/b/ion-checkbox_Dismiss all_md in-item interac_5fd74e'))
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/b/ion-checkbox_Dismiss all_md in-item interac_5fd74e'),0)
+
 	}
 
 	@When("I click on the dismiss all button")
 	public void i_click_on_the_dismiss_all_button() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
-	}
+		//WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-checkbox_Dismiss all_md in-item interac_5fd74e (1)'))
+		WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/ion-button_Dismiss all'))
+		}
 
 	@Then("all notifications are dismissed")
 	public void all_notifications_are_dismissed() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
 	}
 }

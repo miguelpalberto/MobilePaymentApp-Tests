@@ -19,3 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('http://localhost:8100/login')
+
+WebUI.setText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/input_Phone_ion-input-0'), 
+    '900000001')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/input_Password_ion-input-1'), 
+    'tzH6RvlfSTg=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/input_PIN_ion-input-2'), 
+    'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/ion-button_Create'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/input_Pin_ion-input-3'), 
+    'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/ion-button_Enter'))
+
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/ion-button_Welcome, 900000001_ion-color ion_4d55a7'))
+
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/f/ion-button_Dismiss all'))
+
+WebUI.closeBrowser()
+

@@ -49,7 +49,7 @@ class TP11US20DismissDeletevCard {
 	@Given("I click on the profile page button")
 	public void i_click_on_the_profile_page_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Welcome, 900000001_ion-color ion_4d55a7 (2)'))
+		WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Welcome, 900000001_ion-color ion_4d55a7 (2)'))
 	}
 
 	@Given("I am in the profile page")
@@ -61,20 +61,20 @@ class TP11US20DismissDeletevCard {
 	@When("I click on the dismiss vcard button")
 	public void i_click_on_the_dismiss_vcard_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Dismiss (2)'))
+		WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Dismiss (2)'))
 	}
 
 	@Then("I see a modal to confirm the dismissal")
 	public void i_see_a_modal_to_confirm_the_dismissal() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent((findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Yes (2)')), 0)
+		WebUI.verifyElementPresent((findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Yes (2)')), 0)
 
 	}
 
 	@Then("I click on the confirm button")
 	public void i_click_on_the_confirm_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Yes (2)'))
+		WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Yes (2)'))
 
 	}
 
@@ -87,53 +87,53 @@ class TP11US20DismissDeletevCard {
 	@Then("I click on the cancel button")
 	public void i_click_on_the_cancel_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_No'))
+		WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_No'))
 	}
 
 	@Then("I see the profile page")
 	public void i_see_the_profile_page() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Dismiss (3)'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Dismiss (3)'), 0)
 	}
 
 	@When("I click on the delete my account button")
 	public void i_click_on_the_delete_my_account_button() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-button_Delete'))
+		WebUI.click(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-button_Delete'))
 
 	}
 
 	@Then("I see a modal to confirm the deletion")
 	public void i_see_a_modal_to_confirm_the_deletion() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Password_ion-input-7'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Password_ion-input-7'), 0)
 	}
 
 	@Then("I enter my password in the modal")
 	public void i_enter_my_password_in_the_modal() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_Password_ion-input-7'),
+		WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_Password_ion-input-7'),
 				'tzH6RvlfSTg=')
 	}
 
 	@Then("I enter a wrong pin")
 	public void i_enter_a_wrong_pin() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_PIN_ion-input-8'),
+		WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_PIN_ion-input-8'),
 				'lnBUteI2ioQ=')
 	}
 
 	@Then("I see an error message in the modal")
 	public void i_see_an_error_message_in_the_modal() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.verifyElementPresent(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/ion-text_The confirmation code is incorrect'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/ion-text_The confirmation code is incorrect'), 0)
 
 	}
 
 	@Then("I enter a valid pin in the modal")
 	public void i_enter_a_valid_pin_in_the_modal() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.setEncryptedText(findTestObject('Object Repository/US20Dismiss-Delete-vCard/Page_Ionic App/input_PIN_ion-input-8 (1)'),
+		WebUI.setEncryptedText(findTestObject('Object Repository/US20DismissDeletevCard/Page_Ionic App/input_PIN_ion-input-8 (1)'),
 				'tzH6RvlfSTg=')
 	}
 

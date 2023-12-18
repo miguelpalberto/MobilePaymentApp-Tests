@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8100/')
 
-WebUI.setText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Phone_ion-input-0 (3)'), 
+WebUI.setText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/input_Phone_ion-input-0 (3)'), 
     '900000001')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Password_ion-input-1 (3)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/input_Password_ion-input-1 (3)'), 
     'tzH6RvlfSTg=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_PIN_ion-input-2 (3)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/input_PIN_ion-input-2 (3)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Create (3)'))
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-button_Create (3)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/input_Pin_ion-input-3 (3)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/input_Pin_ion-input-3 (3)'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_Enter (3)'))
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-button_Enter (3)'))
 
-WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-button_1 (1)'))
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-button_1 (1)'))
 
-WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/Page_Ionic App/ion-checkbox_Dismiss all_md in-item interac_5fd74e (1)'))
+WebUI.click(findTestObject('Object Repository/TP80OnlineNotificationsAboutTransactions/cc/ion-checkbox_Dismiss all_md in-item interac_5fd74e (1)'))
 

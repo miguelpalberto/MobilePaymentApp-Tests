@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
+<FolderEntity>
    <description></description>
    <name>TP91ActivateDeactivateNotifications</name>
    <tag></tag>
-   <comment></comment>
-   <testCaseGuid>35e9a2d7-09ff-43aa-96ca-3f3ea0422993</testCaseGuid>
-</TestCaseEntity>
+   <folderType>TESTCASE</folderType>
+</FolderEntity>

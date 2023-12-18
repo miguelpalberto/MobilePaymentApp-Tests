@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "7E03EB92F6C42E41E6176BCE8BA865D6",
+  "keywordFileContentHash": "2E64164A2AD92182E8765B2034BA3709",
   "keywordClasses": [
     {
       "name": "notifications.TP80OnlineNotificationsAboutTransactions",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

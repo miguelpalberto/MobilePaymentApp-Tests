@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-list_Dismiss all2023-12-18 140047900000_86419e</name>
+   <tag></tag>
+   <elementGuidId>e6c32eba-e1e0-4ef9-b3e7-4577eef64b7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-content.ion-padding.md.content-ltr > ion-list.md.list-md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-list</value>
+      <webElementGuid>8e568fd1-0b87-44bf-bef9-f0d2ee9ed6ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md list-md</value>
+      <webElementGuid>36c30c22-2023-4cb9-a4ac-32d3bb6750c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>aea9b17f-eb56-4f9f-935c-3f132aa51a23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dismiss all2023-12-18 14:00:47900000002 sent 0.01€2023-12-11 20:56:18900000002 sent 10.02€2023-12-11 21:17:46900000008 sent 0.01€2023-12-11 22:17:50900000002 sent 10.00€2023-12-11 22:21:18900000012 sent 0.50€2023-12-11 22:23:02900000012 sent 0.50€2023-12-11 22:25:13900000012 sent 0.10€2023-12-11 22:28:04900000012 sent 100.00€2023-12-11 22:31:09900000002 sent 0.01€2023-12-11 22:31:54900000002 sent 1.00€2023-12-11 22:32:59900000002 sent 0.11€2023-12-11 22:33:31900000002 sent 0.01€2023-12-11 22:35:57900000002 sent 0.01€2023-12-11 22:38:35900000002 sent 0.01€2023-12-01 03:52:52900000019 sent 56.40€2023-11-16 09:04:00900000010 sent 35.94€</value>
+      <webElementGuid>d89950e7-545b-4130-ba32-a40ba22ae7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/ion-list[@class=&quot;md list-md&quot;]</value>
+      <webElementGuid>5aa9d302-9a90-446b-bebb-028785275071</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list</value>
+      <webElementGuid>a6e50b9f-ed6a-4288-9ede-448fa44f31e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::ion-list[1]</value>
+      <webElementGuid>c281ca29-32ff-4237-a3d2-cfe0883ac077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show More'])[1]/following::ion-list[1]</value>
+      <webElementGuid>c9ec5756-0ad7-417c-a423-6a434edae45d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ion-content/ion-list</value>
+      <webElementGuid>975942c3-bd68-4cfb-ad95-5a70f7776c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-list[(text() = 'Dismiss all2023-12-18 14:00:47900000002 sent 0.01€2023-12-11 20:56:18900000002 sent 10.02€2023-12-11 21:17:46900000008 sent 0.01€2023-12-11 22:17:50900000002 sent 10.00€2023-12-11 22:21:18900000012 sent 0.50€2023-12-11 22:23:02900000012 sent 0.50€2023-12-11 22:25:13900000012 sent 0.10€2023-12-11 22:28:04900000012 sent 100.00€2023-12-11 22:31:09900000002 sent 0.01€2023-12-11 22:31:54900000002 sent 1.00€2023-12-11 22:32:59900000002 sent 0.11€2023-12-11 22:33:31900000002 sent 0.01€2023-12-11 22:35:57900000002 sent 0.01€2023-12-11 22:38:35900000002 sent 0.01€2023-12-01 03:52:52900000019 sent 56.40€2023-11-16 09:04:00900000010 sent 35.94€' or . = 'Dismiss all2023-12-18 14:00:47900000002 sent 0.01€2023-12-11 20:56:18900000002 sent 10.02€2023-12-11 21:17:46900000008 sent 0.01€2023-12-11 22:17:50900000002 sent 10.00€2023-12-11 22:21:18900000012 sent 0.50€2023-12-11 22:23:02900000012 sent 0.50€2023-12-11 22:25:13900000012 sent 0.10€2023-12-11 22:28:04900000012 sent 100.00€2023-12-11 22:31:09900000002 sent 0.01€2023-12-11 22:31:54900000002 sent 1.00€2023-12-11 22:32:59900000002 sent 0.11€2023-12-11 22:33:31900000002 sent 0.01€2023-12-11 22:35:57900000002 sent 0.01€2023-12-11 22:38:35900000002 sent 0.01€2023-12-01 03:52:52900000019 sent 56.40€2023-11-16 09:04:00900000010 sent 35.94€')]</value>
+      <webElementGuid>e1a8a942-4985-462f-86c8-f9ef9e96e14b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
