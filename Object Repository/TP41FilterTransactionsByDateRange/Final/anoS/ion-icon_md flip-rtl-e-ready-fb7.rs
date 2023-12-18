@@ -57,7 +57,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/anoS/ion-datetime_Start Date_ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready</value>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/anoS/ion-datetime_Starth</value>
       <webElementGuid>9afc107a-cc30-4809-aca8-9d9c73bd6009</webElementGuid>
    </webElementProperties>
    <webElementProperties>

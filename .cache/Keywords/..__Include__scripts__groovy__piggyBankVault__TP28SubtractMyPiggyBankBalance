@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "E75D3726D05DC628E1F8C856FD86A5FA",
+  "keywordFileContentHash": "8633882CEBA0657206B871079B0ED964",
   "keywordClasses": [
     {
       "name": "piggyBankVault.TP28SubtractMyPiggyBankBalance",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

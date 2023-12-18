@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-datetime_Start Date_ion-color ion-color-primary md datetime-presentation-date-time datetime-size-fixed datetime-grid datetime-ready</value>
+      <value>Object Repository/TP41FilterTransactionsByDateRange/Final/setaEsquerdaCalendario/ion-datetime_Startg</value>
       <webElementGuid>2aed33aa-de0c-4749-a77e-c8a5bf892fae</webElementGuid>
    </webElementProperties>
    <webElementProperties>

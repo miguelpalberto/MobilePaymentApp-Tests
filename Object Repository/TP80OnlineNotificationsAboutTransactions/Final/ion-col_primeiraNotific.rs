@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-col_primeiraNotific</name>
+   <tag></tag>
+   <elementGuidId>f40bd2b2-58e9-470d-b1a5-c99bd2e9578f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-item.item.md.item-lines-default.item-fill-none.item-has-interactive-control.in-list.ion-activatable.ion-focusable > ion-grid.md > ion-row.md > ion-col.md</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item[2]/ion-grid/ion-row/ion-col</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-col</value>
+      <webElementGuid>511d6c83-94cb-4c5c-a751-57717bb760e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md</value>
+      <webElementGuid>7fe290d2-fb70-4a5f-98d9-27eb03e9b863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>col</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>9d68bff3-b5ff-41bf-8ad1-864987100177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2023-12-11 21:17:46900000008 sent 0.01€</value>
+      <webElementGuid>43aa9fc1-f3a2-4cae-9e39-0fa29ced8db9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/ion-list[@class=&quot;md list-md&quot;]/ion-item[@class=&quot;item md item-lines-default item-fill-none item-has-interactive-control in-list ion-activatable ion-focusable&quot;]/ion-grid[@class=&quot;md&quot;]/ion-row[@class=&quot;md&quot;]/ion-col[@class=&quot;md&quot;]</value>
+      <webElementGuid>3ce094a2-81d0-46e5-ae67-81c52db42e58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/ion-list/ion-item[2]/ion-grid/ion-row/ion-col</value>
+      <webElementGuid>eb640cba-f45d-4b53-b85a-1c40cc7a1fd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dismiss all'])[1]/following::ion-col[1]</value>
+      <webElementGuid>d5732b2b-8577-408a-9962-eafdbc9877e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::ion-col[1]</value>
+      <webElementGuid>8d2429f7-747a-41c2-b97a-02452ccbb4eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::ion-col[8]</value>
+      <webElementGuid>5f82b579-7f8b-42bf-901f-7b6e0c42c362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::ion-col[8]</value>
+      <webElementGuid>1f97e03a-1f4e-4dac-91d6-163ca0b4798d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-item[2]/ion-grid/ion-row/ion-col</value>
+      <webElementGuid>51302a3b-0408-4c85-a8b8-155e77ed1a2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-col[(text() = '2023-12-11 21:17:46900000008 sent 0.01€' or . = '2023-12-11 21:17:46900000008 sent 0.01€')]</value>
+      <webElementGuid>415124b2-aff9-462a-a754-f3fd770cfec5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
