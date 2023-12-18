@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Dismiss (3)</name>
+   <tag></tag>
+   <elementGuidId>483024b7-5b27-4eee-a363-8b04ba73529f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-button.ion-color.ion-color-warning.md.button.button-block.button-solid.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div[2]/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>4a1429aa-bf6c-4672-b707-f1e2617fb28e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ion-color ion-color-warning md button button-block button-solid ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>c6a1bc4e-e284-4786-b433-810e61d90817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>warning</value>
+      <webElementGuid>fb5fb844-b41d-41ad-94f7-8b52f29fcb6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>expand</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>73bf465e-fc4a-4e76-ad4e-64d609c2eae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Dismiss </value>
+      <webElementGuid>43a8d8db-045d-45a4-ab22-da9613808adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page can-go-back&quot;]/ion-content[@class=&quot;md content-ltr ion-padding&quot;]/div[@class=&quot;container&quot;]/div[2]/ion-button[@class=&quot;ion-color ion-color-warning md button button-block button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>5461f6bd-314b-4608-a737-73ec1c8d01e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div[3]/ion-content/div/div[2]/ion-button</value>
+      <webElementGuid>9a440f45-eced-498a-a27b-ae6f63583194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::ion-button[1]</value>
+      <webElementGuid>fd032c76-ade8-4b7c-a306-31cfce699a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::ion-button[2]</value>
+      <webElementGuid>5e9cdf53-4045-4780-af8c-80e7cf72998b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ion-button</value>
+      <webElementGuid>5c197e72-2a32-47b4-b3c1-91b53861cf7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-button[(text() = '  Dismiss ' or . = '  Dismiss ')]</value>
+      <webElementGuid>4a41dca0-e6ee-4904-b9bd-9450482f6712</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

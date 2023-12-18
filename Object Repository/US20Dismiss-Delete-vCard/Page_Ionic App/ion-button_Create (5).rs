@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-button_Create (5)</name>
+   <tag></tag>
+   <elementGuidId>af6c2e69-38ae-4988-b091-603f1a66c044</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-button.md.button.button-block.button-solid.ion-activatable.ion-focusable.ion-activated</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-button</value>
+      <webElementGuid>0089c8db-4568-44ab-85d0-baac8faf1c8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md button button-block button-solid ion-activatable ion-focusable ion-activated</value>
+      <webElementGuid>1bc162be-7843-40a7-b5c2-27211e19ed85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>expand</name>
+      <type>Main</type>
+      <value>block</value>
+      <webElementGuid>4506f673-1fe7-4231-a7d0-cf8d334a6160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>4c125476-1a7c-44d1-97c6-2b3c5c94a18d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;container&quot;]/ion-button[@class=&quot;md button button-block button-solid ion-activatable ion-focusable ion-activated&quot;]</value>
+      <webElementGuid>d703ebf5-0626-4a95-87d6-c19cf73c0ef6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-button</value>
+      <webElementGuid>59cff7a0-3d17-4bfd-9e71-7e78d11fc069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN'])[1]/following::ion-button[1]</value>
+      <webElementGuid>9b52df4d-1f81-4567-8a2a-6108e6da4a14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::ion-button[1]</value>
+      <webElementGuid>f242447f-f5bb-4dc3-899d-c7464c66ff6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-button</value>
+      <webElementGuid>e6b524b3-c21f-47ad-a683-aad791871e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-button[(text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>5e706b06-fd6a-41c0-bba9-8d75c43ff3d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

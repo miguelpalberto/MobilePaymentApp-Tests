@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ion-item_Phone</name>
+   <tag></tag>
+   <elementGuidId>f4943e79-1a13-4d59-adf1-d284d66947a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ion-item.item-interactive.item-input.item.md.item-lines-default.item-fill-none.in-list.item-label.item-label-floating</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-list/ion-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ion-item</value>
+      <webElementGuid>587d6ef8-11ee-4c34-85ec-3f1bad7b6696</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-interactive item-input item md item-lines-default item-fill-none in-list item-label item-label-floating</value>
+      <webElementGuid>3a77aa06-2414-4f7b-be6c-842888d5623a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listitem</value>
+      <webElementGuid>d04d25e2-a652-438d-b91b-3ef4f20621c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone</value>
+      <webElementGuid>09fea3a4-9af6-4e49-b6bf-43f60649d54e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ion-page&quot;]/ion-content[@class=&quot;ion-padding md content-ltr&quot;]/div[@class=&quot;container&quot;]/ion-list[@class=&quot;list-container md list-md&quot;]/ion-item[@class=&quot;item-interactive item-input item md item-lines-default item-fill-none in-list item-label item-label-floating&quot;]</value>
+      <webElementGuid>4c50c2f5-f142-42ce-8fbf-2ffe77d5d9b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ion-router-outlet[@id='main-content']/div/ion-content/div/ion-list/ion-item</value>
+      <webElementGuid>595bfd5b-8e7b-4aae-a7a4-65aeafdeaf61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::ion-item[1]</value>
+      <webElementGuid>927dbb4e-f64e-4a17-8538-46c0f7f2cc0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::ion-item[1]</value>
+      <webElementGuid>1dfe1c0a-7749-4ffe-8220-d35a49316c38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::ion-item[1]</value>
+      <webElementGuid>6c1ffe76-9f4b-41e7-b6bd-1366d3853d1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ion-list/ion-item</value>
+      <webElementGuid>a6bc3a33-e8f2-42df-8053-d936ce5211d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ion-item[(text() = 'Phone' or . = 'Phone')]</value>
+      <webElementGuid>78854764-9bd5-42bb-91cc-671660fb13fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
